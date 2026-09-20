@@ -133,7 +133,13 @@
     "Hebron Berkner halftime band",
     "Hebron Little Elm halftime band",
     "Hebron Marcus band 2026",
-    "Hebron Wakeland halftime band"
+    "Hebron Wakeland halftime band",
+    "HHS band 2026 halftime",
+    "HHS marching 2026 Texas",
+    "\"Parent Preview\" marching band Texas 2026",
+    "Lewisville ISD marching band Hebron 2026",
+    "Hebron band run through",
+    "Hebron band rehearsal 2026"
   ],
   "scoring": {
     "exact_hebron": 4,
@@ -142,6 +148,39 @@
     "leak_term": 2,
     "event_term": 2,
     "year_2026": 1,
-    "known_channel": 3
-  }
+    "known_channel": 3,
+    "band_cue": 2
+  },
+  "repertoire_terms": [
+    "For the Damaged Coda",
+    "Serenada Schizophrana",
+    "Scythian Suite",
+    "Symphony No. 2",
+    "Gustav Mahler",
+    "Danny Elfman",
+    "Prokofiev",
+    "Blonde Redhead",
+    "John Barry"
+  ],
+  "band_cues": [
+    "marching band",
+    "halftime",
+    "band",
+    "drum major",
+    "color guard",
+    "colorguard",
+    "parent preview",
+    "preview",
+    "full run",
+    "run through",
+    "run-through",
+    "show"
+  ],
+  "priority_queries": [
+    "Hebron|\"Hebron Band\"|\"Hebron marching band\" 2026",
+    "\"Somewhere in Time\" Hebron|marching",
+    "Hebron leak|leaked|exposed|\"full show\"|\"full run\"",
+    "\"For the Damaged Coda\"|\"Serenada Schizophrana\"|\"Scythian Suite\" marching",
+    "Hebron halftime|preview|performance|marching"
+  ]
 }
