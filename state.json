@@ -1,11 +1,423 @@
 {
   "seen_video_ids": [
-    "VQyGH1E8Z48"
+    "-hfr_Uly_Eo",
+    "25xOLw34wpY",
+    "2q3KzKAWoTw",
+    "6S20gQZlTrM",
+    "7EJdTIntHLo",
+    "9a7PwPu7zCs",
+    "DLW-XoHHkIk",
+    "E45DwWToeWc",
+    "Et3zAiT7-vk",
+    "FC0giAjvRDY",
+    "IBKnhIXDaks",
+    "JhQovL2m-FU",
+    "KUWX8Hoqewk",
+    "L2zHPdv5jlk",
+    "LEOkTMknM8s",
+    "MFCc6wNbGd8",
+    "MIeH0bNOS10",
+    "NGfgrIGHTgk",
+    "Ns8Lz7k0Ag0",
+    "T6HhLt5JQGI",
+    "TEghAXpefmA",
+    "UV3afW8r2EY",
+    "V1YEo69NjWc",
+    "VAe0-3tIox8",
+    "VHM8dgMql-M",
+    "VQyGH1E8Z48",
+    "WtaSrJHc10A",
+    "X1YkoPbfu-Q",
+    "YAAolQivDHE",
+    "_DIJl64YpOk",
+    "_teD3HpdxTk",
+    "_wQ6XCoeL08",
+    "d9LPmbfhn_A",
+    "e_wOVf4bGJ4",
+    "ezKNGSwhY3c",
+    "gFzfl6o8F_8",
+    "iiRv1Hw_22g",
+    "je-DgOnkOYA",
+    "khW4Oyls8_I",
+    "kttKmQchUIE",
+    "l2xjIgZBwNo",
+    "nEHCzYL8UMQ",
+    "o9oHlkXZz0Y",
+    "psBS3k2ZZjI",
+    "qJulRgU6kQw",
+    "qQw_MJUKGok",
+    "uuSjPfKyT3M",
+    "xs__OhA9BEU",
+    "y0mYLwAJ1Gg",
+    "yD4giY2IniU",
+    "z3uhqqrYSFk"
   ],
-  "known_channels": [],
-  "query_cursor": 6,
+  "known_channels": [
+    {
+      "channel_id": "UC65ALr9CHkdsTJiGpu1QKdg",
+      "channel_title": "OpenOcean93",
+      "source_video_id": "VQyGH1E8Z48",
+      "reason": "uploader of confirmed Hebron video",
+      "confidence": "confirmed",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCjJQRl0kocd8W7DTgDXksog",
+      "channel_title": "Hebron Prayer House Doha",
+      "source_video_id": "-hfr_Uly_Eo",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UC_zAQqm3vKJ0ll6hTBP6zVw",
+      "channel_title": "DEVUNI VARAMU",
+      "source_video_id": "25xOLw34wpY",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UC01tKS3ur8WegQlSw8FQ3cg",
+      "channel_title": "IPC HEBRON HOUSTON",
+      "source_video_id": "6S20gQZlTrM",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCfWOC2iOHHrVf6y9ah69t8A",
+      "channel_title": "Huddle Media_4k",
+      "source_video_id": "7EJdTIntHLo",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UC7gAGv4V_TffFp6hOsIOATA",
+      "channel_title": "Israel with David Hyman",
+      "source_video_id": "9a7PwPu7zCs",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCGZY895gYxshTwT8zpEKiXg",
+      "channel_title": "Hebron Sda French-Speaking",
+      "source_video_id": "DLW-XoHHkIk",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UC7fI3257vHr-2GAHXhLvdyg",
+      "channel_title": "HOREB BANGALORE",
+      "source_video_id": "E45DwWToeWc",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCqK0CjwkpHb7yxFpSTakY-g",
+      "channel_title": "HEBRON HEADQUARTERS",
+      "source_video_id": "Et3zAiT7-vk",
+      "reason": "video scored 7: Hebron appears in metadata, leak/full-show term: recording, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCuW9C-_C6U3fYyrxHAasqNA",
+      "channel_title": "Angels Voice ",
+      "source_video_id": "FC0giAjvRDY",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UC-Nb5lGO2rp7sNc02Cc8r1Q",
+      "channel_title": " Hebron Prayer House, Kavali",
+      "source_video_id": "IBKnhIXDaks",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCG_-tafFk613kosMSRNa1kQ",
+      "channel_title": "Hebron shalom",
+      "source_video_id": "JhQovL2m-FU",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UChkbwmOHMeNdBUrWmJ_AI9Q",
+      "channel_title": "Hebron Fellowship",
+      "source_video_id": "KUWX8Hoqewk",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UC5-JmnumeRFw2OnVPfp7eIw",
+      "channel_title": "Hepsiba Beulah",
+      "source_video_id": "L2zHPdv5jlk",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCvz_CaiBb3MpAGDdblut7cg",
+      "channel_title": "Hebron House of Worship Official - Vizag ",
+      "source_video_id": "LEOkTMknM8s",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCcanM86pYLwOapNnsq_k9ug",
+      "channel_title": "Shyam Kiran GS Hebron",
+      "source_video_id": "MFCc6wNbGd8",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UC13LQgI8d7P-ruPMtddidlg",
+      "channel_title": "Word Of Lamp",
+      "source_video_id": "NGfgrIGHTgk",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCB3byH5oiizNSOgSh4pwhwQ",
+      "channel_title": "GPdI HEBRON (Cengkareng) ",
+      "source_video_id": "Ns8Lz7k0Ag0",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCyr0IhbHDzCRp9qWvkxVD9Q",
+      "channel_title": "Gummadi John Daniel",
+      "source_video_id": "TEghAXpefmA",
+      "reason": "video scored 4: Hebron appears in metadata",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCcKTya77tZYNPMPeCzPi1WA",
+      "channel_title": "Bro. Ajay",
+      "source_video_id": "UV3afW8r2EY",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UC42hjmSvB44lw6emocAhnfQ",
+      "channel_title": "Daily Jesus Words Official",
+      "source_video_id": "V1YEo69NjWc",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCaS6PicmrIqm5nBt-4AyrWQ",
+      "channel_title": "IMRS Official - Hebron",
+      "source_video_id": "VAe0-3tIox8",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCpH5twySLAgGUKSlGHS5oYA",
+      "channel_title": "Livesport",
+      "source_video_id": "WtaSrJHc10A",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCPutluj7wZhYEgl69AbsPBA",
+      "channel_title": "Berachah Prayer House Uppal",
+      "source_video_id": "X1YkoPbfu-Q",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UC9AnH62Vj1WUKw8SIq74iVg",
+      "channel_title": "Bro John Hebron ",
+      "source_video_id": "YAAolQivDHE",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCrt7fSWiv_yIT4YAOuyvByQ",
+      "channel_title": "HEBRON CHURCH MISSION",
+      "source_video_id": "_DIJl64YpOk",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCtaxi_GjTwzWSoUImochUlQ",
+      "channel_title": "Mighty Emmanuel",
+      "source_video_id": "_teD3HpdxTk",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCIDaySEvZvJyimJAQvLz0nw",
+      "channel_title": "Moses Prayer Ministries",
+      "source_video_id": "_wQ6XCoeL08",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCdG5MgiB5pZTpYjQzmfzwjg",
+      "channel_title": "Hebron Prayer Hall (Hebronprayerhalltv)",
+      "source_video_id": "e_wOVf4bGJ4",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCcOitAvyO70WShu20LR3I0w",
+      "channel_title": "PRABHAKAR.R OFFICIAL ",
+      "source_video_id": "ezKNGSwhY3c",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCdnBDCXp3H598bW1DSOQlSg",
+      "channel_title": "Zfozo SiKn",
+      "source_video_id": "gFzfl6o8F_8",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCCTDwDMJpon1VBCTTQAhKSw",
+      "channel_title": "Livesport",
+      "source_video_id": "iiRv1Hw_22g",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCrKZ9onYbYo3rJ8xVz-JKQg",
+      "channel_title": "OBEDU RAJU SALEM",
+      "source_video_id": "je-DgOnkOYA",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCGep_U3iu3SXyB4LMQUYikQ",
+      "channel_title": "Hebron New Covenant Ministries",
+      "source_video_id": "nEHCzYL8UMQ",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UC5_VBgsYtE-WBEXOpj-K2Vw",
+      "channel_title": "The Holy Hebron Church",
+      "source_video_id": "o9oHlkXZz0Y",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UC0yIXtTIsphT_ruwKaNK2eg",
+      "channel_title": "GPdI Hebron Gading Serpong",
+      "source_video_id": "qJulRgU6kQw",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UC09-njiWcpcPXmYRmJO00ow",
+      "channel_title": "Godi Ephraium",
+      "source_video_id": "qQw_MJUKGok",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCbGLDVNu0ibZF_EWbcFIG9Q",
+      "channel_title": "IPC Church, Cochin",
+      "source_video_id": "uuSjPfKyT3M",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UCY0IX0o6xz9NHTAn_tJiOjA",
+      "channel_title": "Omzds NKgR",
+      "source_video_id": "xs__OhA9BEU",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    },
+    {
+      "channel_id": "UC_kp2HOAo2579Nnz2lrLQuw",
+      "channel_title": "HEBRON FELLOWSHIP",
+      "source_video_id": "y0mYLwAJ1Gg",
+      "reason": "video scored 5: Hebron appears in metadata, 2026/year cue",
+      "confidence": "candidate",
+      "added_at": "2026-09-20T00:53:11.170292+00:00",
+      "last_reinforced_at": "2026-09-20T00:53:11.170292+00:00"
+    }
+  ],
+  "query_cursor": 8,
   "daily_search_ledger": {
-    "2026-09-20": 6
+    "2026-09-20": 9
   },
-  "last_run": "2026-09-20T00:39:48.471601+00:00"
+  "last_run": "2026-09-20T00:53:11.170292+00:00",
+  "run_count": 1
 }
