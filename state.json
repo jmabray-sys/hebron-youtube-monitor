@@ -3,7 +3,9 @@
     "VQyGH1E8Z48"
   ],
   "known_channels": [],
-  "query_cursor": 0,
-  "daily_search_ledger": {},
-  "last_run": null
+  "query_cursor": 3,
+  "daily_search_ledger": {
+    "2026-09-20": 3
+  },
+  "last_run": "2026-09-20T00:38:35.466097+00:00"
 }
