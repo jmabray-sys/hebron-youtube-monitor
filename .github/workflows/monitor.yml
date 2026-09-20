@@ -1,0 +1,72 @@
+name: Hebron YouTube Monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/20 * * * *"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: hebron-youtube-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run monitor
+        id: monitor
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          ALERT_THRESHOLD: ${{ vars.ALERT_THRESHOLD || '7' }}
+          SEARCHES_PER_RUN: ${{ vars.SEARCHES_PER_RUN || '3' }}
+          LOOKBACK_HOURS: ${{ vars.LOOKBACK_HOURS || '72' }}
+          DAILY_SEARCH_BUDGET: ${{ vars.DAILY_SEARCH_BUDGET || '90' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          python monitor.py | tee monitor-output.txt
+          ALERT_COUNT="$(grep '^ALERT_COUNT=' monitor-output.txt | tail -1 | cut -d= -f2)"
+          echo "alert_count=${ALERT_COUNT:-0}" >> "$GITHUB_OUTPUT"
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: hebron-youtube-monitor-report
+          path: report.md
+          retention-days: 14
+
+      - name: Persist monitor state
+        run: |
+          if git diff --quiet -- state.json; then
+            echo "No state changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.json
+          git commit -m "chore: update monitor state"
+          git push
+
+      - name: Create issue for new candidates
+        if: steps.monitor.outputs.alert_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="Hebron monitor: ${{ steps.monitor.outputs.alert_count }} new candidate(s)"
+          gh issue create --title "$TITLE" --body-file report.md
