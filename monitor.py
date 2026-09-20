@@ -92,7 +92,10 @@ def score_video(video, known_channel_ids):
             score += weights["leak_term"]; reasons.append(f"leak/full-show term: {term}"); break
 
     band_cues = config.get("band_cues", [])
-    if any(normalize(x) in haystack for x in band_cues):
+    has_band_cue = any(normalize(x) in haystack for x in band_cues)
+    has_hebron = "hebron" in haystack
+    has_show = "somewhere in time" in haystack
+    if has_band_cue and (has_hebron or has_show or snippet.get("channelId") in known_channel_ids):
         score += weights.get("band_cue", 0); reasons.append("marching/halftime/performance cue")
 
     for event in config["events"]:
@@ -233,14 +236,22 @@ for video in details:
 
     # Learn channels earlier than the alert threshold. A moderately relevant result can
     # reveal a spectator/uploader whose NEXT upload is the vaguely titled one we need.
-    if score >= WATCH_THRESHOLD:
+    # Only learn a new channel when the evidence is Hebron-specific. Generic marching
+    # videos found through opponent/venue searches must never create a channel explosion.
+    metadata = normalize(" ".join([row["title"], s.get("description",""), " ".join(s.get("tags", []))]))
+    hebron_specific = ("hebron" in metadata or "somewhere in time" in metadata or
+                       any(normalize(t) in metadata for t in config.get("repertoire_terms", [])))
+    if score >= WATCH_THRESHOLD and (vid in confirmed_ids or hebron_specific):
         confidence = "confirmed" if vid in confirmed_ids else "candidate"
         if add_watch_channel(row["channel_id"], row["channel"], vid,
                              f"video scored {score}: {', '.join(reasons)}", confidence):
             watch_additions.append(row)
             known_channel_ids.add(row["channel_id"])
 
-    if score >= ALERT_THRESHOLD and vid not in seen:
+    # Alerts require Hebron-specific evidence, or a watched channel plus another
+    # corroborating signal. This keeps broad discovery broad without making it noisy.
+    corroborated_watched = row["channel_id"] in known_channel_ids and score >= ALERT_THRESHOLD + 2
+    if score >= ALERT_THRESHOLD and vid not in seen and (hebron_specific or corroborated_watched):
         alerts.append(row)
 
 seen.update(v["id"] for v in details)
@@ -256,18 +267,19 @@ lines = [
     f"- Searches this run: {len(searches_run)}",
     f"- Watched relevant channels: {len(state.get('known_channels', []))}",
     f"- New watch channels learned: {len(watch_additions)}",
-    f"- New alerts: {len(alerts)}","",
+    f"- New alerts: {len(alerts)}",
+    f"- Report displays at most 25 alerts and 20 learned channels","",
 ]
 if searches_run:
     lines += ["## Queries",""] + [f"- `{q}`" for q in searches_run] + [""]
 if watch_additions:
     lines += ["## Newly learned channels",""]
-    for a in watch_additions:
+    for a in watch_additions[:20]:
         lines += [f"- **{a['channel']}** from {a['title']} (score {a['score']})"]
     lines += [""]
 if alerts:
     lines += ["## New high-confidence candidates",""]
-    for a in sorted(alerts, key=lambda x:x["score"], reverse=True):
+    for a in sorted(alerts, key=lambda x:x["score"], reverse=True)[:25]:
         lines += [f"### {a['title']}","",f"- URL: {a['url']}",f"- Channel: {a['channel']}",
                   f"- Published: {a['published_at']}",f"- Score: {a['score']}",
                   f"- Reasons: {', '.join(a['reasons']) or 'none'}",""]
