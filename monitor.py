@@ -77,6 +77,11 @@ def score_video(video, known_channel_ids):
     haystack = " ".join([title, desc, tags, channel_title])
     score, reasons = 0, []
     weights = config["scoring"]
+    negative_terms = config.get("negative_terms", [])
+    negative_hits = [t for t in negative_terms if normalize(t) in haystack]
+    if negative_hits:
+        score -= min(12, 4 + 2 * len(negative_hits))
+        reasons.append("negative context: " + ", ".join(negative_hits[:3]))
 
     if "hebron" in haystack:
         score += weights["exact_hebron"]; reasons.append("Hebron appears in metadata")
@@ -239,8 +244,14 @@ for video in details:
     # Only learn a new channel when the evidence is Hebron-specific. Generic marching
     # videos found through opponent/venue searches must never create a channel explosion.
     metadata = normalize(" ".join([row["title"], s.get("description",""), " ".join(s.get("tags", []))]))
-    hebron_specific = ("hebron" in metadata or "somewhere in time" in metadata or
-                       any(normalize(t) in metadata for t in config.get("repertoire_terms", [])))
+    strong_band_context = any(normalize(t) in metadata for t in config.get("strong_band_terms", []))
+    school_context = any(normalize(t) in metadata for t in config.get("school_identity_terms", []))
+    negative_context = any(normalize(t) in metadata for t in config.get("negative_terms", []))
+    repertoire_context = any(normalize(t) in metadata for t in config.get("repertoire_terms", []))
+    hebron_specific = (
+        "somewhere in time" in metadata or repertoire_context or
+        (("hebron" in metadata) and strong_band_context and school_context)
+    ) and not negative_context
     if score >= WATCH_THRESHOLD and (vid in confirmed_ids or hebron_specific):
         confidence = "confirmed" if vid in confirmed_ids else "candidate"
         if add_watch_channel(row["channel_id"], row["channel"], vid,
@@ -250,7 +261,8 @@ for video in details:
 
     # Alerts require Hebron-specific evidence, or a watched channel plus another
     # corroborating signal. This keeps broad discovery broad without making it noisy.
-    corroborated_watched = row["channel_id"] in known_channel_ids and score >= ALERT_THRESHOLD + 2
+    corroborated_watched = (row["channel_id"] in known_channel_ids and
+                            score >= ALERT_THRESHOLD + 2 and strong_band_context and not negative_context)
     if score >= ALERT_THRESHOLD and vid not in seen and (hebron_specific or corroborated_watched):
         alerts.append(row)
 
