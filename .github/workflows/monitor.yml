@@ -69,4 +69,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           TITLE="Hebron monitor: ${{ steps.monitor.outputs.alert_count }} new candidate(s)"
-          gh issue create --title "$TITLE" --body-file report.md
+          # GitHub issue bodies have a size limit. Keep the full report as the workflow
+          # artifact/job summary and put a bounded digest in the issue.
+          head -c 60000 report.md > issue-report.md
+          printf '\n\n_Full report is retained in the workflow artifact._\n' >> issue-report.md
+          gh issue create --title "$TITLE" --body-file issue-report.md
