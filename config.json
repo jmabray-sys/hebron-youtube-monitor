@@ -1,0 +1,147 @@
+{
+  "project": "Hebron High School Band 2026 — Somewhere in Time",
+  "season_year": 2026,
+  "confirmed_videos": [
+    {
+      "video_id": "VQyGH1E8Z48",
+      "title": "Hebron 2026 Exposed Full Show leak",
+      "event": "2026-09-19 Parent Preview",
+      "confirmed": true
+    }
+  ],
+  "show_terms": [
+    "Hebron",
+    "Hebron Band",
+    "Hebron marching band",
+    "Hebron 2026",
+    "Hebron HHS",
+    "Hebron Hawks",
+    "Somewhere in Time",
+    "For the Damaged Coda",
+    "Serenada Schizophrana",
+    "Scythian Suite",
+    "Symphony No. 2",
+    "John Barry"
+  ],
+  "leak_terms": [
+    "leak",
+    "leaked",
+    "exposed",
+    "full show",
+    "full run",
+    "recording",
+    "parent preview",
+    "preview",
+    "reupload",
+    "mirror"
+  ],
+  "events": [
+    {
+      "date": "2026-08-28",
+      "name": "Hebron vs Coppell",
+      "location": "Buddy Echols Field",
+      "opponent": "Coppell"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "Hebron vs Prosper Walnut Grove",
+      "location": "Children's Health Stadium",
+      "opponent": "Prosper Walnut Grove"
+    },
+    {
+      "date": "2026-09-11",
+      "name": "Hebron vs Richardson Berkner",
+      "location": "Hebron High School Stadium",
+      "opponent": "Richardson Berkner"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "Hebron Band March-a-thon",
+      "location": "Castle Hills / Dragon Park"
+    },
+    {
+      "date": "2026-09-19",
+      "name": "Parent Preview",
+      "location": "Hebron High School Stadium"
+    },
+    {
+      "date": "2026-09-23",
+      "name": "Homecoming Parade / Community Pep Rally",
+      "location": "Hebron High School"
+    },
+    {
+      "date": "2026-09-25",
+      "name": "Hebron vs Little Elm",
+      "location": "Hebron High School Stadium",
+      "opponent": "Little Elm"
+    },
+    {
+      "date": "2026-09-26",
+      "name": "Director's Assistant Marching Showcase",
+      "location": "Coach Kenny Deel Stadium, Melissa"
+    },
+    {
+      "date": "2026-10-02",
+      "name": "Hebron at Marcus",
+      "location": "Marcus",
+      "opponent": "Marcus"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "McKinney Marching Invitational",
+      "location": "McKinney"
+    },
+    {
+      "date": "2026-10-09",
+      "name": "Hebron vs Wakeland",
+      "location": "Hebron High School Stadium",
+      "opponent": "Wakeland"
+    },
+    {
+      "date": "2026-10-10",
+      "name": "BOA North Texas Regional",
+      "location": "Children's Health Stadium"
+    },
+    {
+      "date": "2026-11-06",
+      "name": "BOA San Antonio Super Regional",
+      "location": "Alamodome"
+    },
+    {
+      "date": "2026-11-07",
+      "name": "BOA San Antonio Super Regional",
+      "location": "Alamodome"
+    }
+  ],
+  "search_queries": [
+    "Hebron 2026 band",
+    "Hebron marching band 2026",
+    "\"Somewhere in Time\" Hebron",
+    "Hebron band full show",
+    "Hebron full run marching",
+    "Hebron band leak",
+    "Hebron band leaked",
+    "Hebron exposed marching band",
+    "Hebron Parent Preview band",
+    "Hebron HHS marching band",
+    "Hebron Hawks marching band",
+    "\"For the Damaged Coda\" Hebron",
+    "\"Serenada Schizophrana\" Hebron",
+    "\"Scythian Suite\" Hebron",
+    "Hebron Coppell band",
+    "Hebron Walnut Grove halftime band",
+    "Hebron Berkner halftime band",
+    "Hebron Little Elm halftime band",
+    "Hebron Marcus band 2026",
+    "Hebron Wakeland halftime band"
+  ],
+  "scoring": {
+    "exact_hebron": 4,
+    "show_title": 5,
+    "repertoire_term": 3,
+    "leak_term": 2,
+    "event_term": 2,
+    "year_2026": 1,
+    "known_channel": 3
+  }
+}
