@@ -34,6 +34,7 @@
     "0e4fTT-FRtM",
     "0gY3wE11-Fg",
     "0hdziClOONs",
+    "0hiv3cSr6cg",
     "0mkssUAkhkk",
     "0nM4d7qnjCk",
     "0oNcqOVuEBs",
@@ -768,6 +769,7 @@
     "ZqGPg0rp5Os",
     "Zr8RftTqZcc",
     "_4s-tBcWaag",
+    "_5pr8ySrJX4",
     "_DIJl64YpOk",
     "_Hun_uV0dp0",
     "_L7kXnEFjts",
@@ -989,6 +991,7 @@
     "jiEFRxZV5vU",
     "jn8wwdXhTeI",
     "jvBVzCo0gVA",
+    "jwkl6m7Bzxo",
     "jxP-168J9M4",
     "k-w11amLdcc",
     "k3Ws17fV0Q0",
@@ -1339,14 +1342,14 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-20T00:53:11.170292+00:00",
-      "last_reinforced_at": "2026-09-21T08:10:26.476117+00:00"
+      "last_reinforced_at": "2026-09-21T08:32:10.763788+00:00"
     }
   ],
-  "query_cursor": 40,
+  "query_cursor": 42,
   "daily_search_ledger": {
     "2026-09-20": 90,
-    "2026-09-21": 75
+    "2026-09-21": 78
   },
-  "last_run": "2026-09-21T08:10:26.476117+00:00",
-  "run_count": 95
+  "last_run": "2026-09-21T08:32:10.763788+00:00",
+  "run_count": 96
 }
