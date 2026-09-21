@@ -1339,14 +1339,14 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-20T00:53:11.170292+00:00",
-      "last_reinforced_at": "2026-09-21T06:56:42.814177+00:00"
+      "last_reinforced_at": "2026-09-21T07:13:45.018554+00:00"
     }
   ],
-  "query_cursor": 32,
+  "query_cursor": 34,
   "daily_search_ledger": {
     "2026-09-20": 90,
-    "2026-09-21": 63
+    "2026-09-21": 66
   },
-  "last_run": "2026-09-21T06:56:42.814177+00:00",
-  "run_count": 91
+  "last_run": "2026-09-21T07:13:45.018554+00:00",
+  "run_count": 92
 }
