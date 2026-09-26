@@ -1741,7 +1741,7 @@
       "reason": "video scored 4: repertoire term: Danny Elfman, 2026/year cue",
       "confidence": "candidate",
       "added_at": "2026-09-26T03:08:57.692853+00:00",
-      "last_reinforced_at": "2026-09-26T07:46:31.763660+00:00"
+      "last_reinforced_at": "2026-09-26T08:10:15.461496+00:00"
     },
     {
       "channel_id": "UCx_3VccZQsTxe18Zr4X8i4A",
@@ -1750,7 +1750,7 @@
       "reason": "video scored 9: Hebron appears in metadata, marching/halftime/performance cue, event fingerprint: Hebron vs Little Elm, 2026/year cue",
       "confidence": "candidate",
       "added_at": "2026-09-26T07:29:06.160037+00:00",
-      "last_reinforced_at": "2026-09-26T07:46:31.763660+00:00"
+      "last_reinforced_at": "2026-09-26T08:10:15.461496+00:00"
     },
     {
       "channel_id": "UC8J_Q4CXnf-1VRHVTyJiZ-Q",
@@ -1759,7 +1759,7 @@
       "reason": "video scored 9: Hebron appears in metadata, marching/halftime/performance cue, event fingerprint: Hebron vs Little Elm, 2026/year cue",
       "confidence": "candidate",
       "added_at": "2026-09-26T07:29:06.160037+00:00",
-      "last_reinforced_at": "2026-09-26T07:46:31.763660+00:00"
+      "last_reinforced_at": "2026-09-26T08:10:15.461496+00:00"
     },
     {
       "channel_id": "UC6HGjT5tUTtIisqh4WcuHMw",
@@ -1768,10 +1768,10 @@
       "reason": "video scored 9: Hebron appears in metadata, marching/halftime/performance cue, event fingerprint: Hebron vs Little Elm, 2026/year cue",
       "confidence": "candidate",
       "added_at": "2026-09-26T07:29:06.160037+00:00",
-      "last_reinforced_at": "2026-09-26T07:46:31.763660+00:00"
+      "last_reinforced_at": "2026-09-26T08:10:15.461496+00:00"
     }
   ],
-  "query_cursor": 50,
+  "query_cursor": 52,
   "daily_search_ledger": {
     "2026-09-20": 90,
     "2026-09-21": 90,
@@ -1779,8 +1779,8 @@
     "2026-09-23": 90,
     "2026-09-24": 90,
     "2026-09-25": 90,
-    "2026-09-26": 72
+    "2026-09-26": 75
   },
-  "last_run": "2026-09-26T07:46:31.763660+00:00",
-  "run_count": 454
+  "last_run": "2026-09-26T08:10:15.461496+00:00",
+  "run_count": 455
 }
