@@ -193,7 +193,7 @@ def select_queries():
     return selected
 
 # Improvement 1: learn uploader channels from every confirmed seed before discovery.
-seed_ids = [x["video_id"] for x in config.get("confirmed_videos", [])]
+seed_ids = [x["video_id"] for x in config.get("confirmed_videos", []) if x.get("video_id") and x.get("platform", "YouTube").lower() == "youtube"]
 seed_details = fetch_video_details(seed_ids)
 for video in seed_details:
     s = video.get("snippet", {})
