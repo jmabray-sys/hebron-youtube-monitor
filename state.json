@@ -109,6 +109,7 @@
     "2tMvWBTFih0",
     "2upM1JXQMuo",
     "2uv2D5ATvoY",
+    "2vPPnkwTdN8",
     "2vgb9eJR73U",
     "2xu4l3smI9g",
     "31I24aqKp7k",
@@ -271,6 +272,7 @@
     "9EJnc1xAGbc",
     "9G5XCvpQ6VE",
     "9P3vfzBdB3Q",
+    "9SORDEmXvdA",
     "9T5bs8HpozQ",
     "9Vk2dw-m-uk",
     "9W3R1f39LWk",
@@ -312,6 +314,7 @@
     "AnT-P95bWuo",
     "AtbfoY6ShEQ",
     "Awuhm133laA",
+    "Aye7PADodzc",
     "B2zpWRavwX4",
     "BBKd0fxWvKQ",
     "BBaeiSrMpes",
@@ -938,11 +941,13 @@
     "ZmB5TMLhEoM",
     "Zo03yJ6PrhU",
     "ZqGPg0rp5Os",
+    "ZqdYOpk-ca4",
     "Zr8RftTqZcc",
     "_4s-tBcWaag",
     "_5pr8ySrJX4",
     "_8SFEjb6Zx4",
     "_DIJl64YpOk",
+    "_EstKDuWCJQ",
     "_G0xOZiVgLg",
     "_Hun_uV0dp0",
     "_L7kXnEFjts",
@@ -1087,6 +1092,7 @@
     "eU_pb7X41Is",
     "eXUKN1oxXgs",
     "eXXJsF1kQjU",
+    "e_mGwbxUfJk",
     "e_wOVf4bGJ4",
     "ebZD0o8FJHs",
     "eka9HSgawEE",
@@ -1607,6 +1613,7 @@
     "zRyZzYCqmh8",
     "zSHVQ9TsTqc",
     "zTt5jWPOHBs",
+    "zUTKFIpOwzk",
     "z_Fp-tXG5Q8",
     "za_gWrAVbys",
     "zhRTxvia4_Q",
@@ -1635,10 +1642,10 @@
       "reason": "video scored 4: repertoire term: Danny Elfman, 2026/year cue",
       "confidence": "candidate",
       "added_at": "2026-09-26T03:08:57.692853+00:00",
-      "last_reinforced_at": "2026-09-26T06:35:54.813750+00:00"
+      "last_reinforced_at": "2026-09-26T06:51:03.017275+00:00"
     }
   ],
-  "query_cursor": 42,
+  "query_cursor": 44,
   "daily_search_ledger": {
     "2026-09-20": 90,
     "2026-09-21": 90,
@@ -1646,8 +1653,8 @@
     "2026-09-23": 90,
     "2026-09-24": 90,
     "2026-09-25": 90,
-    "2026-09-26": 60
+    "2026-09-26": 63
   },
-  "last_run": "2026-09-26T06:35:54.813750+00:00",
-  "run_count": 450
+  "last_run": "2026-09-26T06:51:03.017275+00:00",
+  "run_count": 451
 }
