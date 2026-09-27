@@ -67,7 +67,19 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state.json
           git commit -m "chore: update monitor state"
-          git push
+          # Repo configuration may change while a scheduled job is running.
+          # Rebase our state-only commit onto main and retry a race safely.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "State push raced another commit; retrying ($attempt/3)."
+            sleep 2
+          done
+          echo "State push did not succeed after three attempts." >&2
+          exit 1
 
       - name: Create issue for new candidates
         if: steps.monitor.outputs.alert_count != '0'
