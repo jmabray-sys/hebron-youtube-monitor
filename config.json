@@ -93,8 +93,16 @@
     },
     {
       "date": "2026-09-26",
-      "name": "Director's Assistant Marching Showcase",
-      "location": "Coach Kenny Deel Stadium, Melissa"
+      "name": "Melissa Marching Showcase",
+      "location": "Coach Kenny Deel Stadium, Melissa",
+      "discovery_queries": [
+        "Hebron Melissa prelims 2026 marching",
+        "Hebron Melissa finals 2026 marching",
+        "Melissa marching showcase prelims September 26 2026",
+        "Melissa marching showcase finals September 26 2026",
+        "Melissa marching contest spectator video 2026",
+        "Kenny Deel Stadium marching band 2026"
+      ]
     },
     {
       "date": "2026-10-02",
@@ -155,7 +163,11 @@
     "\"Parent Preview\" marching band Texas 2026",
     "Lewisville ISD marching band Hebron 2026",
     "Hebron band run through",
-    "Hebron band rehearsal 2026"
+    "Hebron band rehearsal 2026",
+    "Melissa Hebron prelims 2026",
+    "Melissa Hebron finals 2026",
+    "Melissa marching showcase stands spectator 2026",
+    "Hebron Melissa 2026 marching full show"
   ],
   "scoring": {
     "exact_hebron": 4,
@@ -252,5 +264,20 @@
     "hebron headquarters",
     "prayer house",
     "prayer hall"
-  ]
+  ],
+  "distinctive_repertoire_terms": [
+    "For the Damaged Coda",
+    "Serenada Schizophrana",
+    "Scythian Suite"
+  ],
+  "other_school_terms": [
+    "Klein Collins High School",
+    "Klein Forest High School"
+  ],
+  "discovery_sources": {
+    "youtube": "YouTube Data API search and uploader playlist checks",
+    "tiktok": "Known confirmed TikTok URLs and publicly indexed searches via separate hourly watch; no direct TikTok crawler",
+    "instagram": "Known confirmed Instagram URLs and publicly indexed searches via separate hourly watch; no direct Instagram crawler",
+    "note": "Uploader handles and original captions are unverified for the current TikTok and Instagram references. Add only after verified; never assume the short TikTok URL identifies an account."
+  }
 }
