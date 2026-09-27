@@ -6,7 +6,9 @@
       "video_id": "VQyGH1E8Z48",
       "title": "Hebron 2026 Exposed Full Show leak",
       "event": "2026-09-19 Parent Preview",
-      "confirmed": true
+      "confirmed": true,
+      "channel_id": "UC65ALr9CHkdsTJiGpu1QKdg",
+      "channel_title": "OpenOcean93"
     },
     {
       "platform": "Instagram",
@@ -304,9 +306,17 @@
       "Real confirmed upload nPIlu4dpq-c had generic event-based title, not show title; keep event-specific searches and verified uploader playlist scans.",
       "Do not assume a verified uploader's future uploads are Hebron footage; send vague event-tagged uploads to review, not automatic alerts.",
       "Do not treat football-only streams or competing schools as confirmed Hebron footage even when numerical score is high.",
-      "Pace YouTube search calls throughout the UTC day; reserve coverage for afternoon and evening uploads.",
+      "Pace YouTube search calls throughout the Pacific quota day; reserve coverage for afternoon and evening uploads.",
       "Differentiate Melissa prelims and finals unless the specific recording is identified.",
       "Rebase and retry state-only GitHub commits to avoid false failure emails during configuration updates."
     ]
+  },
+  "discovery_strategy": {
+    "primary": "Poll all user-confirmed uploader upload playlists on every scheduled run; cache the playlist ID.",
+    "secondary": "Rotate newly discovered plausible uploader channels when due, typically once per hour, and cap concurrent checks.",
+    "search": "Reserve up to 90 search.list calls per Pacific quota day to discover new public uploader channels, unless Google approves a higher allocation.",
+    "review": "Flag fresh event-related clips from a confirmed uploader for human review, without claiming they show Hebron solely based on the uploader.",
+    "lookback_hours": 336,
+    "limitation": "YouTube uploader monitoring does not crawl TikTok or Instagram feeds."
   }
 }
