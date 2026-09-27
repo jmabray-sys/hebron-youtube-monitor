@@ -6,6 +6,7 @@ from pathlib import Path
 
 from googleapiclient.discovery import build
 from search_budget import paced_allowance
+from candidate_rules import triage_video
 
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.json"
@@ -135,8 +136,10 @@ def search_youtube(query, order="date", lookback_hours=None):
         part="snippet", q=query, type="video", order=order, maxResults=50,
         publishedAfter=published_after, safeSearch="none", regionCode="US",
         relevanceLanguage="en"
-    ).execute()
+    )
+    # Even unsuccessful API requests may consume quota: count each attempted call.
     spend_search()
+    resp = resp.execute()
     return [x["id"]["videoId"] for x in resp.get("items", []) if x.get("id", {}).get("videoId")]
 
 def get_uploads_playlist(channel_id):
@@ -202,7 +205,11 @@ def select_queries():
     run_count = int(state.get("run_count", 0))
     recent = recent_event_queries()
     # Reserve one search per run for the most recent event while it is fresh.
-    if recent and run_count % 3 != 0:
+    # Even when the paced allowance is just one call, periodically check
+    # relevance-ranked results over two weeks to catch late-indexed uploads.
+    if priority and run_count % 8 == 7:
+        selected.append((priority[(run_count // 8) % len(priority)], "relevance", 24 * 14))
+    elif recent and run_count % 3 != 0:
         selected.append((recent[run_count % len(recent)], "date", LOOKBACK_HOURS))
     elif priority:
         selected.append((priority[run_count % len(priority)], "date", LOOKBACK_HOURS))
@@ -216,6 +223,14 @@ def select_queries():
     state["query_cursor"] = cursor % max(1, len(rotating))
     return selected
 
+# Migration: prune four historical channels learned from false-positive football
+# and competing-band results. Confirmed uploaders are always retained, and new
+# candidate channels must now pass the stricter triage below.
+if not state.get("channel_cleanup_v1"):
+    state["known_channels"] = [ch for ch in state.get("known_channels", [])
+                                if ch.get("confidence") == "confirmed"]
+    state["channel_cleanup_v1"] = True
+
 # Improvement 1: learn uploader channels from every confirmed seed before discovery.
 seed_ids = [x["video_id"] for x in config.get("confirmed_videos", []) if x.get("video_id") and x.get("platform", "YouTube").lower() == "youtube"]
 seed_details = fetch_video_details(seed_ids)
@@ -226,6 +241,17 @@ for video in seed_details:
 
 known_channels = {x["channel_id"]: x for x in state.get("known_channels", []) if x.get("channel_id")}
 known_channel_ids = set(known_channels)
+confirmed_channel_ids = {x["channel_id"] for x in known_channels.values()
+                         if x.get("confidence") == "confirmed"}
+recent_review_terms = []
+for event in config["events"]:
+    try:
+        event_date = datetime.fromisoformat(event["date"]).replace(tzinfo=timezone.utc)
+    except (KeyError, ValueError):
+        continue
+    if timedelta(0) <= now - event_date <= timedelta(days=5):
+        recent_review_terms.extend(event.get("review_terms", []))
+        recent_review_terms.append(event.get("name", ""))
 candidate_ids = set(seed_ids)
 searches_run = []
 
@@ -263,41 +289,25 @@ for video in details:
     }
     all_scored.append(row)
 
-    # Learn channels earlier than the alert threshold. A moderately relevant result can
-    # reveal a spectator/uploader whose NEXT upload is the vaguely titled one we need.
-    # Only learn a new channel when the evidence is Hebron-specific. Generic marching
-    # videos found through opponent/venue searches must never create a channel explosion.
-    metadata = normalize(" ".join([row["title"], s.get("description",""), " ".join(s.get("tags", []))]))
-    strong_band_context = any(normalize(t) in metadata for t in config.get("strong_band_terms", []))
-    school_context = any(normalize(t) in metadata for t in config.get("school_identity_terms", []))
-    negative_context = any(normalize(t) in metadata for t in config.get("negative_terms", []))
-    distinctive_repertoire = any(normalize(t) in metadata for t in config.get("distinctive_repertoire_terms", []))
-    has_hebron_identity = "hebron" in metadata and (school_context or "hebron band" in metadata or "hebron marching" in metadata)
-    show_identity = "somewhere in time" in metadata and ("hebron" in metadata or strong_band_context)
-    hebron_specific = (show_identity or (has_hebron_identity and strong_band_context) or
-                       (distinctive_repertoire and "hebron" in metadata and strong_band_context)) and not negative_context
-    # Other schools and generic football streams are never high-confidence Hebron alerts.
-    other_school = any(normalize(t) in metadata for t in config.get("other_school_terms", []))
-    if other_school and not has_hebron_identity:
-        hebron_specific = False
-    if score >= WATCH_THRESHOLD and (vid in confirmed_ids or hebron_specific):
-        confidence = "confirmed" if vid in confirmed_ids else "candidate"
+    # Labels are based on title/description evidence, not the numeric score alone.
+    # Generic event captions from confirmed uploaders become review candidates.
+    category, triage_reasons = triage_video(
+        s, config, score, confirmed_channel_ids, recent_review_terms,
+        ALERT_THRESHOLD, WATCH_THRESHOLD)
+    row["triage_reasons"] = triage_reasons
+
+    # Only explicit Hebron performance uploads create candidate channel watches.
+    if category == "alert" and score >= WATCH_THRESHOLD and vid not in confirmed_ids:
         if add_watch_channel(row["channel_id"], row["channel"], vid,
-                             f"video scored {score}: {', '.join(reasons)}", confidence):
+                             "explicit Hebron band evidence; " + ", ".join(triage_reasons)):
             watch_additions.append(row)
             known_channel_ids.add(row["channel_id"])
 
-    # Alerts require Hebron-specific evidence, or a watched channel plus another
-    # corroborating signal. This keeps broad discovery broad without making it noisy.
-    corroborated_watched = (row["channel_id"] in known_channel_ids and
-                            known_channels.get(row["channel_id"], {}).get("confidence") == "confirmed" and
-                            score >= ALERT_THRESHOLD + 2 and strong_band_context and not negative_context and
-                            not other_school)
-    # User-submitted seeds are known references, not fresh discoveries to alert again.
+    # User-submitted seeds are already known and must not generate repeat alerts.
     if vid not in seen and vid not in confirmed_ids:
-        if score >= ALERT_THRESHOLD and (hebron_specific or corroborated_watched):
+        if category == "alert":
             alerts.append(row)
-        elif score >= WATCH_THRESHOLD and not negative_context and (has_hebron_identity or show_identity or distinctive_repertoire):
+        elif category == "review":
             review_candidates.append(row)
 
 seen.update(v["id"] for v in details)
@@ -329,14 +339,15 @@ if alerts:
     for a in sorted(alerts, key=lambda x:x["score"], reverse=True)[:25]:
         lines += [f"### {a['title']}","",f"- URL: {a['url']}",f"- Channel: {a['channel']}",
                   f"- Published: {a['published_at']}",f"- Score: {a['score']}",
-                  f"- Reasons: {', '.join(a['reasons']) or 'none'}",""]
+                  f"- Reasons: {', '.join(a['reasons']) or 'none'}",
+                  f"- Identity evidence: {', '.join(a['triage_reasons'])}",""]
 else:
     lines += ["## New high-confidence candidates","","None.",""]
 
 if review_candidates:
     lines += ["## Needs manual review (not alerted)", ""]
     for a in sorted(review_candidates, key=lambda x: x["score"], reverse=True)[:15]:
-        lines += [f"- [{a['title']}]({a['url']}) — {a['channel']}; score {a['score']}; {', '.join(a['reasons'])}", ""]
+        lines += [f"- [{a['title']}]({a['url']}) — {a['channel']}; score {a['score']}; {', '.join(a['triage_reasons'])}", ""]
 
 lines += ["## Known cross-platform references (not directly crawled)", ""]
 for ref in config.get("confirmed_videos", []):
