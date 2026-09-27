@@ -6,10 +6,11 @@ on:
     branches: [main]
     paths:
       - "monitor.py"
+      - "channel_watch.py"
       - "config.json"
       - ".github/workflows/monitor.yml"
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "*/10 * * * *"
 
 permissions:
   contents: write
@@ -42,12 +43,16 @@ jobs:
           SEARCHES_PER_RUN: ${{ vars.SEARCHES_PER_RUN || '3' }}
           LOOKBACK_HOURS: ${{ vars.LOOKBACK_HOURS || '72' }}
           DAILY_SEARCH_BUDGET: ${{ vars.DAILY_SEARCH_BUDGET || '90' }}
+          CHANNEL_LOOKBACK_HOURS: ${{ vars.CHANNEL_LOOKBACK_HOURS || '336' }}
+          CANDIDATE_CHECK_MINUTES: ${{ vars.CANDIDATE_CHECK_MINUTES || '60' }}
         shell: bash
         run: |
           set -o pipefail
           python monitor.py | tee monitor-output.txt
           ALERT_COUNT="$(grep '^ALERT_COUNT=' monitor-output.txt | tail -1 | cut -d= -f2)"
           echo "alert_count=${ALERT_COUNT:-0}" >> "$GITHUB_OUTPUT"
+          UPLOADER_REVIEW_COUNT="$(grep '^UPLOADER_REVIEW_COUNT=' monitor-output.txt | tail -1 | cut -d= -f2)"
+          echo "uploader_review_count=${UPLOADER_REVIEW_COUNT:-0}" >> "$GITHUB_OUTPUT"
           cat report.md >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload report
@@ -82,11 +87,11 @@ jobs:
           exit 1
 
       - name: Create issue for new candidates
-        if: steps.monitor.outputs.alert_count != '0'
+        if: steps.monitor.outputs.alert_count != '0' || steps.monitor.outputs.uploader_review_count != '0'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          TITLE="Hebron monitor: ${{ steps.monitor.outputs.alert_count }} new candidate(s)"
+          TITLE="Hebron: ${{ steps.monitor.outputs.alert_count }} strong match(es), ${{ steps.monitor.outputs.uploader_review_count }} confirmed-uploader clip(s) to review"
           # GitHub issue bodies have a size limit. Keep the full report as the workflow
           # artifact/job summary and put a bounded digest in the issue.
           head -c 60000 report.md > issue-report.md
