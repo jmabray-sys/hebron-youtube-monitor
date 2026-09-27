@@ -16,6 +16,13 @@
       "event": "unverified",
       "confirmed": true,
       "confirmation_source": "User confirmed show video on 2026-09-26"
+    },
+    {
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/t/ZP8Tc1FCN/",
+      "event": "2026-09-26 Melissa Marching Showcase prelims",
+      "confirmed": true,
+      "confirmation_source": "User confirmed 2026-09-27"
     }
   ],
   "show_terms": [
