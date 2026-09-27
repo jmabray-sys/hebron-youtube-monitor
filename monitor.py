@@ -104,8 +104,9 @@ def score_video(video, known_channel_ids):
         score += weights.get("band_cue", 0); reasons.append("marching/halftime/performance cue")
 
     for event in config["events"]:
-        candidates = [event.get("name",""), event.get("location",""), event.get("opponent","")]
-        if any(normalize(x) and normalize(x) in haystack for x in candidates):
+        candidates = [event.get("name",""), event.get("opponent","")]
+        # Venue-only matches are too generic to justify event confidence.
+        if any(len(normalize(x)) >= 8 and normalize(x) in haystack for x in candidates):
             score += weights["event_term"]; reasons.append(f"event fingerprint: {event['name']}"); break
 
     if "2026" in haystack or "26" in title:
@@ -168,19 +169,38 @@ def event_queries():
             q.append(f'"{location}" marching band 2026')
     return q
 
+def recent_event_queries():
+    """Give recent performances dedicated search slots instead of waiting for the long rotation."""
+    queries = []
+    for event in reversed(config["events"]):
+        try:
+            event_date = datetime.fromisoformat(event["date"]).replace(tzinfo=timezone.utc)
+        except (KeyError, ValueError):
+            continue
+        if not timedelta(0) <= now - event_date <= timedelta(days=5):
+            continue
+        for query in event.get("discovery_queries", []):
+            if query not in queries:
+                queries.append(query)
+    return queries
+
 def priority_queries():
     # Compact OR searches buy broader discovery per search.list call.
     return config.get("priority_queries", [])
 
 def select_queries():
     priority = priority_queries()
-    rotating = config["search_queries"] + event_queries()
+    rotating = recent_event_queries() + config["search_queries"] + event_queries()
     available = min(SEARCHES_PER_RUN, search_budget_remaining())
     if available <= 0: return []
     selected = []
     # Every fourth run spend one slot on a relevance-ranked query to catch older/index-late uploads.
     run_count = int(state.get("run_count", 0))
-    if priority:
+    recent = recent_event_queries()
+    # Reserve one search per run for the most recent event while it is fresh.
+    if recent:
+        selected.append((recent[run_count % len(recent)], "date", LOOKBACK_HOURS))
+    elif priority:
         selected.append((priority[run_count % len(priority)], "date", LOOKBACK_HOURS))
     cursor = int(state.get("query_cursor", 0)) % max(1, len(rotating))
     while len(selected) < available and rotating:
@@ -224,7 +244,7 @@ for channel_id in list(known_channel_ids):
 
 details = fetch_video_details(sorted(candidate_ids))
 seen = set(state.get("seen_video_ids", []))
-alerts, watch_additions, all_scored = [], [], []
+alerts, review_candidates, watch_additions, all_scored = [], [], [], []
 
 confirmed_ids = set(seed_ids)
 for video in details:
@@ -247,11 +267,15 @@ for video in details:
     strong_band_context = any(normalize(t) in metadata for t in config.get("strong_band_terms", []))
     school_context = any(normalize(t) in metadata for t in config.get("school_identity_terms", []))
     negative_context = any(normalize(t) in metadata for t in config.get("negative_terms", []))
-    repertoire_context = any(normalize(t) in metadata for t in config.get("repertoire_terms", []))
-    hebron_specific = (
-        "somewhere in time" in metadata or repertoire_context or
-        (("hebron" in metadata) and strong_band_context and school_context)
-    ) and not negative_context
+    distinctive_repertoire = any(normalize(t) in metadata for t in config.get("distinctive_repertoire_terms", []))
+    has_hebron_identity = "hebron" in metadata and (school_context or "hebron band" in metadata or "hebron marching" in metadata)
+    show_identity = "somewhere in time" in metadata and ("hebron" in metadata or strong_band_context)
+    hebron_specific = (show_identity or (has_hebron_identity and strong_band_context) or
+                       (distinctive_repertoire and "hebron" in metadata and strong_band_context)) and not negative_context
+    # Other schools and generic football streams are never high-confidence Hebron alerts.
+    other_school = any(normalize(t) in metadata for t in config.get("other_school_terms", []))
+    if other_school and not has_hebron_identity:
+        hebron_specific = False
     if score >= WATCH_THRESHOLD and (vid in confirmed_ids or hebron_specific):
         confidence = "confirmed" if vid in confirmed_ids else "candidate"
         if add_watch_channel(row["channel_id"], row["channel"], vid,
@@ -262,9 +286,14 @@ for video in details:
     # Alerts require Hebron-specific evidence, or a watched channel plus another
     # corroborating signal. This keeps broad discovery broad without making it noisy.
     corroborated_watched = (row["channel_id"] in known_channel_ids and
-                            score >= ALERT_THRESHOLD + 2 and strong_band_context and not negative_context)
-    if score >= ALERT_THRESHOLD and vid not in seen and (hebron_specific or corroborated_watched):
-        alerts.append(row)
+                            known_channels.get(row["channel_id"], {}).get("confidence") == "confirmed" and
+                            score >= ALERT_THRESHOLD + 2 and strong_band_context and not negative_context and
+                            not other_school)
+    if vid not in seen:
+        if score >= ALERT_THRESHOLD and (hebron_specific or corroborated_watched):
+            alerts.append(row)
+        elif score >= WATCH_THRESHOLD and not negative_context and (has_hebron_identity or show_identity or distinctive_repertoire):
+            review_candidates.append(row)
 
 seen.update(v["id"] for v in details)
 state["seen_video_ids"] = sorted(seen)
@@ -279,7 +308,8 @@ lines = [
     f"- Searches this run: {len(searches_run)}",
     f"- Watched relevant channels: {len(state.get('known_channels', []))}",
     f"- New watch channels learned: {len(watch_additions)}",
-    f"- New alerts: {len(alerts)}",
+    f"- New high-confidence candidates: {len(alerts)}",
+    f"- New needs-review candidates: {len(review_candidates)}",
     f"- Report displays at most 25 alerts and 20 learned channels","",
 ]
 if searches_run:
@@ -298,6 +328,16 @@ if alerts:
 else:
     lines += ["## New high-confidence candidates","","None.",""]
 
+if review_candidates:
+    lines += ["## Needs manual review (not alerted)", ""]
+    for a in sorted(review_candidates, key=lambda x: x["score"], reverse=True)[:15]:
+        lines += [f"- [{a[\u0027title\u0027]}]({a[\u0027url\u0027]}) — {a[\u0027channel\u0027]}; score {a[\u0027score\u0027]}; {\u0027, \u0027.join(a[\u0027reasons\u0027])}", ""]
+
+lines += ["## Known cross-platform references (not directly crawled)", ""]
+for ref in config.get("confirmed_videos", []):
+    if ref.get("platform", "YouTube").lower() != "youtube" and ref.get("url"):
+        lines += [f"- {ref[\u0027platform\u0027]}: {ref[\u0027url\u0027]} ({ref.get(\u0027event\u0027, \u0027event unverified\u0027)})"]
+lines += [""]
 REPORT_PATH.write_text("\n".join(lines) + "\n")
 print(f"ALERT_COUNT={len(alerts)}")
 print(f"WATCH_ADDITIONS={len(watch_additions)}")
