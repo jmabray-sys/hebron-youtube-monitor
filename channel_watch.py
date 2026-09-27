@@ -12,9 +12,11 @@ def parse_time(value):
 
 def select_due_channels(channels, now, candidate_interval_minutes=60, candidate_batch=6):
     """Check confirmed channels each run, rotate provisional accounts hourly."""
-    confirmed = sorted((ch for ch in channels if ch.get("confidence") == "confirmed"
+    available = [ch for ch in channels if not parse_time(ch.get("next_retry_at"))
+                 or parse_time(ch["next_retry_at"]) <= now]
+    confirmed = sorted((ch for ch in available if ch.get("confidence") == "confirmed"
                         and ch.get("channel_id")), key=lambda ch: ch["channel_id"])
-    candidates = [ch for ch in channels if ch.get("confidence") != "confirmed"
+    candidates = [ch for ch in available if ch.get("confidence") != "confirmed"
                   and ch.get("channel_id")]
     cutoff = now - timedelta(minutes=candidate_interval_minutes)
     due = [ch for ch in candidates if
