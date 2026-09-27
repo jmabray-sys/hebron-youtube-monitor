@@ -5,6 +5,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 from search_budget import paced_allowance, quota_day_key
 from candidate_rules import triage_video
 from channel_watch import select_due_channels, select_new_upload_ids
@@ -163,13 +164,17 @@ def get_uploads_playlist(channel):
 def latest_channel_upload_ids(channel, seen, seeds, max_results=20):
     playlist_id = get_uploads_playlist(channel)
     if not playlist_id:
-        return []
+        channel["next_retry_at"] = (now + timedelta(hours=24)).isoformat()
+        channel["last_channel_error"] = "Uploads playlist unavailable"
+        raise ValueError("Uploads playlist unavailable")
     resp = youtube.playlistItems().list(
         part="contentDetails", playlistId=playlist_id, maxResults=max_results
     ).execute()
     ids = select_new_upload_ids(resp.get("items", []), seen, seeds, now,
                                 CHANNEL_LOOKBACK_HOURS)
     channel["last_checked_at"] = now.isoformat()
+    channel.pop("next_retry_at", None)
+    channel.pop("last_channel_error", None)
     return ids
 
 def event_queries():
@@ -308,6 +313,15 @@ for channel in select_due_channels(state.get("known_channels", []), now,
         candidate_ids.update(new_ids)
         unseen_channel_ids += len(new_ids)
         checked_channels.append(channel.get("channel_title") or channel["channel_id"])
+    except HttpError as exc:
+        status = getattr(exc.resp, "status", 0)
+        if status == 404:
+            channel.pop("uploads_playlist_id", None)
+            channel["next_retry_at"] = (now + timedelta(hours=24)).isoformat()
+            channel["last_channel_error"] = "Uploads playlist returned HTTP 404"
+        channel_errors.append(channel.get("channel_id"))
+        print(f"Channel check failed for {channel.get('channel_id')}: {exc}",
+              file=sys.stderr)
     except Exception as exc:
         channel_errors.append(channel.get("channel_id"))
         print(f"Channel check failed for {channel.get('channel_id')}: {exc}",
