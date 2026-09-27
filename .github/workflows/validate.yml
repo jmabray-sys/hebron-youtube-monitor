@@ -1,0 +1,29 @@
+name: Validate Hebron monitor changes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "monitor.py"
+      - "config.json"
+      - ".github/workflows/monitor.yml"
+      - ".github/workflows/validate.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate Python and configuration
+        run: |
+          python -m py_compile monitor.py
+          python -m json.tool config.json > /dev/null
