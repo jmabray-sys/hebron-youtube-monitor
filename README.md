@@ -30,7 +30,7 @@ Monitors YouTube for likely public uploads of Hebron High School Band's 2026 sho
    - `CREATE_ISSUES` (default `true`)
 6. Run **Actions → Hebron YouTube Monitor → Run workflow** once manually.
 
-The scheduled workflow runs every 20 minutes. Search calls are **paced across the Pacific Time quota day** instead of spending the allowance in the morning. The software cap is 90 search calls per Pacific day, below the post-June-2026 default Google search.list bucket of 100 calls/day; Google resets the bucket at midnight Pacific Time, including daylight saving. When searches are unavailable, confirmed uploader playlist checks still run. See `search_budget.py` and `test_search_budget.py` for the quota-day and daylight-saving tests.
+The scheduled workflow is configured every **10 minutes** (GitHub may delay scheduled jobs). It polls confirmed YouTube uploaders every run using their cached uploads playlists and rotates provisional discovered channels at roughly one-hour intervals. Full video metadata is fetched for previously unseen recent uploads, keeping general `search.list` calls available for finding **new uploaders**. Fresh ambiguous uploads from confirmed channels appear in a human-review issue, not as automatically confirmed performances.  Search calls are **paced across the Pacific Time quota day** instead of spending the allowance in the morning. The software cap is 90 search calls per Pacific day, below the post-June-2026 default Google search.list bucket of 100 calls/day; Google resets the bucket at midnight Pacific Time, including daylight saving. When searches are unavailable, confirmed uploader playlist checks still run. See `search_budget.py` and `test_search_budget.py` for the quota-day and daylight-saving tests.
 
 ## Why channel monitoring matters
 
@@ -40,10 +40,12 @@ YouTube search can lag behind actual public uploads. Once a channel is identifie
 
 - `monitor.py` — monitor logic
 - `candidate_rules.py` / `test_candidate_rules.py` — confirmed-video and false-positive regression cases
+- `channel_watch.py` / `test_channel_watch.py` — prioritized uploader checks and recent-upload deduplication
 - `search_budget.py` / `test_search_budget.py` — Pacific quota-day pacing and daylight-saving tests
 - `config.json` — fingerprints, events, search queries, known videos/channels
 - `state.json` — persistent state, seen video IDs, quota ledger
 - `.github/workflows/monitor.yml` — scheduled GitHub Actions workflow
+- `docs/quota_extension_request.md` — ready-to-review request for 300 `search.list` calls/day; **submit and obtain Google approval before raising the 90-call cap**
 - `requirements.txt` — Python dependencies
 
 ## Notes
