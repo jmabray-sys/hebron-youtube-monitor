@@ -41,6 +41,16 @@
       "performance_date": "2026-09-26",
       "performance_round": "prelims",
       "event_confirmation_source": "User explicitly confirmed Sept 27, 2026 that nPIlu4dpq-c is Melissa prelims, not finals"
+    },
+    {
+      "platform": "YouTube",
+      "video_id": "p7zK4spKw0o",
+      "url": "https://www.youtube.com/watch?v=p7zK4spKw0o",
+      "title": "User-reported Hebron video; public metadata not yet verified",
+      "event": "Unverified (Melissa prelims/finals or other event not established)",
+      "confirmed": true,
+      "confirmation_source": "User shared the video in Hebron show monitoring discussion on Sept 27, 2026; Hebron Band website sent two notices for this same video on Sept 27",
+      "classification_status": "user-reported; performance round and uploader pending YouTube API lookup"
     }
   ],
   "show_terms": [
