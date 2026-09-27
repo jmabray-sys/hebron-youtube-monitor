@@ -114,7 +114,13 @@
         "Melissa marching showcase prelims September 26 2026",
         "Melissa marching showcase finals September 26 2026",
         "Melissa marching contest spectator video 2026",
-        "Kenny Deel Stadium marching band 2026"
+        "Kenny Deel Stadium marching band 2026",
+        "Hebron HS marching band Melissa 2026",
+        "Hebron Melissa Marching Showcase spectator"
+      ],
+      "review_terms": [
+        "Melissa",
+        "Kenny Deel"
       ]
     },
     {
@@ -292,5 +298,15 @@
     "tiktok": "Known confirmed TikTok URLs and publicly indexed searches via separate hourly watch; no direct TikTok crawler",
     "instagram": "Known confirmed Instagram URLs and publicly indexed searches via separate hourly watch; no direct Instagram crawler",
     "note": "Uploader handles and original captions are unverified for the current TikTok and Instagram references. Add only after verified; never assume the short TikTok URL identifies an account."
+  },
+  "monitor_improvement_notes": {
+    "2026-09-27": [
+      "Real confirmed upload nPIlu4dpq-c had generic event-based title, not show title; keep event-specific searches and verified uploader playlist scans.",
+      "Do not assume a verified uploader's future uploads are Hebron footage; send vague event-tagged uploads to review, not automatic alerts.",
+      "Do not treat football-only streams or competing schools as confirmed Hebron footage even when numerical score is high.",
+      "Pace YouTube search calls throughout the UTC day; reserve coverage for afternoon and evening uploads.",
+      "Differentiate Melissa prelims and finals unless the specific recording is identified.",
+      "Rebase and retry state-only GitHub commits to avoid false failure emails during configuration updates."
+    ]
   }
 }
