@@ -331,12 +331,12 @@ else:
 if review_candidates:
     lines += ["## Needs manual review (not alerted)", ""]
     for a in sorted(review_candidates, key=lambda x: x["score"], reverse=True)[:15]:
-        lines += [f"- [{a[\u0027title\u0027]}]({a[\u0027url\u0027]}) — {a[\u0027channel\u0027]}; score {a[\u0027score\u0027]}; {\u0027, \u0027.join(a[\u0027reasons\u0027])}", ""]
+        lines += [f"- [{a['title']}]({a['url']}) — {a['channel']}; score {a['score']}; {', '.join(a['reasons'])}", ""]
 
 lines += ["## Known cross-platform references (not directly crawled)", ""]
 for ref in config.get("confirmed_videos", []):
     if ref.get("platform", "YouTube").lower() != "youtube" and ref.get("url"):
-        lines += [f"- {ref[\u0027platform\u0027]}: {ref[\u0027url\u0027]} ({ref.get(\u0027event\u0027, \u0027event unverified\u0027)})"]
+        lines += [f"- {ref['platform']}: {ref['url']} ({ref.get('event', 'event unverified')})"]
 lines += [""]
 REPORT_PATH.write_text("\n".join(lines) + "\n")
 print(f"ALERT_COUNT={len(alerts)}")
