@@ -2,6 +2,12 @@ name: Hebron YouTube Monitor
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "monitor.py"
+      - "config.json"
+      - ".github/workflows/monitor.yml"
   schedule:
     - cron: "*/20 * * * *"
 
