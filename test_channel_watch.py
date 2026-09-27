@@ -21,6 +21,16 @@ class ChannelWatchTests(unittest.TestCase):
         self.assertEqual([ch["channel_id"] for ch in select_due_channels(channels, NOW)],
                          ["known", "never", "stale"])
 
+    def test_temporarily_missing_playlist_does_not_waste_repeated_calls(self):
+        blocked = {"channel_id": "blocked", "confidence": "confirmed",
+                   "next_retry_at": (NOW + timedelta(hours=24)).isoformat()}
+        live = {"channel_id": "live", "confidence": "confirmed"}
+        channels = [blocked, live]
+        self.assertEqual([ch["channel_id"] for ch in select_due_channels(channels, NOW)],
+                         ["live"])
+        self.assertEqual([ch["channel_id"] for ch in select_due_channels(
+            channels, NOW + timedelta(hours=25))], ["blocked", "live"])
+
     def test_candidate_checks_bounded(self):
         channels = [{"channel_id": str(i), "confidence": "candidate"} for i in range(20)]
         self.assertEqual(len(select_due_channels(channels, NOW, candidate_batch=6)), 6)
