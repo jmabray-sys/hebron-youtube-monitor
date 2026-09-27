@@ -5,6 +5,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from googleapiclient.discovery import build
+from search_budget import paced_allowance
 
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.json"
@@ -191,14 +192,17 @@ def priority_queries():
 def select_queries():
     priority = priority_queries()
     rotating = recent_event_queries() + config["search_queries"] + event_queries()
-    available = min(SEARCHES_PER_RUN, search_budget_remaining())
+    # Protect late-afternoon/evening discovery by pacing the daily API allowance.
+    remaining = search_budget_remaining()
+    spent = int(state.get("daily_search_ledger", {}).get(today_key(), 0))
+    available = min(remaining, paced_allowance(now, spent, DAILY_SEARCH_BUDGET, SEARCHES_PER_RUN))
     if available <= 0: return []
     selected = []
     # Every fourth run spend one slot on a relevance-ranked query to catch older/index-late uploads.
     run_count = int(state.get("run_count", 0))
     recent = recent_event_queries()
     # Reserve one search per run for the most recent event while it is fresh.
-    if recent:
+    if recent and run_count % 3 != 0:
         selected.append((recent[run_count % len(recent)], "date", LOOKBACK_HOURS))
     elif priority:
         selected.append((priority[run_count % len(priority)], "date", LOOKBACK_HOURS))
@@ -289,7 +293,8 @@ for video in details:
                             known_channels.get(row["channel_id"], {}).get("confidence") == "confirmed" and
                             score >= ALERT_THRESHOLD + 2 and strong_band_context and not negative_context and
                             not other_school)
-    if vid not in seen:
+    # User-submitted seeds are known references, not fresh discoveries to alert again.
+    if vid not in seen and vid not in confirmed_ids:
         if score >= ALERT_THRESHOLD and (hebron_specific or corroborated_watched):
             alerts.append(row)
         elif score >= WATCH_THRESHOLD and not negative_context and (has_hebron_identity or show_identity or distinctive_repertoire):
