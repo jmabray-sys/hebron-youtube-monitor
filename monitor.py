@@ -7,6 +7,7 @@ from pathlib import Path
 from googleapiclient.discovery import build
 from search_budget import paced_allowance, quota_day_key
 from candidate_rules import triage_video
+from channel_watch import select_due_channels, select_new_upload_ids
 
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.json"
@@ -20,6 +21,8 @@ SEARCHES_PER_RUN = int(os.environ.get("SEARCHES_PER_RUN", "3"))
 LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "96"))
 DAILY_SEARCH_BUDGET = int(os.environ.get("DAILY_SEARCH_BUDGET", "90"))
 MAX_WATCH_CHANNELS = int(os.environ.get("MAX_WATCH_CHANNELS", "40"))
+CHANNEL_LOOKBACK_HOURS = int(os.environ.get("CHANNEL_LOOKBACK_HOURS", "336"))
+CANDIDATE_CHECK_MINUTES = int(os.environ.get("CANDIDATE_CHECK_MINUTES", "60"))
 
 if not API_KEY:
     print("YOUTUBE_API_KEY is not set.", file=sys.stderr)
@@ -142,18 +145,32 @@ def search_youtube(query, order="date", lookback_hours=None):
     resp = resp.execute()
     return [x["id"]["videoId"] for x in resp.get("items", []) if x.get("id", {}).get("videoId")]
 
-def get_uploads_playlist(channel_id):
-    resp = youtube.channels().list(part="contentDetails,snippet", id=channel_id).execute()
+def get_uploads_playlist(channel):
+    # Cache the uploads playlist ID so subsequent checks need only one API call.
+    if channel.get("uploads_playlist_id"):
+        return channel["uploads_playlist_id"]
+    resp = youtube.channels().list(
+        part="contentDetails", id=channel["channel_id"]).execute()
     items = resp.get("items", [])
-    return items[0]["contentDetails"]["relatedPlaylists"]["uploads"] if items else None
+    if not items:
+        return None
+    playlist_id = items[0].get("contentDetails", {}).get(
+        "relatedPlaylists", {}).get("uploads")
+    if playlist_id:
+        channel["uploads_playlist_id"] = playlist_id
+    return playlist_id
 
-def latest_channel_upload_ids(channel_id, max_results=30):
-    playlist_id = get_uploads_playlist(channel_id)
-    if not playlist_id: return []
+def latest_channel_upload_ids(channel, seen, seeds, max_results=20):
+    playlist_id = get_uploads_playlist(channel)
+    if not playlist_id:
+        return []
     resp = youtube.playlistItems().list(
-        part="contentDetails,snippet", playlistId=playlist_id, maxResults=max_results
+        part="contentDetails", playlistId=playlist_id, maxResults=max_results
     ).execute()
-    return [x["contentDetails"]["videoId"] for x in resp.get("items", [])]
+    ids = select_new_upload_ids(resp.get("items", []), seen, seeds, now,
+                                CHANNEL_LOOKBACK_HOURS)
+    channel["last_checked_at"] = now.isoformat()
+    return ids
 
 def event_queries():
     q = []
@@ -231,15 +248,34 @@ if not state.get("channel_cleanup_v1"):
                                 if ch.get("confidence") == "confirmed"]
     state["channel_cleanup_v1"] = True
 
-# Improvement 1: learn uploader channels from every confirmed seed before discovery.
-seed_ids = [x["video_id"] for x in config.get("confirmed_videos", []) if x.get("video_id") and x.get("platform", "YouTube").lower() == "youtube"]
-seed_details = fetch_video_details(seed_ids)
-for video in seed_details:
-    s = video.get("snippet", {})
-    add_watch_channel(s.get("channelId"), s.get("channelTitle",""), video["id"],
-                      "uploader of confirmed Hebron video", "confirmed")
+# Prefer saved verified uploader IDs. Only look up seed video metadata when
+# the channel ID is not already known; don't spend an API call each run.
+seed_refs = [ref for ref in config.get("confirmed_videos", [])
+             if ref.get("video_id") and ref.get("platform", "YouTube").lower() == "youtube"]
+seed_ids = [ref["video_id"] for ref in seed_refs]
+unresolved_seed_ids = []
+for ref in seed_refs:
+    channel_id = ref.get("channel_id")
+    channel_title = ref.get("channel_title", "")
+    if not channel_id:
+        known_seed = next((ch for ch in state.get("known_channels", [])
+                           if ch.get("source_video_id") == ref["video_id"]
+                           and ch.get("confidence") == "confirmed"), None)
+        if known_seed:
+            channel_id, channel_title = known_seed["channel_id"], known_seed.get("channel_title", "")
+    if channel_id:
+        add_watch_channel(channel_id, channel_title, ref["video_id"],
+                          "uploader of confirmed Hebron video", "confirmed")
+    else:
+        unresolved_seed_ids.append(ref["video_id"])
+for video in fetch_video_details(unresolved_seed_ids):
+    metadata = video.get("snippet", {})
+    add_watch_channel(metadata.get("channelId"), metadata.get("channelTitle", ""),
+                      video["id"], "uploader of confirmed Hebron video", "confirmed")
 
-known_channels = {x["channel_id"]: x for x in state.get("known_channels", []) if x.get("channel_id")}
+seen = set(state.get("seen_video_ids", []))
+known_channels = {ch["channel_id"]: ch for ch in state.get("known_channels", [])
+                  if ch.get("channel_id")}
 known_channel_ids = set(known_channels)
 confirmed_channel_ids = {x["channel_id"] for x in known_channels.values()
                          if x.get("confidence") == "confirmed"}
@@ -252,11 +288,12 @@ for event in config["events"]:
     if timedelta(0) <= now - event_date <= timedelta(days=5):
         recent_review_terms.extend(event.get("review_terms", []))
         recent_review_terms.append(event.get("name", ""))
-candidate_ids = set(seed_ids)
+candidate_ids = set()
 searches_run = []
+checked_channels, unseen_channel_ids, channel_errors = [], 0, []
 
-# Improvement 2: adaptive discovery: broad OR queries + event/opponent-side searches +
-# periodic relevance-ranked searches for uploads that were indexed late.
+# Keyword searches discover accounts; low-cost uploads-playlist checks
+# prioritize known uploaders on every scheduled run, regardless of search quota.
 for query, order, hours in select_queries():
     try:
         candidate_ids.update(search_youtube(query, order=order, lookback_hours=hours))
@@ -264,17 +301,24 @@ for query, order, hours in select_queries():
     except Exception as exc:
         print(f"Search failed for {query!r}: {exc}", file=sys.stderr)
 
-# Improvement 3: channel graph. Confirmed AND medium-confidence discovery channels are
-# monitored through uploads playlists, bypassing search-index delay on future uploads.
-for channel_id in list(known_channel_ids):
+for channel in select_due_channels(state.get("known_channels", []), now,
+                                   CANDIDATE_CHECK_MINUTES):
     try:
-        candidate_ids.update(latest_channel_upload_ids(channel_id))
+        new_ids = latest_channel_upload_ids(channel, seen, set(seed_ids))
+        candidate_ids.update(new_ids)
+        unseen_channel_ids += len(new_ids)
+        checked_channels.append(channel.get("channel_title") or channel["channel_id"])
     except Exception as exc:
-        print(f"Channel check failed for {channel_id}: {exc}", file=sys.stderr)
+        channel_errors.append(channel.get("channel_id"))
+        print(f"Channel check failed for {channel.get('channel_id')}: {exc}",
+              file=sys.stderr)
 
+# Skip repeat full-metadata calls for older search matches or playlist entries.
+candidate_ids.difference_update(seen)
+candidate_ids.difference_update(seed_ids)
 details = fetch_video_details(sorted(candidate_ids))
-seen = set(state.get("seen_video_ids", []))
 alerts, review_candidates, watch_additions, all_scored = [], [], [], []
+uploader_reviews = []
 
 confirmed_ids = set(seed_ids)
 for video in details:
@@ -309,6 +353,8 @@ for video in details:
             alerts.append(row)
         elif category == "review":
             review_candidates.append(row)
+            if row["channel_id"] in confirmed_channel_ids:
+                uploader_reviews.append(row)
 
 seen.update(v["id"] for v in details)
 state["seen_video_ids"] = sorted(seen)
@@ -322,9 +368,13 @@ lines = [
     f"- Search calls used in current Pacific quota day: {state['daily_search_ledger'].get(today_key(), 0)} / {DAILY_SEARCH_BUDGET}",
     f"- Searches this run: {len(searches_run)}",
     f"- Watched relevant channels: {len(state.get('known_channels', []))}",
+    f"- Upload channels checked this run: {len(checked_channels)}",
+    f"- New IDs from direct playlist checks: {unseen_channel_ids}",
+    f"- Channel check errors: {len(channel_errors)}",
     f"- New watch channels learned: {len(watch_additions)}",
     f"- New high-confidence candidates: {len(alerts)}",
     f"- New needs-review candidates: {len(review_candidates)}",
+    f"- New verified-uploader clips needing review: {len(uploader_reviews)}",
     f"- Report displays at most 25 alerts and 20 learned channels","",
 ]
 if searches_run:
@@ -344,6 +394,10 @@ if alerts:
 else:
     lines += ["## New high-confidence candidates","","None.",""]
 
+if uploader_reviews:
+    lines += ["## New clips from confirmed uploaders needing review", ""]
+    for a in uploader_reviews[:15]:
+        lines += [f"- [{a['title']}]({a['url']}) — {a['channel']}; {', '.join(a['triage_reasons'])}", ""]
 if review_candidates:
     lines += ["## Needs manual review (not alerted)", ""]
     for a in sorted(review_candidates, key=lambda x: x["score"], reverse=True)[:15]:
@@ -356,5 +410,6 @@ for ref in config.get("confirmed_videos", []):
 lines += [""]
 REPORT_PATH.write_text("\n".join(lines) + "\n")
 print(f"ALERT_COUNT={len(alerts)}")
+print(f"UPLOADER_REVIEW_COUNT={len(uploader_reviews)}")
 print(f"WATCH_ADDITIONS={len(watch_additions)}")
 print(f"REPORT_PATH={REPORT_PATH}")
