@@ -1,20 +1,40 @@
-"""Spread YouTube search calls across the UTC day instead of exhausting quota early."""
-from datetime import timezone
+"""Pace YouTube search.list calls across YouTube's Pacific Time quota day."""
+from datetime import datetime, time, timedelta, timezone
 from math import ceil
+from zoneinfo import ZoneInfo
+
+PACIFIC = ZoneInfo("America/Los_Angeles")
 
 
-def paced_allowance(now, spent_today, daily_limit=90, max_per_run=3, run_interval_minutes=20):
-    """Return searches allowed now, banking unused calls for later runs.
+def quota_day_key(now):
+    """Google resets the YouTube Data API's daily buckets at midnight PT."""
+    if now.tzinfo is None:
+        raise ValueError("now must have timezone information")
+    return now.astimezone(PACIFIC).date().isoformat()
 
-    Quota accrues approximately evenly throughout the UTC day. Looking ahead one
-    scheduled run interval lets the final run before midnight use the full budget.
-    This is a local rate limit; YouTube's actual API quota may differ.
+
+def paced_allowance(now, spent_today, daily_limit=90, max_per_run=3,
+                    run_interval_minutes=20):
+    """Accrue permitted searches evenly within the current Pacific quota day.
+
+    Uses actual UTC duration between successive Pacific midnights (23, 24 or
+    25 hours depending on daylight saving) and banks unused calls. Google
+    currently has a separate default search.list bucket of 100 calls/day;
+    our 90-call software cap leaves headroom.
     """
     if now.tzinfo is None:
         raise ValueError("now must have timezone information")
     if daily_limit <= 0 or max_per_run <= 0:
         return 0
-    utc_now = now.astimezone(timezone.utc)
-    seconds_elapsed = utc_now.hour * 3600 + utc_now.minute * 60 + utc_now.second
-    accrued = ceil(daily_limit * min(86400, seconds_elapsed + run_interval_minutes * 60) / 86400)
-    return max(0, min(max_per_run, daily_limit - spent_today, accrued - spent_today))
+    pacific_now = now.astimezone(PACIFIC)
+    start = datetime.combine(pacific_now.date(), time.min, tzinfo=PACIFIC)
+    end = datetime.combine(pacific_now.date() + timedelta(days=1),
+                           time.min, tzinfo=PACIFIC)
+    elapsed = (now.astimezone(timezone.utc) -
+               start.astimezone(timezone.utc)).total_seconds()
+    duration = (end.astimezone(timezone.utc) -
+                start.astimezone(timezone.utc)).total_seconds()
+    accrued = ceil(daily_limit * min(duration, elapsed +
+                                    run_interval_minutes * 60) / duration)
+    return max(0, min(max_per_run, daily_limit - spent_today,
+                      accrued - spent_today))

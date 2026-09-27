@@ -7,7 +7,7 @@ Monitors YouTube for likely public uploads of Hebron High School Band's 2026 sho
 - Uses the official YouTube Data API v3.
 - Rotates through a configurable search matrix to stay within the post-June-2026 search quota model.
 - Tracks known uploader channels and checks their upload playlists using low-cost API calls.
-- Scores candidates based on Hebron/show/event/leak fingerprints.
+- Scores candidates based on Hebron/show/event/leak fingerprints and uses explicit-identity triage to separate alerts, needs-review clips, and unrelated content.
 - Persists seen video IDs in `state.json` so the same video is not repeatedly reported.
 - Seeds the known confirmed Parent Preview leak:
   - `VQyGH1E8Z48`
@@ -30,7 +30,7 @@ Monitors YouTube for likely public uploads of Hebron High School Band's 2026 sho
    - `CREATE_ISSUES` (default `true`)
 6. Run **Actions → Hebron YouTube Monitor → Run workflow** once manually.
 
-The scheduled workflow runs every 20 minutes. With the default `SEARCHES_PER_RUN=3`, that is up to 216 search calls/day if every scheduled run executes, so the code itself enforces a rolling daily search budget of 90 searches and automatically switches to channel-only checks after the budget is reached.
+The scheduled workflow runs every 20 minutes. Search calls are **paced across the Pacific Time quota day** instead of spending the allowance in the morning. The software cap is 90 search calls per Pacific day, below the post-June-2026 default Google search.list bucket of 100 calls/day; Google resets the bucket at midnight Pacific Time, including daylight saving. When searches are unavailable, confirmed uploader playlist checks still run. See `search_budget.py` and `test_search_budget.py` for the quota-day and daylight-saving tests.
 
 ## Why channel monitoring matters
 
@@ -39,6 +39,8 @@ YouTube search can lag behind actual public uploads. Once a channel is identifie
 ## Files
 
 - `monitor.py` — monitor logic
+- `candidate_rules.py` / `test_candidate_rules.py` — confirmed-video and false-positive regression cases
+- `search_budget.py` / `test_search_budget.py` — Pacific quota-day pacing and daylight-saving tests
 - `config.json` — fingerprints, events, search queries, known videos/channels
 - `state.json` — persistent state, seen video IDs, quota ledger
 - `.github/workflows/monitor.yml` — scheduled GitHub Actions workflow

@@ -5,7 +5,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from googleapiclient.discovery import build
-from search_budget import paced_allowance
+from search_budget import paced_allowance, quota_day_key
 from candidate_rules import triage_video
 
 ROOT = Path(__file__).resolve().parent
@@ -31,7 +31,7 @@ youtube = build("youtube", "v3", developerKey=API_KEY, cache_discovery=False)
 now = datetime.now(timezone.utc)
 
 def today_key():
-    return now.strftime("%Y-%m-%d")
+    return quota_day_key(now)
 
 def normalize(text):
     return (text or "").lower()
@@ -39,7 +39,7 @@ def normalize(text):
 def search_budget_remaining():
     ledger = state.setdefault("daily_search_ledger", {})
     for key in list(ledger.keys()):
-        if key < (now - timedelta(days=7)).strftime("%Y-%m-%d"):
+        if key < quota_day_key(now - timedelta(days=7)):
             del ledger[key]
     return max(0, DAILY_SEARCH_BUDGET - int(ledger.get(today_key(), 0)))
 
@@ -319,7 +319,7 @@ STATE_PATH.write_text(json.dumps(state, indent=2) + "\n")
 lines = [
     "# Hebron YouTube Monitor Report","",
     f"- Run: {now.isoformat()}",
-    f"- Search calls used today: {state['daily_search_ledger'].get(today_key(), 0)} / {DAILY_SEARCH_BUDGET}",
+    f"- Search calls used in current Pacific quota day: {state['daily_search_ledger'].get(today_key(), 0)} / {DAILY_SEARCH_BUDGET}",
     f"- Searches this run: {len(searches_run)}",
     f"- Watched relevant channels: {len(state.get('known_channels', []))}",
     f"- New watch channels learned: {len(watch_additions)}",
