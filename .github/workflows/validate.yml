@@ -7,6 +7,8 @@ on:
       - "monitor.py"
       - "search_budget.py"
       - "test_search_budget.py"
+      - "candidate_rules.py"
+      - "test_candidate_rules.py"
       - "config.json"
       - ".github/workflows/monitor.yml"
       - ".github/workflows/validate.yml"
@@ -27,6 +29,6 @@ jobs:
           python-version: "3.12"
       - name: Validate Python and configuration
         run: |
-          python -m py_compile monitor.py search_budget.py test_search_budget.py
-          python -m unittest -v test_search_budget.py
+          python -m py_compile monitor.py search_budget.py candidate_rules.py test_search_budget.py test_candidate_rules.py
+          python -m unittest -v test_search_budget.py test_candidate_rules.py
           python -m json.tool config.json > /dev/null
