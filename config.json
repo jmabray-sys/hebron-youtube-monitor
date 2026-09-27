@@ -31,13 +31,16 @@
       "video_id": "nPIlu4dpq-c",
       "url": "https://www.youtube.com/watch?v=nPIlu4dpq-c",
       "title": "Hebron HS Marching Band - Melissa Marching Showcase 2026",
-      "event": "Melissa Marching Showcase 2026 (prelims/finals not independently established)",
+      "event": "2026-09-26 Melissa Marching Showcase prelims",
       "confirmed": true,
       "confirmation_source": "User submitted 2026-09-27; Hebron Band website generated matching takedown notification",
       "channel_title": "steven smith",
       "channel_id": "UCZN36ExAXDgUqveVmCqm5Ig",
       "published_at": "2026-09-27T17:16:07Z",
-      "metadata_source": "YouTube Data API via GitHub monitor run 36347223738"
+      "metadata_source": "YouTube Data API via GitHub monitor run 36347223738",
+      "performance_date": "2026-09-26",
+      "performance_round": "prelims",
+      "event_confirmation_source": "User explicitly confirmed Sept 27, 2026 that nPIlu4dpq-c is Melissa prelims, not finals"
     }
   ],
   "show_terms": [
