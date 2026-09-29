@@ -5,7 +5,7 @@ from candidate_rules import triage_video
 
 CONFIG = {
     "negative_terms": ["church", "worship", "prayer", "volleyball", "soccer"],
-    "other_school_terms": ["Klein Collins High School", "Klein Forest High School"],
+    "other_school_terms": ["Klein Collins High School", "Klein Forest High School", "North Forney High School"],
 }
 CONFIRMED_CHANNEL = "UCZN36ExAXDgUqveVmCqm5Ig"
 
@@ -32,6 +32,13 @@ class RealWorldHebronCases(unittest.TestCase):
     def test_prior_false_positive_other_marching_band(self):
         self.assertEqual(classify("Klein Collins High School Marching Band vs Klein Forest",
                                   9, description="Danny Elfman"), "ignore")
+
+    def test_north_forney_from_confirmed_uploader_is_unrelated(self):
+        self.assertEqual(classify(
+            "North Forney High School Band Performance Absolute Zero! Melissa marching showcase Sep/26/2026",
+            12,
+            description="We played our show and made finals; Hebron high school placed first",
+            channel=CONFIRMED_CHANNEL), "ignore")
 
     def test_prior_false_positive_church(self):
         self.assertEqual(classify("Hebron Church Sunday Worship 2026", 12), "ignore")
