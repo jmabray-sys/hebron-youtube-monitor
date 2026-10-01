@@ -105,6 +105,7 @@
     "1wd9DlSBW3E",
     "1wsofCaPLhg",
     "1xOrnJxa3YM",
+    "1xrLQIS6dr8",
     "1zlwaWFdATw",
     "201OvxYcTHQ",
     "23uE3bfaACw",
@@ -1997,6 +1998,7 @@
     "sntT1m69_VU",
     "soZhaRzjsS4",
     "somAtqWUhsU",
+    "stYNOQWYC4c",
     "swICuJh5Tk0",
     "szCVQUES4Q0",
     "t-moAmzCd-o",
@@ -2254,7 +2256,7 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-20T00:53:11.170292+00:00",
-      "last_reinforced_at": "2026-10-01T16:51:18.465916+00:00",
+      "last_reinforced_at": "2026-10-01T17:11:50.033296+00:00",
       "next_retry_at": "2026-10-01T20:58:15.722492+00:00",
       "last_channel_error": "Uploads playlist returned HTTP 404"
     },
@@ -2265,9 +2267,9 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-27T20:13:35.151346+00:00",
-      "last_reinforced_at": "2026-10-01T16:51:18.465916+00:00",
+      "last_reinforced_at": "2026-10-01T17:11:50.033296+00:00",
       "uploads_playlist_id": "UUZN36ExAXDgUqveVmCqm5Ig",
-      "last_checked_at": "2026-10-01T16:51:18.465916+00:00"
+      "last_checked_at": "2026-10-01T17:11:50.033296+00:00"
     },
     {
       "channel_id": "UCCpCyl6gZLBhGmat_f5bvjQ",
@@ -2276,9 +2278,9 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-27T22:55:11.020113+00:00",
-      "last_reinforced_at": "2026-10-01T16:51:18.465916+00:00",
+      "last_reinforced_at": "2026-10-01T17:11:50.033296+00:00",
       "uploads_playlist_id": "UUCpCyl6gZLBhGmat_f5bvjQ",
-      "last_checked_at": "2026-10-01T16:51:18.465916+00:00"
+      "last_checked_at": "2026-10-01T17:11:50.033296+00:00"
     },
     {
       "channel_id": "UCdK0-KLJ2BUqN4YtzhpaVOw",
@@ -2323,9 +2325,9 @@
     "2026-09-28": 90,
     "2026-09-29": 90,
     "2026-09-30": 90,
-    "2026-10-01": 39
+    "2026-10-01": 40
   },
-  "last_run": "2026-10-01T16:51:18.465916+00:00",
-  "run_count": 870,
+  "last_run": "2026-10-01T17:11:50.033296+00:00",
+  "run_count": 871,
   "channel_cleanup_v1": true
 }
