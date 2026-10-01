@@ -77,6 +77,7 @@
     "1L-puIH-7kc",
     "1P7LNdWPqmY",
     "1RrSEkBOr2E",
+    "1SePa5vMZLs",
     "1TOHLzBdC-4",
     "1UAr35COsOA",
     "1X4Das0dx18",
@@ -280,6 +281,7 @@
     "6caZQdmdQEw",
     "6e6cImOUTIs",
     "6iVE9-HEqbA",
+    "6jD2nuVJNwo",
     "6jVR6OTr-rA",
     "6ks8aXJsCBQ",
     "6lAbolEuXjI",
@@ -814,6 +816,7 @@
     "Lg3tpP2amwk",
     "LhNdElROvZ0",
     "LkliIF_f9R8",
+    "LlblCANIG_I",
     "LoOL4hQzxzc",
     "LourUwMrd_g",
     "LqxAMDsuT5w",
@@ -1538,6 +1541,7 @@
     "fsUHgqtU1G4",
     "fu1cwA6r-tY",
     "fuh23B4yAxw",
+    "fuzYWc5JYPY",
     "fwEcQdOmO8c",
     "g0d5c0jfhJI",
     "g1SSdCFV3Xo",
@@ -2229,7 +2233,7 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-20T00:53:11.170292+00:00",
-      "last_reinforced_at": "2026-10-01T08:44:06.382098+00:00",
+      "last_reinforced_at": "2026-10-01T08:59:40.339848+00:00",
       "next_retry_at": "2026-10-01T20:58:15.722492+00:00",
       "last_channel_error": "Uploads playlist returned HTTP 404"
     },
@@ -2240,9 +2244,9 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-27T20:13:35.151346+00:00",
-      "last_reinforced_at": "2026-10-01T08:44:06.382098+00:00",
+      "last_reinforced_at": "2026-10-01T08:59:40.339848+00:00",
       "uploads_playlist_id": "UUZN36ExAXDgUqveVmCqm5Ig",
-      "last_checked_at": "2026-10-01T08:44:06.382098+00:00"
+      "last_checked_at": "2026-10-01T08:59:40.339848+00:00"
     },
     {
       "channel_id": "UCCpCyl6gZLBhGmat_f5bvjQ",
@@ -2251,9 +2255,9 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-27T22:55:11.020113+00:00",
-      "last_reinforced_at": "2026-10-01T08:44:06.382098+00:00",
+      "last_reinforced_at": "2026-10-01T08:59:40.339848+00:00",
       "uploads_playlist_id": "UUCpCyl6gZLBhGmat_f5bvjQ",
-      "last_checked_at": "2026-10-01T08:44:06.382098+00:00"
+      "last_checked_at": "2026-10-01T08:59:40.339848+00:00"
     },
     {
       "channel_id": "UCdK0-KLJ2BUqN4YtzhpaVOw",
@@ -2264,7 +2268,7 @@
       "added_at": "2026-09-28T08:22:22.169841+00:00",
       "last_reinforced_at": "2026-09-28T08:22:22.169841+00:00",
       "uploads_playlist_id": "UUdK0-KLJ2BUqN4YtzhpaVOw",
-      "last_checked_at": "2026-10-01T07:45:25.770093+00:00"
+      "last_checked_at": "2026-10-01T08:59:40.339848+00:00"
     },
     {
       "channel_id": "UCiUW819C7EbfhuuLE6X835A",
@@ -2275,7 +2279,7 @@
       "added_at": "2026-09-28T08:22:22.169841+00:00",
       "last_reinforced_at": "2026-09-28T08:22:22.169841+00:00",
       "uploads_playlist_id": "UUiUW819C7EbfhuuLE6X835A",
-      "last_checked_at": "2026-10-01T07:45:25.770093+00:00"
+      "last_checked_at": "2026-10-01T08:59:40.339848+00:00"
     },
     {
       "channel_id": "UCK0V8xBIxBghPAvnWW2BDjg",
@@ -2286,7 +2290,7 @@
       "added_at": "2026-09-29T17:34:44.210617+00:00",
       "last_reinforced_at": "2026-09-29T17:34:44.210617+00:00",
       "uploads_playlist_id": "UUK0V8xBIxBghPAvnWW2BDjg",
-      "last_checked_at": "2026-10-01T07:45:25.770093+00:00"
+      "last_checked_at": "2026-10-01T08:59:40.339848+00:00"
     }
   ],
   "query_cursor": 16,
@@ -2298,9 +2302,9 @@
     "2026-09-28": 90,
     "2026-09-29": 90,
     "2026-09-30": 90,
-    "2026-10-01": 8
+    "2026-10-01": 9
   },
-  "last_run": "2026-10-01T08:44:06.382098+00:00",
-  "run_count": 845,
+  "last_run": "2026-10-01T08:59:40.339848+00:00",
+  "run_count": 846,
   "channel_cleanup_v1": true
 }
