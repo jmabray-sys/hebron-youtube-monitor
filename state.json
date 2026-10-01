@@ -213,6 +213,7 @@
     "4hsMKdRvrjw",
     "4kM2Mmrw3ww",
     "4lbU1Jz10j4",
+    "4roXxMaAL_4",
     "4sgvqI4YhvA",
     "4tpP9ltgM8Y",
     "4uHRHQDOI8Y",
@@ -336,6 +337,7 @@
     "7uIv5nFwQjc",
     "7v01WmKs0us",
     "7vlO_kd9OUA",
+    "7vv1TTpHrNs",
     "7wjbgmhoWbg",
     "80wRS44I5iY",
     "82BZD9jeMhI",
@@ -349,6 +351,7 @@
     "8O_0S_nwzT4",
     "8SLn6d_eZOU",
     "8SZkSN77nfQ",
+    "8VoE138Lck8",
     "8WZoUqRba78",
     "8Y4gi9ZvgvA",
     "8Y_tCkdOD1o",
@@ -456,6 +459,7 @@
     "BSV_4WC9-AI",
     "BUheaFwTqeE",
     "BWHWmbYcH0w",
+    "B_9cHRsKv2U",
     "BdNAVcTq4Nw",
     "BfDNNYB5ALY",
     "BfIlOQANAc4",
@@ -486,6 +490,7 @@
     "CE4vpFp1W88",
     "CFvZ8s_9Rng",
     "CIlW8Vnp2dg",
+    "CJTSHJvf9Tk",
     "CJZO6teqW1E",
     "COSFGxHQQEk",
     "CP-Zw5L3kWc",
@@ -505,6 +510,7 @@
     "CjOtZz21otc",
     "CnJPVXUEVpY",
     "Cnwes3TDOr4",
+    "CsciK7OL-Tw",
     "CwG22Ruu72o",
     "CyI10xBSakY",
     "D0CL0M66wN4",
@@ -685,6 +691,7 @@
     "HR0UOZM3nsE",
     "HRdqsgdk1Sk",
     "HUWeEKdhybI",
+    "HVvZ_DK18pU",
     "HWK0XkXJLSw",
     "HZKDkBrlITo",
     "H_dYvCEFvng",
@@ -932,6 +939,7 @@
     "OMg0Vbr_G_M",
     "ONv7KpaDVxQ",
     "OPWY44OeL1U",
+    "OPkZClunWeY",
     "OQSSXZ9iGO8",
     "OT3c--o-jEk",
     "OVLuHi5zsJ4",
@@ -992,6 +1000,7 @@
     "Q39LxVybDU4",
     "Q4CFwWdzqzU",
     "Q7joignBUdQ",
+    "Q8gdvHqWjag",
     "QHtJY2TYPNo",
     "QJIS8PRb61I",
     "QJsX_iUciZ4",
@@ -1052,6 +1061,7 @@
     "RxJFpS_pxjg",
     "S-Gb-vsh0MQ",
     "S3Ydv0BlohY",
+    "S4WoJv7gHbQ",
     "S7HMDtEUxjc",
     "S9XkYUyUOes",
     "SBT0a1Tttz8",
@@ -1341,6 +1351,7 @@
     "_RU_82AqS3w",
     "_YL6s6YDhHQ",
     "_Z6_wnXXH_A",
+    "__RMOJ8TZhs",
     "_av_Sxrk68I",
     "_ctQKrvB7yM",
     "_dKl7jqtVWA",
@@ -2044,6 +2055,7 @@
     "u5QgZ0ipkBE",
     "uDV_WcC1ic8",
     "uEi7Sesb7EQ",
+    "uFP_dmOAHBE",
     "uHgm9Wsftyc",
     "uKAQt4zGEh0",
     "uM2fWik9c1g",
@@ -2150,6 +2162,7 @@
     "x8npTj9tDu8",
     "xBJnWLjzh1Y",
     "xC_hQbRosJw",
+    "xG4iZj17JSE",
     "xI5AJOxbUZY",
     "xITxVIW6peo",
     "xJ6nXrrVvUc",
@@ -2225,6 +2238,7 @@
     "zLVgBAOtlB8",
     "zNP64xOf9xo",
     "zNowciqpjvE",
+    "zPGCxRMbX58",
     "zQYEC574MgY",
     "zRMJ0eaWePk",
     "zRUJIUT3pl8",
@@ -2256,7 +2270,7 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-20T00:53:11.170292+00:00",
-      "last_reinforced_at": "2026-10-01T18:39:27.875250+00:00",
+      "last_reinforced_at": "2026-10-01T18:56:36.761246+00:00",
       "next_retry_at": "2026-10-01T20:58:15.722492+00:00",
       "last_channel_error": "Uploads playlist returned HTTP 404"
     },
@@ -2267,9 +2281,9 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-27T20:13:35.151346+00:00",
-      "last_reinforced_at": "2026-10-01T18:39:27.875250+00:00",
+      "last_reinforced_at": "2026-10-01T18:56:36.761246+00:00",
       "uploads_playlist_id": "UUZN36ExAXDgUqveVmCqm5Ig",
-      "last_checked_at": "2026-10-01T18:39:27.875250+00:00"
+      "last_checked_at": "2026-10-01T18:56:36.761246+00:00"
     },
     {
       "channel_id": "UCCpCyl6gZLBhGmat_f5bvjQ",
@@ -2278,9 +2292,9 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-27T22:55:11.020113+00:00",
-      "last_reinforced_at": "2026-10-01T18:39:27.875250+00:00",
+      "last_reinforced_at": "2026-10-01T18:56:36.761246+00:00",
       "uploads_playlist_id": "UUCpCyl6gZLBhGmat_f5bvjQ",
-      "last_checked_at": "2026-10-01T18:39:27.875250+00:00"
+      "last_checked_at": "2026-10-01T18:56:36.761246+00:00"
     },
     {
       "channel_id": "UCdK0-KLJ2BUqN4YtzhpaVOw",
@@ -2316,7 +2330,7 @@
       "last_checked_at": "2026-10-01T18:39:27.875250+00:00"
     }
   ],
-  "query_cursor": 24,
+  "query_cursor": 25,
   "daily_search_ledger": {
     "2026-09-24": 90,
     "2026-09-25": 90,
@@ -2325,9 +2339,9 @@
     "2026-09-28": 90,
     "2026-09-29": 90,
     "2026-09-30": 90,
-    "2026-10-01": 45
+    "2026-10-01": 47
   },
-  "last_run": "2026-10-01T18:39:27.875250+00:00",
-  "run_count": 875,
+  "last_run": "2026-10-01T18:56:36.761246+00:00",
+  "run_count": 876,
   "channel_cleanup_v1": true
 }
