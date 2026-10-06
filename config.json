@@ -56,6 +56,104 @@
       "event_confirmation_source": "User explicitly confirmed p7zK4spKw0o shows Melissa prelims",
       "channel_id": "UCCpCyl6gZLBhGmat_f5bvjQ",
       "channel_title": "La'ZenTakigawa"
+    },
+    {
+      "platform": "YouTube",
+      "video_id": "PfoJ1D6VoQg",
+      "url": "https://www.youtube.com/watch?v=PfoJ1D6VoQg",
+      "event": "2026-09-26 Melissa Marching Showcase prelims",
+      "confirmed": true,
+      "performance_date": "2026-09-26",
+      "performance_round": "prelims",
+      "confirmation_source": "User explicitly confirmed Melissa prelims"
+    },
+    {
+      "platform": "YouTube",
+      "video_id": "IFBr9NVAsC4",
+      "url": "https://www.youtube.com/watch?v=IFBr9NVAsC4",
+      "event": "2026-09-26 Melissa Marching Showcase finals",
+      "confirmed": true,
+      "performance_date": "2026-09-26",
+      "performance_round": "finals",
+      "confirmation_source": "User explicitly confirmed Melissa finals"
+    },
+    {
+      "platform": "YouTube",
+      "video_id": "8J-Er0xkHoc",
+      "url": "https://www.youtube.com/watch?v=8J-Er0xkHoc",
+      "event": "2026-09-26 Melissa Marching Showcase finals",
+      "confirmed": true,
+      "performance_date": "2026-09-26",
+      "performance_round": "finals",
+      "confirmation_source": "User explicitly confirmed Melissa finals"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/reel/Dd0Cp8oAy8D/",
+      "post_id": "Dd0Cp8oAy8D",
+      "event": "2026-09-26 Melissa Marching Showcase finals",
+      "confirmed": true,
+      "performance_date": "2026-09-26",
+      "performance_round": "finals",
+      "confirmation_source": "User explicitly confirmed Melissa finals"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/reel/Dd-qZ3Xujeh/",
+      "post_id": "Dd-qZ3Xujeh",
+      "event": "2026 football-game performance",
+      "confirmed": true,
+      "confirmation_source": "User explicitly confirmed football-game performance"
+    },
+    {
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/t/ZP8we12QG/",
+      "post_id": "ZP8we12QG",
+      "event": "2026-09-26 Melissa Marching Showcase prelims",
+      "confirmed": true,
+      "performance_date": "2026-09-26",
+      "performance_round": "prelims",
+      "confirmation_source": "User explicitly confirmed Melissa prelims"
+    },
+    {
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/t/ZTyfBv3ba/",
+      "post_id": "ZTyfBv3ba",
+      "event": "2026-09-26 Melissa Marching Showcase prelims",
+      "confirmed": true,
+      "performance_date": "2026-09-26",
+      "performance_round": "prelims",
+      "confirmation_source": "User explicitly confirmed Melissa prelims"
+    },
+    {
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/t/ZPL8RAhwf/",
+      "post_id": "ZPL8RAhwf",
+      "event": "2026-09-26 Melissa Marching Showcase prelims",
+      "confirmed": true,
+      "performance_date": "2026-09-26",
+      "performance_round": "prelims",
+      "confirmation_source": "User explicitly confirmed Melissa prelims"
+    },
+    {
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/t/ZPLNBjBwU/",
+      "post_id": "ZPLNBjBwU",
+      "event": "2026-09-26 Melissa Marching Showcase prelims",
+      "confirmed": true,
+      "performance_date": "2026-09-26",
+      "performance_round": "prelims",
+      "confirmation_source": "User explicitly confirmed Melissa prelims"
+    },
+    {
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/t/ZPLNM5NNg/",
+      "post_id": "ZPLNM5NNg",
+      "event": "2026-09-26 Melissa Marching Showcase prelims",
+      "confirmed": true,
+      "performance_date": "2026-09-26",
+      "performance_round": "prelims",
+      "confirmation_source": "User explicitly confirmed Melissa prelims"
     }
   ],
   "show_terms": [
@@ -146,13 +244,49 @@
     {
       "date": "2026-10-02",
       "name": "Hebron at Marcus",
-      "location": "Marcus",
-      "opponent": "Marcus"
+      "location": "Marcus Marauders Stadium, Flower Mound",
+      "opponent": "Marcus",
+      "discovery_queries": [
+        "Hebron Marcus marching band 2026",
+        "Hebron at Marcus halftime 2026",
+        "Marcus vs Hebron halftime band 2026",
+        "Marcus Hebron band football October 2 2026",
+        "Hebron Hawks Marcus Marauders band",
+        "Marcus Marauders stadium marching band October 2026",
+        "Hebron Somewhere in Time Marcus",
+        "Hebron band football game performance Marcus"
+      ],
+      "review_terms": [
+        "Marcus",
+        "Marcus Marauders",
+        "Flower Mound",
+        "halftime"
+      ]
     },
     {
       "date": "2026-10-03",
       "name": "McKinney Marching Invitational",
-      "location": "McKinney"
+      "location": "McKinney ISD District-wide Stadium",
+      "prelims_only": true,
+      "discovery_queries": [
+        "Hebron McKinney Marching Invitational 2026",
+        "Hebron McKinney marching prelims 2026",
+        "Hebron McKinney band October 3 2026",
+        "McKinney Marching Invitational Hebron performance",
+        "McKinney marching contest spectator Hebron 2026",
+        "McKinney ISD stadium Hebron marching band",
+        "Hebron Somewhere in Time McKinney",
+        "Hebron McKinney prelims spectator video"
+      ],
+      "review_terms": [
+        "McKinney",
+        "McKinney Marching Invitational",
+        "McKinney ISD District-wide Stadium",
+        "prelims"
+      ],
+      "notes": [
+        "2026 contest was prelims-only due to weather; do not search for or classify a McKinney finals performance."
+      ]
     },
     {
       "date": "2026-10-09",
@@ -163,7 +297,22 @@
     {
       "date": "2026-10-10",
       "name": "BOA North Texas Regional",
-      "location": "Children's Health Stadium"
+      "location": "Children's Health Stadium",
+      "discovery_queries": [
+        "Hebron BOA North Texas 2026",
+        "Hebron BOA Prosper 2026",
+        "Hebron Bands of America North Texas 2026",
+        "Hebron Somewhere in Time BOA Prosper",
+        "Hebron Children’s Health Stadium marching October 10 2026",
+        "Hebron BOA North Texas prelims 2026",
+        "Hebron BOA North Texas finals 2026"
+      ],
+      "review_terms": [
+        "BOA North Texas",
+        "BOA Prosper",
+        "Children's Health Stadium",
+        "Bands of America"
+      ]
     },
     {
       "date": "2026-11-06",
@@ -328,6 +477,12 @@
       "Pace YouTube search calls throughout the Pacific quota day; reserve coverage for afternoon and evening uploads.",
       "Differentiate Melissa prelims and finals unless the specific recording is identified.",
       "Rebase and retry state-only GitHub commits to avoid false failure emails during configuration updates."
+    ],
+    "2026-10-06": [
+      "Synchronize user-confirmed references into config so verified YouTube uploaders become direct playlist-watch seeds.",
+      "Marcus and McKinney now have dedicated recent-event discovery queries; McKinney is prelims-only due weather.",
+      "Preserve user-confirmed social references even though the GitHub monitor does not directly crawl TikTok or Instagram.",
+      "Use confirmed uploader playlist polling as the fast path because YouTube documents search-index delays and recommends uploads playlists for reliable recent channel uploads."
     ]
   },
   "discovery_strategy": {
