@@ -21,7 +21,7 @@ WATCH_THRESHOLD = int(os.environ.get("WATCH_THRESHOLD", "4"))
 SEARCHES_PER_RUN = int(os.environ.get("SEARCHES_PER_RUN", "3"))
 LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "96"))
 DAILY_SEARCH_BUDGET = int(os.environ.get("DAILY_SEARCH_BUDGET", "90"))
-MAX_WATCH_CHANNELS = int(os.environ.get("MAX_WATCH_CHANNELS", "40"))
+MAX_WATCH_CHANNELS = int(os.environ.get("MAX_WATCH_CHANNELS", "100"))
 CHANNEL_LOOKBACK_HOURS = int(os.environ.get("CHANNEL_LOOKBACK_HOURS", "336"))
 CANDIDATE_CHECK_MINUTES = int(os.environ.get("CANDIDATE_CHECK_MINUTES", "60"))
 
@@ -354,10 +354,27 @@ for video in details:
         ALERT_THRESHOLD, WATCH_THRESHOLD)
     row["triage_reasons"] = triage_reasons
 
-    # Only explicit Hebron performance uploads create candidate channel watches.
+    # Explicit Hebron performance uploads create candidate channel watches.
     if category == "alert" and score >= WATCH_THRESHOLD and vid not in confirmed_ids:
         if add_watch_channel(row["channel_id"], row["channel"], vid,
                              "explicit Hebron band evidence; " + ", ".join(triage_reasons)):
+            watch_additions.append(row)
+            known_channel_ids.add(row["channel_id"])
+
+    # Free discovery expansion: a person posting *any* marching-band video from a
+    # current event is a useful temporary lead. Watch their subsequent uploads
+    # without treating the current video as Hebron or generating an alert.
+    haystack = normalize(" ".join([
+        s.get("title", ""), s.get("description", ""), s.get("channelTitle", "")
+    ]))
+    event_hit = next((term for term in recent_review_terms
+                      if term and normalize(term) in haystack), None)
+    band_hit = next((term for term in config.get("strong_band_terms", [])
+                     if normalize(term) in haystack), None)
+    if event_hit and band_hit and row["channel_id"] not in confirmed_channel_ids:
+        if add_watch_channel(row["channel_id"], row["channel"], vid,
+                             f"uploader posting marching footage from current event: {event_hit}",
+                             "event_candidate"):
             watch_additions.append(row)
             known_channel_ids.add(row["channel_id"])
 
