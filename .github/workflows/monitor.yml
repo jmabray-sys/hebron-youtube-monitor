@@ -44,7 +44,8 @@ jobs:
           LOOKBACK_HOURS: ${{ vars.LOOKBACK_HOURS || '72' }}
           DAILY_SEARCH_BUDGET: ${{ vars.DAILY_SEARCH_BUDGET || '90' }}
           CHANNEL_LOOKBACK_HOURS: ${{ vars.CHANNEL_LOOKBACK_HOURS || '336' }}
-          CANDIDATE_CHECK_MINUTES: ${{ vars.CANDIDATE_CHECK_MINUTES || '60' }}
+          CANDIDATE_CHECK_MINUTES: ${{ vars.CANDIDATE_CHECK_MINUTES || '20' }}
+          MAX_WATCH_CHANNELS: ${{ vars.MAX_WATCH_CHANNELS || '100' }}
         shell: bash
         run: |
           set -o pipefail
