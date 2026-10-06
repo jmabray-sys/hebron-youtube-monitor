@@ -92,6 +92,7 @@
     "14vwa7hd8XU",
     "15ou-xrSgS4",
     "18iDx-B8WrA",
+    "1AmNPFcwgSU",
     "1CzTh2BmiTE",
     "1D4mp0E3Bx4",
     "1EiisgpeoLQ",
@@ -512,6 +513,7 @@
     "ANnDz-Wjmk8",
     "AOSu32w1B-g",
     "AP5OZVabQ9g",
+    "APFB92OkBeo",
     "APTDLQH1Q2g",
     "APXNfIWpQGA",
     "AQ6qvH7oTAQ",
@@ -540,6 +542,7 @@
     "AnT-P95bWuo",
     "ApzU4ASugD4",
     "AqCHADyZL0k",
+    "Aqn4D46BWrk",
     "AsxrGm50fbE",
     "AtC3hFLJsDQ",
     "AtbfoY6ShEQ",
@@ -2775,7 +2778,7 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-20T00:53:11.170292+00:00",
-      "last_reinforced_at": "2026-10-06T14:02:27.878898+00:00",
+      "last_reinforced_at": "2026-10-06T14:26:39.449284+00:00",
       "next_retry_at": "2026-10-07T02:35:20.429475+00:00",
       "last_channel_error": "Uploads playlist returned HTTP 404"
     },
@@ -2786,9 +2789,9 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-27T20:13:35.151346+00:00",
-      "last_reinforced_at": "2026-10-06T14:02:27.878898+00:00",
+      "last_reinforced_at": "2026-10-06T14:26:39.449284+00:00",
       "uploads_playlist_id": "UUZN36ExAXDgUqveVmCqm5Ig",
-      "last_checked_at": "2026-10-06T14:02:27.878898+00:00"
+      "last_checked_at": "2026-10-06T14:26:39.449284+00:00"
     },
     {
       "channel_id": "UCCpCyl6gZLBhGmat_f5bvjQ",
@@ -2797,9 +2800,9 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-27T22:55:11.020113+00:00",
-      "last_reinforced_at": "2026-10-06T14:02:27.878898+00:00",
+      "last_reinforced_at": "2026-10-06T14:26:39.449284+00:00",
       "uploads_playlist_id": "UUCpCyl6gZLBhGmat_f5bvjQ",
-      "last_checked_at": "2026-10-06T14:02:27.878898+00:00"
+      "last_checked_at": "2026-10-06T14:26:39.449284+00:00"
     },
     {
       "channel_id": "UCdK0-KLJ2BUqN4YtzhpaVOw",
@@ -2835,7 +2838,7 @@
       "last_checked_at": "2026-10-06T14:02:27.878898+00:00"
     }
   ],
-  "query_cursor": 76,
+  "query_cursor": 77,
   "daily_search_ledger": {
     "2026-09-29": 90,
     "2026-09-30": 90,
@@ -2844,9 +2847,9 @@
     "2026-10-03": 29,
     "2026-10-04": 90,
     "2026-10-05": 90,
-    "2026-10-06": 28
+    "2026-10-06": 30
   },
-  "last_run": "2026-10-06T14:02:27.878898+00:00",
-  "run_count": 1127,
+  "last_run": "2026-10-06T14:26:39.449284+00:00",
+  "run_count": 1128,
   "channel_cleanup_v1": true
 }
