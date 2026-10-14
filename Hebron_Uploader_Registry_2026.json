@@ -1,0 +1,585 @@
+{
+  "project": "Hebron High School Band 2026 Somewhere in Time",
+  "schema_version": 1,
+  "updated_at": "2026-10-13T21:46:47Z",
+  "channel_accounts": [
+    {
+      "platform": "YouTube",
+      "channel_id": "UC65ALr9CHkdsTJiGpu1QKdg",
+      "account_url": "https://www.youtube.com/channel/UC65ALr9CHkdsTJiGpu1QKdg",
+      "public_name": "OpenOcean93",
+      "confidence": "confirmed",
+      "source_video_id": "VQyGH1E8Z48",
+      "last_checked_at": null,
+      "notes": "uploads playlist 404; retry",
+      "watch_all_public_uploads_of_any_band": true,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "channel_id": "UCZN36ExAXDgUqveVmCqm5Ig",
+      "account_url": "https://www.youtube.com/channel/UCZN36ExAXDgUqveVmCqm5Ig",
+      "public_name": "steven smith",
+      "confidence": "confirmed",
+      "source_video_id": "nPIlu4dpq-c",
+      "last_checked_at": "2026-10-13T21:20:02.302073+00:00",
+      "notes": null,
+      "watch_all_public_uploads_of_any_band": true,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "channel_id": "UCCpCyl6gZLBhGmat_f5bvjQ",
+      "account_url": "https://www.youtube.com/channel/UCCpCyl6gZLBhGmat_f5bvjQ",
+      "public_name": "La'ZenTakigawa",
+      "confidence": "confirmed",
+      "source_video_id": "p7zK4spKw0o",
+      "last_checked_at": "2026-10-13T21:20:02.302073+00:00",
+      "notes": null,
+      "watch_all_public_uploads_of_any_band": true,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "channel_id": "UCiUW819C7EbfhuuLE6X835A",
+      "account_url": "https://www.youtube.com/channel/UCiUW819C7EbfhuuLE6X835A",
+      "public_name": "Rodrigo Figueredo",
+      "confidence": "candidate",
+      "source_video_id": "PfoJ1D6VoQg",
+      "last_checked_at": "2026-10-13T21:20:02.302073+00:00",
+      "notes": "GitHub state association; uploader independently unverified",
+      "watch_all_public_uploads_of_any_band": true,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "channel_id": "UCdK0-KLJ2BUqN4YtzhpaVOw",
+      "account_url": "https://www.youtube.com/channel/UCdK0-KLJ2BUqN4YtzhpaVOw",
+      "public_name": "topography",
+      "confidence": "candidate",
+      "source_video_id": "IFBr9NVAsC4",
+      "last_checked_at": "2026-10-13T21:20:02.302073+00:00",
+      "notes": "GitHub state association; uploader independently unverified",
+      "watch_all_public_uploads_of_any_band": true,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "channel_id": "UCK0V8xBIxBghPAvnWW2BDjg",
+      "account_url": "https://www.youtube.com/channel/UCK0V8xBIxBghPAvnWW2BDjg",
+      "public_name": "Soshanguve Brass Band - Patrick Khutso Maapola",
+      "confidence": "candidate",
+      "source_video_id": "ECVdb6uSu4Q",
+      "last_checked_at": "2026-10-13T21:20:02.302073+00:00",
+      "notes": "clip content unverified",
+      "watch_all_public_uploads_of_any_band": true,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "channel_id": "UCMCxXgbueha0TTnytWM4qcQ",
+      "account_url": "https://www.youtube.com/channel/UCMCxXgbueha0TTnytWM4qcQ",
+      "public_name": "BOX5 Media",
+      "confidence": "event_candidate",
+      "source_video_id": "Uya4JxvX5Os",
+      "last_checked_at": "2026-10-13T21:20:02.302073+00:00",
+      "notes": "BOA event footage; no confirmed Hebron clip",
+      "watch_all_public_uploads_of_any_band": true,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "channel_id": "UCtJ_jBmRlgVorUlFTSzr6JQ",
+      "account_url": "https://www.youtube.com/channel/UCtJ_jBmRlgVorUlFTSzr6JQ",
+      "public_name": "Package15Media",
+      "confidence": "event_candidate",
+      "source_video_id": "mVfmVNEP6q4",
+      "last_checked_at": "2026-10-13T13:04:16Z",
+      "notes": "BOA Prosper 2026 coverage of other bands; uploads playlist HTTP 404, retry after 2026-10-14T13:33:32Z. Public TxBands 2026-10-13 search listing attributes a Hebron 2025 Field Trip UIL State Finals performance to Package15Media, evidence of prior Hebron coverage; no new Hebron 2026 video confirmed.",
+      "watch_all_public_uploads_of_any_band": true,
+      "new_upload_ids": [],
+      "prior_hebron_coverage": {
+        "season": 2025,
+        "event": "UIL 6A State Finals",
+        "show": "Field Trip",
+        "evidence_url": "https://www.txbands.com/bands/hebron",
+        "evidence_type": "public indexed video listing, direct YouTube post not independently fetched",
+        "confidence": "public attribution; video ID unresolved"
+      }
+    },
+    {
+      "platform": "TikTok",
+      "public_handle": "@anotherdcinerd",
+      "account_url": "https://www.tiktok.com/@anotherdcinerd",
+      "confidence": "handle visible in canonical submitted URL; public account contents not independently fetched",
+      "source_video_id": "7690397718878997791",
+      "last_checked_at": null,
+      "notes": "Monitor all public uploads of any band; account access/availability unverified",
+      "watch_all_public_uploads_of_any_band": true,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "public_handle": "@bvrasshead._",
+      "account_url": "https://www.tiktok.com/@bvrasshead._",
+      "confidence": "handle visible in canonical submitted URL; public account contents not independently fetched",
+      "source_video_id": "7692884015379909919",
+      "last_checked_at": null,
+      "notes": "Monitor all public uploads of any band; account access/availability unverified",
+      "watch_all_public_uploads_of_any_band": true,
+      "new_upload_ids": []
+    }
+  ],
+  "video_references": [
+    {
+      "platform": "YouTube",
+      "id": "nPIlu4dpq-c",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=nPIlu4dpq-c",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "prelims",
+      "classification_source": "user-confirmed",
+      "public_uploader": {
+        "channel_id": "UCZN36ExAXDgUqveVmCqm5Ig",
+        "account_url": "https://www.youtube.com/channel/UCZN36ExAXDgUqveVmCqm5Ig",
+        "public_name": "steven smith",
+        "association_confidence": "confirmed"
+      },
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "id": "p7zK4spKw0o",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=p7zK4spKw0o",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "prelims",
+      "classification_source": "user-confirmed",
+      "public_uploader": {
+        "channel_id": "UCCpCyl6gZLBhGmat_f5bvjQ",
+        "account_url": "https://www.youtube.com/channel/UCCpCyl6gZLBhGmat_f5bvjQ",
+        "public_name": "La'ZenTakigawa",
+        "association_confidence": "confirmed"
+      },
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "id": "PfoJ1D6VoQg",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=PfoJ1D6VoQg",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "prelims",
+      "classification_source": "user-confirmed",
+      "public_uploader": {
+        "channel_id": "UCiUW819C7EbfhuuLE6X835A",
+        "account_url": "https://www.youtube.com/channel/UCiUW819C7EbfhuuLE6X835A",
+        "public_name": "Rodrigo Figueredo",
+        "association_confidence": "candidate"
+      },
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZP8Tc1FCN",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZP8Tc1FCN/",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "prelims",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZP8we12QG",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZP8we12QG/",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "prelims",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZTyfBv3ba",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZTyfBv3ba/",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "prelims",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZPL8RAhwf",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZPL8RAhwf/",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "prelims",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZPLNBjBwU",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZPLNBjBwU/",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "prelims",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZPLNM5NNg",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZPLNM5NNg/",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "prelims",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZTyqDBhcw",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZTyqDBhcw/",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "prelims",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "id": "IFBr9NVAsC4",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=IFBr9NVAsC4",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "finals",
+      "classification_source": "user-confirmed",
+      "public_uploader": {
+        "channel_id": "UCdK0-KLJ2BUqN4YtzhpaVOw",
+        "account_url": "https://www.youtube.com/channel/UCdK0-KLJ2BUqN4YtzhpaVOw",
+        "public_name": "topography",
+        "association_confidence": "candidate"
+      },
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "id": "8J-Er0xkHoc",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=8J-Er0xkHoc",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "finals",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "Instagram",
+      "id": "Dd0Cp8oAy8D",
+      "canonical_or_short_url": "https://www.instagram.com/reel/Dd0Cp8oAy8D/",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "finals",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZPLBWwY35",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZPLBWwY35/",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "UNSPECIFIED",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZPLSJGX3Y",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZPLSJGX3Y/",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "UNSPECIFIED",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZPLSejy8D",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZPLSejy8D/",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-26 Melissa Marching Showcase",
+      "round": "UNSPECIFIED",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "id": "VQyGH1E8Z48",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=VQyGH1E8Z48",
+      "classification": "confirmed_hebron_show",
+      "event": "2026-09-19 Parent Preview",
+      "round": "preview",
+      "classification_source": "user-confirmed",
+      "public_uploader": {
+        "channel_id": "UC65ALr9CHkdsTJiGpu1QKdg",
+        "account_url": "https://www.youtube.com/channel/UC65ALr9CHkdsTJiGpu1QKdg",
+        "public_name": "OpenOcean93",
+        "association_confidence": "confirmed"
+      },
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "Instagram",
+      "id": "Dd-qZ3Xujeh",
+      "canonical_or_short_url": "https://www.instagram.com/reel/Dd-qZ3Xujeh/",
+      "classification": "confirmed_hebron_show",
+      "event": "2026 football game",
+      "round": "UNSPECIFIED",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "Instagram",
+      "id": "DdvNNSeuC9Q",
+      "canonical_or_short_url": "https://www.instagram.com/reel/DdvNNSeuC9Q/",
+      "classification": "confirmed_hebron_show",
+      "event": "UNVERIFIED",
+      "round": "UNSPECIFIED",
+      "classification_source": "user-confirmed show content Sep 26 per GitHub config",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "id": "s4nI9kSJZic",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=s4nI9kSJZic",
+      "classification": "music_only_not_show_video",
+      "event": "UNSPECIFIED",
+      "round": "not_applicable",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZP8wJspc7",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZP8wJspc7/",
+      "classification": "music_only_not_show_video",
+      "event": "UNSPECIFIED",
+      "round": "not_applicable",
+      "classification_source": "user-confirmed",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "Instagram",
+      "id": "DdzSSvrvUpt",
+      "canonical_or_short_url": "https://www.instagram.com/reel/DdzSSvrvUpt/",
+      "classification": "unverified_lead",
+      "event": "UNVERIFIED",
+      "round": "UNVERIFIED",
+      "classification_source": "monitor lead",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZTyAUcg6J",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZTyAUcg6J/",
+      "classification": "unverified_lead",
+      "event": "UNVERIFIED",
+      "round": "UNVERIFIED",
+      "classification_source": "monitor lead",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZP8TToa3a",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZP8TToa3a/",
+      "classification": "unverified_lead",
+      "event": "UNVERIFIED",
+      "round": "UNVERIFIED",
+      "classification_source": "monitor lead",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZTyAXakeR",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZTyAXakeR/",
+      "classification": "unverified_lead",
+      "event": "UNVERIFIED",
+      "round": "UNVERIFIED",
+      "classification_source": "monitor lead",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZTy5yaFp3",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZTy5yaFp3/",
+      "classification": "unverified_lead",
+      "event": "UNVERIFIED",
+      "round": "UNVERIFIED",
+      "classification_source": "monitor lead",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZPL1sBe6K",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZPL1sBe6K/",
+      "classification": "unverified_lead",
+      "event": "UNVERIFIED",
+      "round": "UNVERIFIED",
+      "classification_source": "monitor lead",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "id": "3ghj2dPWwq8",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=3ghj2dPWwq8",
+      "classification": "unverified_lead",
+      "event": "UNVERIFIED",
+      "round": "UNVERIFIED",
+      "classification_source": "monitor lead",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "YouTube",
+      "id": "ECVdb6uSu4Q",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=ECVdb6uSu4Q",
+      "classification": "unverified_lead",
+      "event": "UNVERIFIED",
+      "round": "UNVERIFIED",
+      "classification_source": "monitor lead",
+      "public_uploader": {
+        "channel_id": "UCK0V8xBIxBghPAvnWW2BDjg",
+        "account_url": "https://www.youtube.com/channel/UCK0V8xBIxBghPAvnWW2BDjg",
+        "public_name": "Soshanguve Brass Band - Patrick Khutso Maapola",
+        "association_confidence": "candidate"
+      },
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZTytW8bDQ",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZTytW8bDQ/",
+      "classification": "reviewed_non_show_ok_no_action",
+      "event": "not Hebron show",
+      "round": "not_applicable",
+      "classification_source": "user reviewed Oct 12; suppress alerts",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "7690397718878997791",
+      "canonical_or_short_url": "https://www.tiktok.com/@anotherdcinerd/video/7690397718878997791",
+      "classification": "music_only_not_show_video",
+      "event": "UNSPECIFIED",
+      "round": "not_applicable",
+      "classification_source": "user-reviewed",
+      "public_uploader": {
+        "handle": "@anotherdcinerd",
+        "account_url": "https://www.tiktok.com/@anotherdcinerd",
+        "association_confidence": "direct public URL"
+      },
+      "last_checked_at": null,
+      "new_upload_ids": []
+    },
+    {
+      "platform": "TikTok",
+      "id": "7692884015379909919",
+      "canonical_or_short_url": "https://www.tiktok.com/@bvrasshead._/video/7692884015379909919",
+      "classification": "unverified_lead",
+      "event": "UNVERIFIED",
+      "round": "UNVERIFIED",
+      "classification_source": "website submission 2026-10-09",
+      "public_uploader": {
+        "handle": "@bvrasshead._",
+        "account_url": "https://www.tiktok.com/@bvrasshead._",
+        "association_confidence": "direct public URL; content unverified"
+      },
+      "last_checked_at": null,
+      "new_upload_ids": []
+    }
+  ],
+  "public_account_relationships": [
+    {
+      "kind": "same_tiktok_uploader",
+      "clip_ids": [
+        "ZPLNBjBwU",
+        "ZPLNM5NNg"
+      ],
+      "confidence": "USER_CONFIRMED",
+      "handle": "UNRESOLVED"
+    },
+    {
+      "kind": "tiktok_youtube_uploader_relation",
+      "clip_ids": [
+        "ZTyfBv3ba"
+      ],
+      "confidence": "USER_CONFIRMED",
+      "public_account_ids": "UNRESOLVED"
+    }
+  ],
+  "watch_policy": {
+    "scope": "all new public uploads of any band",
+    "notify_only": "new credible independently discovered Hebron show footage",
+    "no_uploader_contact_or_takedown_without_approval": true,
+    "suppress_reviewed_non_show": [
+      "ZTytW8bDQ"
+    ]
+  },
+  "source_notes": "Compiled from user-confirmed classifications and GitHub config/state on Oct 13. Unresolved short links do not identify accounts. GitHub channel candidate associations are not independent confirmation. Last checked only populated where evidenced by GitHub state. Do not treat every account as checked directly by this process. Oct 13 21:46Z: synchronized six YouTube channel last_checked_at values from latest GitHub state (21:20Z), registered two previously known TikTok handles as explicit channel_accounts without claiming direct check, and noted indexed 2025 Hebron video attribution to Package15Media."
+}
