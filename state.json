@@ -112,6 +112,7 @@
     "0hdziClOONs",
     "0hiv3cSr6cg",
     "0m4AdatYEMc",
+    "0mHwg9cmsjs",
     "0mkssUAkhkk",
     "0nM4d7qnjCk",
     "0oNcqOVuEBs",
@@ -143,6 +144,7 @@
     "1D4mp0E3Bx4",
     "1EiisgpeoLQ",
     "1FYMD7GbMzE",
+    "1JimKuL9X04",
     "1KRMU1F6dz8",
     "1L-puIH-7kc",
     "1M2chYzS8Ds",
@@ -542,6 +544,7 @@
     "7MFwP7X8UAY",
     "7MJgC4dFoyc",
     "7MQwUB06FtU",
+    "7N4AxNywU8I",
     "7NFuviYzIQE",
     "7OWN2RgY-CA",
     "7OZAkXud1Rs",
@@ -956,6 +959,7 @@
     "DxaZHNvSWhQ",
     "Dy8AAhvpXxk",
     "DydrALPEP5Q",
+    "Dyep5I-TkPY",
     "E0GD8djPhSo",
     "E1I-KXHDAjY",
     "E1nGTL7CwXU",
@@ -1130,6 +1134,7 @@
     "Gg_S5Fwg_EA",
     "Ggc7kT1GjSY",
     "Gh2ddfRiK4U",
+    "GhoavKtUgf4",
     "GilgItHJHyM",
     "GixabFXlzeY",
     "GjgCOoU5OlM",
@@ -2245,6 +2250,7 @@
     "YwXT5SDjRFY",
     "YxAiU1ky19w",
     "YyfoFNBqv7g",
+    "Z-4EuUD_nxY",
     "Z-GJdybMcQU",
     "Z-o4CQ1lynM",
     "Z1-uzHqe7KI",
@@ -2614,6 +2620,7 @@
     "ddCzr11U5VM",
     "deUr5NUtPEw",
     "dgOPVwo5jts",
+    "dgyiybWhiG0",
     "dhbAIPl-xAg",
     "diVHzL-KX10",
     "dnxYtLo3Kpw",
@@ -3048,6 +3055,7 @@
     "kkIfBKPsZ2E",
     "klh_yXyR9dk",
     "kmZ5wy1KEJI",
+    "kmfxzzvpeGg",
     "knBPYEeeYdY",
     "kpPRIjd9VjI",
     "kqO3vAiwBZc",
@@ -3056,6 +3064,7 @@
     "kvC7DfllpAA",
     "kvLChToGD4s",
     "kxOh5odDL-0",
+    "kykS7jE4J5w",
     "l22NSvkutKs",
     "l2fOf2Evcaw",
     "l2xjIgZBwNo",
@@ -3153,6 +3162,7 @@
     "mgjnoEOvDGE",
     "mk4mVOA6iC8",
     "ml4AIOUjTK4",
+    "mmIkuZThsF8",
     "mn1XdCVn_jg",
     "mo2CTwXOzl0",
     "mqSUEejl3sE",
@@ -3339,6 +3349,7 @@
     "pSuKpRIhb1g",
     "pT3Vro7ugqU",
     "pTOj1fHSezA",
+    "pTRPzrEBeAk",
     "pVq0vn07fN4",
     "pW98sphCXno",
     "pWDBnyoLlUI",
@@ -3608,6 +3619,7 @@
     "tnTw2P8HDcA",
     "tnWikrPJcd8",
     "toMc7vpDBs8",
+    "toxfX5qbnGc",
     "tq0vsyBcvos",
     "tq3pvepyjR8",
     "tuzSTvtaAmw",
@@ -3636,6 +3648,7 @@
     "uHgm9Wsftyc",
     "uHq8n7qZ0J4",
     "uKAQt4zGEh0",
+    "uL35_0KsTj8",
     "uLWyx2fHe6g",
     "uLol9Q44Uvs",
     "uLsVWBeY1N4",
@@ -3762,6 +3775,7 @@
     "wH2_Zv5HXH0",
     "wHDAjnLBLHE",
     "wHKhcxMa2cM",
+    "wHfUUrdli6o",
     "wHp_KeR72qA",
     "wJKSVILiDo0",
     "wJOu4-zkM3Q",
@@ -3986,8 +4000,8 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-20T00:53:11.170292+00:00",
-      "last_reinforced_at": "2026-10-18T04:57:04.022987+00:00",
-      "next_retry_at": "2026-10-18T05:19:28.866730+00:00",
+      "last_reinforced_at": "2026-10-18T05:22:01.160121+00:00",
+      "next_retry_at": "2026-10-19T05:22:01.160121+00:00",
       "last_channel_error": "Uploads playlist returned HTTP 404"
     },
     {
@@ -3997,9 +4011,9 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-27T20:13:35.151346+00:00",
-      "last_reinforced_at": "2026-10-18T04:57:04.022987+00:00",
+      "last_reinforced_at": "2026-10-18T05:22:01.160121+00:00",
       "uploads_playlist_id": "UUZN36ExAXDgUqveVmCqm5Ig",
-      "last_checked_at": "2026-10-18T04:57:04.022987+00:00"
+      "last_checked_at": "2026-10-18T05:22:01.160121+00:00"
     },
     {
       "channel_id": "UCCpCyl6gZLBhGmat_f5bvjQ",
@@ -4008,9 +4022,9 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-27T22:55:11.020113+00:00",
-      "last_reinforced_at": "2026-10-18T04:57:04.022987+00:00",
+      "last_reinforced_at": "2026-10-18T05:22:01.160121+00:00",
       "uploads_playlist_id": "UUCpCyl6gZLBhGmat_f5bvjQ",
-      "last_checked_at": "2026-10-18T04:57:04.022987+00:00"
+      "last_checked_at": "2026-10-18T05:22:01.160121+00:00"
     },
     {
       "channel_id": "UCdK0-KLJ2BUqN4YtzhpaVOw",
@@ -4021,7 +4035,7 @@
       "added_at": "2026-09-28T08:22:22.169841+00:00",
       "last_reinforced_at": "2026-09-28T08:22:22.169841+00:00",
       "uploads_playlist_id": "UUdK0-KLJ2BUqN4YtzhpaVOw",
-      "last_checked_at": "2026-10-18T04:57:04.022987+00:00"
+      "last_checked_at": "2026-10-18T05:22:01.160121+00:00"
     },
     {
       "channel_id": "UCiUW819C7EbfhuuLE6X835A",
@@ -4032,7 +4046,7 @@
       "added_at": "2026-09-28T08:22:22.169841+00:00",
       "last_reinforced_at": "2026-09-28T08:22:22.169841+00:00",
       "uploads_playlist_id": "UUiUW819C7EbfhuuLE6X835A",
-      "last_checked_at": "2026-10-18T04:57:04.022987+00:00"
+      "last_checked_at": "2026-10-18T05:22:01.160121+00:00"
     },
     {
       "channel_id": "UCK0V8xBIxBghPAvnWW2BDjg",
@@ -4043,7 +4057,7 @@
       "added_at": "2026-09-29T17:34:44.210617+00:00",
       "last_reinforced_at": "2026-09-29T17:34:44.210617+00:00",
       "uploads_playlist_id": "UUK0V8xBIxBghPAvnWW2BDjg",
-      "last_checked_at": "2026-10-18T04:57:04.022987+00:00"
+      "last_checked_at": "2026-10-18T05:22:01.160121+00:00"
     },
     {
       "channel_id": "UCMCxXgbueha0TTnytWM4qcQ",
@@ -4054,7 +4068,7 @@
       "added_at": "2026-10-10T23:40:39.508990+00:00",
       "last_reinforced_at": "2026-10-11T02:09:47.512756+00:00",
       "uploads_playlist_id": "UUMCxXgbueha0TTnytWM4qcQ",
-      "last_checked_at": "2026-10-18T04:57:04.022987+00:00"
+      "last_checked_at": "2026-10-18T05:22:01.160121+00:00"
     },
     {
       "channel_id": "UCtJ_jBmRlgVorUlFTSzr6JQ",
@@ -4077,10 +4091,10 @@
       "added_at": "2026-10-14T23:49:49.657378+00:00",
       "last_reinforced_at": "2026-10-14T23:49:49.657378+00:00",
       "uploads_playlist_id": "UUwn6Y1Ry_oxtnV_6rDNwr2Q",
-      "last_checked_at": "2026-10-18T04:57:04.022987+00:00"
+      "last_checked_at": "2026-10-18T05:22:01.160121+00:00"
     }
   ],
-  "query_cursor": 16,
+  "query_cursor": 17,
   "daily_search_ledger": {
     "2026-10-10": 90,
     "2026-10-11": 90,
@@ -4089,9 +4103,9 @@
     "2026-10-14": 90,
     "2026-10-15": 90,
     "2026-10-16": 90,
-    "2026-10-17": 84
+    "2026-10-17": 86
   },
-  "last_run": "2026-10-18T04:57:04.022987+00:00",
-  "run_count": 1839,
+  "last_run": "2026-10-18T05:22:01.160121+00:00",
+  "run_count": 1840,
   "channel_cleanup_v1": true
 }
