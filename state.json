@@ -2920,6 +2920,7 @@
     "f_hfWNLo6kw",
     "fblra0zkVus",
     "fbwyNWTrD98",
+    "fcQVJ3uJkx4",
     "fcnmxx8MGYk",
     "fdHYAMuHV94",
     "fe2PQTellb0",
@@ -3898,6 +3899,7 @@
     "u6-6hLwAZWU",
     "u6MFgnWjim4",
     "u8yJVa8tSrA",
+    "uADXtsNUF_0",
     "uAYl342oNDw",
     "uBnxi4-s9eo",
     "uCQmSloa820",
@@ -4279,7 +4281,7 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-20T00:53:11.170292+00:00",
-      "last_reinforced_at": "2026-10-20T20:47:08.325177+00:00",
+      "last_reinforced_at": "2026-10-20T23:28:13.197896+00:00",
       "next_retry_at": "2026-10-21T06:44:29.990427+00:00",
       "last_channel_error": "Uploads playlist returned HTTP 404"
     },
@@ -4290,9 +4292,9 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-27T20:13:35.151346+00:00",
-      "last_reinforced_at": "2026-10-20T20:47:08.325177+00:00",
+      "last_reinforced_at": "2026-10-20T23:28:13.197896+00:00",
       "uploads_playlist_id": "UUZN36ExAXDgUqveVmCqm5Ig",
-      "last_checked_at": "2026-10-20T20:47:08.325177+00:00"
+      "last_checked_at": "2026-10-20T23:28:13.197896+00:00"
     },
     {
       "channel_id": "UCCpCyl6gZLBhGmat_f5bvjQ",
@@ -4301,9 +4303,9 @@
       "reason": "uploader of confirmed Hebron video",
       "confidence": "confirmed",
       "added_at": "2026-09-27T22:55:11.020113+00:00",
-      "last_reinforced_at": "2026-10-20T20:47:08.325177+00:00",
+      "last_reinforced_at": "2026-10-20T23:28:13.197896+00:00",
       "uploads_playlist_id": "UUCpCyl6gZLBhGmat_f5bvjQ",
-      "last_checked_at": "2026-10-20T20:47:08.325177+00:00"
+      "last_checked_at": "2026-10-20T23:28:13.197896+00:00"
     },
     {
       "channel_id": "UCdK0-KLJ2BUqN4YtzhpaVOw",
@@ -4314,7 +4316,7 @@
       "added_at": "2026-09-28T08:22:22.169841+00:00",
       "last_reinforced_at": "2026-09-28T08:22:22.169841+00:00",
       "uploads_playlist_id": "UUdK0-KLJ2BUqN4YtzhpaVOw",
-      "last_checked_at": "2026-10-20T20:47:08.325177+00:00"
+      "last_checked_at": "2026-10-20T23:28:13.197896+00:00"
     },
     {
       "channel_id": "UCiUW819C7EbfhuuLE6X835A",
@@ -4325,7 +4327,7 @@
       "added_at": "2026-09-28T08:22:22.169841+00:00",
       "last_reinforced_at": "2026-09-28T08:22:22.169841+00:00",
       "uploads_playlist_id": "UUiUW819C7EbfhuuLE6X835A",
-      "last_checked_at": "2026-10-20T20:47:08.325177+00:00"
+      "last_checked_at": "2026-10-20T23:28:13.197896+00:00"
     },
     {
       "channel_id": "UCK0V8xBIxBghPAvnWW2BDjg",
@@ -4336,7 +4338,7 @@
       "added_at": "2026-09-29T17:34:44.210617+00:00",
       "last_reinforced_at": "2026-09-29T17:34:44.210617+00:00",
       "uploads_playlist_id": "UUK0V8xBIxBghPAvnWW2BDjg",
-      "last_checked_at": "2026-10-20T20:47:08.325177+00:00"
+      "last_checked_at": "2026-10-20T23:28:13.197896+00:00"
     },
     {
       "channel_id": "UCMCxXgbueha0TTnytWM4qcQ",
@@ -4347,7 +4349,7 @@
       "added_at": "2026-10-10T23:40:39.508990+00:00",
       "last_reinforced_at": "2026-10-11T02:09:47.512756+00:00",
       "uploads_playlist_id": "UUMCxXgbueha0TTnytWM4qcQ",
-      "last_checked_at": "2026-10-20T20:47:08.325177+00:00"
+      "last_checked_at": "2026-10-20T23:28:13.197896+00:00"
     },
     {
       "channel_id": "UCtJ_jBmRlgVorUlFTSzr6JQ",
@@ -4370,10 +4372,10 @@
       "added_at": "2026-10-14T23:49:49.657378+00:00",
       "last_reinforced_at": "2026-10-14T23:49:49.657378+00:00",
       "uploads_playlist_id": "UUwn6Y1Ry_oxtnV_6rDNwr2Q",
-      "last_checked_at": "2026-10-20T20:47:08.325177+00:00"
+      "last_checked_at": "2026-10-20T23:28:13.197896+00:00"
     }
   ],
-  "query_cursor": 31,
+  "query_cursor": 33,
   "daily_search_ledger": {
     "2026-10-13": 90,
     "2026-10-14": 90,
@@ -4382,9 +4384,9 @@
     "2026-10-17": 89,
     "2026-10-18": 90,
     "2026-10-19": 75,
-    "2026-10-20": 9
+    "2026-10-20": 12
   },
-  "last_run": "2026-10-20T20:47:08.325177+00:00",
-  "run_count": 1927,
+  "last_run": "2026-10-20T23:28:13.197896+00:00",
+  "run_count": 1928,
   "channel_cleanup_v1": true
 }
