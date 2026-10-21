@@ -7,6 +7,7 @@ on:
     paths:
       - "monitor.py"
       - "channel_watch.py"
+      - "sync_uploader_registry.py"
       - "config.json"
       - ".github/workflows/monitor.yml"
   schedule:
@@ -85,6 +86,34 @@ jobs:
             sleep 2
           done
           echo "State push did not succeed after three attempts." >&2
+          exit 1
+
+      - name: Synchronize curated uploader registry
+        # State was already committed above. Re-read main to avoid using a
+        # stale checkout when another writer has updated the curated registry.
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python sync_uploader_registry.py
+            if git diff --quiet -- Hebron_Uploader_Registry_2026.json; then
+              echo "Registry already synchronized."
+              exit 0
+            fi
+            git add Hebron_Uploader_Registry_2026.json
+            git commit -m "chore: sync verified uploader channel checks"
+            if git push origin HEAD:main; then
+              echo "Registry synchronized and committed."
+              exit 0
+            fi
+            echo "Registry push raced another writer; retrying ($attempt/3)."
+            sleep 2
+          done
+          echo "Registry synchronization failed after three attempts." >&2
           exit 1
 
       - name: Create issue for new candidates
