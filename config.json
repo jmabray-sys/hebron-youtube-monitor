@@ -315,6 +315,91 @@
       ]
     },
     {
+      "date": "2026-10-16",
+      "name": "Hebron at Lewisville",
+      "location": "Max Goldsmith Stadium, Lewisville",
+      "opponent": "Lewisville",
+      "discovery_queries": [
+        "Hebron Lewisville marching band October 16 2026",
+        "Hebron Lewisville halftime 2026",
+        "Lewisville Hebron band football 2026",
+        "Max Goldsmith Stadium marching band October 2026",
+        "Hebron Somewhere in Time Lewisville"
+      ],
+      "review_terms": [
+        "Lewisville",
+        "Max Goldsmith",
+        "halftime"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "name": "UIL Region Marching Contest",
+      "location": "C.H. Collins Athletic Complex, Denton",
+      "performance_time": "16:00",
+      "discovery_queries": [
+        "Hebron UIL Region marching October 17 2026",
+        "Hebron C H Collins marching band 2026",
+        "Hebron UIL Region Denton Somewhere in Time",
+        "UIL Region 2026 Hebron spectator video",
+        "C.H. Collins marching contest October 17 2026"
+      ],
+      "review_terms": [
+        "UIL Region",
+        "C.H. Collins",
+        "Denton",
+        "UIL marching"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "name": "Hebron vs Denton Guyer",
+      "location": "Hebron High School Stadium, Carrollton",
+      "opponent": "Denton Guyer",
+      "discovery_queries": [
+        "Hebron Guyer marching band October 23 2026",
+        "Hebron Denton Guyer halftime 2026",
+        "Guyer at Hebron band football October 2026",
+        "Hebron Somewhere in Time Guyer",
+        "Hebron Guyer spectator marching band"
+      ],
+      "review_terms": [
+        "Denton Guyer",
+        "Guyer",
+        "Hebron Stadium",
+        "halftime"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "name": "Hebron vs Flower Mound",
+      "location": "Hebron High School Stadium, Carrollton",
+      "opponent": "Flower Mound",
+      "discovery_queries": [
+        "Hebron Flower Mound marching band October 30 2026",
+        "Flower Mound at Hebron halftime 2026",
+        "Hebron Somewhere in Time Flower Mound"
+      ],
+      "review_terms": [
+        "Flower Mound",
+        "halftime"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "name": "UIL Area Marching Contest",
+      "location": "Venue unverified",
+      "discovery_queries": [
+        "Hebron UIL Area marching October 31 2026",
+        "Hebron UIL Area 2026 marching band",
+        "Hebron Somewhere in Time UIL Area"
+      ],
+      "review_terms": [
+        "UIL Area",
+        "Area marching"
+      ]
+    },
+    {
       "date": "2026-11-06",
       "name": "BOA San Antonio Super Regional",
       "location": "Alamodome"
