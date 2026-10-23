@@ -94,10 +94,10 @@
       "channel_id": "UCtJ_jBmRlgVorUlFTSzr6JQ",
       "account_url": "https://www.youtube.com/channel/UCtJ_jBmRlgVorUlFTSzr6JQ",
       "public_name": "Package15Media",
-      "confidence": "event_candidate",
+      "confidence": "confirmed",
       "source_video_id": "mVfmVNEP6q4",
       "last_checked_at": "2026-10-13T13:04:16.985821+00:00",
-      "notes": "BOA Prosper event coverage; uploads playlist unavailable; retry scheduled. Prior 2025 Hebron Field Trip performance public attribution (not independently fetched).; uploads playlist unavailable; next retry 2026-10-17T14:38:57Z (per GitHub state Oct 16); Uploads playlist unavailable; next retry 2026-10-17T14:38:57Z",
+      "notes": "BOA Prosper event coverage; uploads playlist unavailable; retry scheduled. Prior 2025 Hebron Field Trip performance public attribution (not independently fetched).; uploads playlist unavailable; next retry 2026-10-17T14:38:57Z (per GitHub state Oct 16); Uploads playlist unavailable; next retry 2026-10-17T14:38:57Z; User confirmed Package15Media is a verified uploader on 2026-10-23. This confirmation concerns uploader status, not successful YouTube uploads-playlist retrieval; retain unresolved channel-check error and retry metadata.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
       "prior_hebron_coverage": {
