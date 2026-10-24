@@ -154,6 +154,20 @@
       "performance_date": "2026-09-26",
       "performance_round": "prelims",
       "confirmation_source": "User explicitly confirmed Melissa prelims"
+    },
+    {
+      "platform": "YouTube",
+      "video_id": "rFIiqOiIR4w",
+      "url": "https://www.youtube.com/watch?v=rFIiqOiIR4w",
+      "title": "Hebron high marching band 10/23/2026",
+      "event": "2026-10-23 Hebron vs Denton Guyer football game",
+      "performance_date": "2026-10-23",
+      "published_at": "2026-10-24T02:45:49Z",
+      "confirmed": true,
+      "confirmation_source": "User confirmed on 2026-10-24 that this is actual Hebron performance footage",
+      "classification_status": "confirmed Hebron performance footage; specific show portion/complete show not independently established",
+      "channel_title": "Amazing grace of God",
+      "channel_id": "UC1hGFtywncJWNP_y9doxAEg"
     }
   ],
   "show_terms": [
