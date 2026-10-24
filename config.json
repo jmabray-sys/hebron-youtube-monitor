@@ -164,10 +164,13 @@
       "performance_date": "2026-10-23",
       "published_at": "2026-10-24T02:45:49Z",
       "confirmed": true,
-      "confirmation_source": "User confirmed on 2026-10-24 that this is actual Hebron performance footage",
-      "classification_status": "confirmed Hebron performance footage; specific show portion/complete show not independently established",
+      "confirmation_source": "User confirmed on 2026-10-24 that this video shows Hebron's complete 2026 Somewhere in Time performance (follow-up to earlier footage verification)",
+      "classification_status": "user-confirmed full show performance",
       "channel_title": "Amazing grace of God",
-      "channel_id": "UC1hGFtywncJWNP_y9doxAEg"
+      "channel_id": "UC1hGFtywncJWNP_y9doxAEg",
+      "full_show_confirmed": true,
+      "show_coverage": "complete",
+      "show_title": "Somewhere in Time"
     }
   ],
   "show_terms": [
