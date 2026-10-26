@@ -24,7 +24,7 @@
       "public_name": "steven smith",
       "confidence": "confirmed",
       "source_video_id": "nPIlu4dpq-c",
-      "last_checked_at": "2026-10-26T19:59:03.528821+00:00",
+      "last_checked_at": "2026-10-26T23:43:44.796540+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -36,7 +36,7 @@
       "public_name": "La'ZenTakigawa",
       "confidence": "confirmed",
       "source_video_id": "p7zK4spKw0o",
-      "last_checked_at": "2026-10-26T19:59:03.528821+00:00",
+      "last_checked_at": "2026-10-26T23:43:44.796540+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -84,7 +84,7 @@
       "public_name": "BOX5 Media",
       "confidence": "event_candidate",
       "source_video_id": "Uya4JxvX5Os",
-      "last_checked_at": "2026-10-26T14:12:04.613927+00:00",
+      "last_checked_at": "2026-10-26T23:43:44.796540+00:00",
       "notes": "BOA event footage; no confirmed Hebron clip",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -108,7 +108,7 @@
         "evidence_type": "public indexed video listing, direct YouTube post not independently fetched",
         "confidence": "public attribution; video ID unresolved"
       },
-      "next_retry_at": "2026-10-26T21:54:20.365705+00:00",
+      "next_retry_at": "2026-10-27T23:43:44.796540+00:00",
       "last_channel_error": "Uploads playlist unavailable"
     },
     {
@@ -152,7 +152,7 @@
       "public_name": "Amazing grace of God",
       "confidence": "confirmed",
       "source_video_id": "rFIiqOiIR4w",
-      "last_checked_at": "2026-10-26T19:59:03.528821+00:00",
+      "last_checked_at": "2026-10-26T23:43:44.796540+00:00",
       "notes": "User confirmed Hebron performance footage 2026-10-24 from Oct 23 football game; channel belongs in confirmed-uploader monitoring; individual future uploads require separate review.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
