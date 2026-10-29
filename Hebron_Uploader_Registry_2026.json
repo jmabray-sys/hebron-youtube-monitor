@@ -14,7 +14,7 @@
       "notes": "Uploads playlist HTTP 404; GitHub state retry after 2026-10-18T05:19:28.866730+00:00. No successful channel check recorded.; Uploads playlist returned HTTP 404; next retry 2026-10-18T05:19:28Z",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
-      "next_retry_at": "2026-10-28T23:11:53.224846+00:00",
+      "next_retry_at": "2026-10-30T00:22:47.855685+00:00",
       "last_channel_error": "Uploads playlist returned HTTP 404"
     },
     {
@@ -24,7 +24,7 @@
       "public_name": "steven smith",
       "confidence": "confirmed",
       "source_video_id": "nPIlu4dpq-c",
-      "last_checked_at": "2026-10-28T20:36:00.994117+00:00",
+      "last_checked_at": "2026-10-29T00:22:47.855685+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -36,7 +36,7 @@
       "public_name": "La'ZenTakigawa",
       "confidence": "confirmed",
       "source_video_id": "p7zK4spKw0o",
-      "last_checked_at": "2026-10-28T20:36:00.994117+00:00",
+      "last_checked_at": "2026-10-29T00:22:47.855685+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -84,7 +84,7 @@
       "public_name": "BOX5 Media",
       "confidence": "event_candidate",
       "source_video_id": "Uya4JxvX5Os",
-      "last_checked_at": "2026-10-28T15:43:46.316846+00:00",
+      "last_checked_at": "2026-10-29T00:22:47.855685+00:00",
       "notes": "BOA event footage; no confirmed Hebron clip",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -152,7 +152,7 @@
       "public_name": "Amazing grace of God",
       "confidence": "confirmed",
       "source_video_id": "rFIiqOiIR4w",
-      "last_checked_at": "2026-10-28T20:36:00.994117+00:00",
+      "last_checked_at": "2026-10-29T00:22:47.855685+00:00",
       "notes": "User confirmed Hebron performance footage 2026-10-24 from Oct 23 football game; channel belongs in confirmed-uploader monitoring; individual future uploads require separate review.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
