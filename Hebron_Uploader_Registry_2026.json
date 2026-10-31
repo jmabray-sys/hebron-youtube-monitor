@@ -24,7 +24,7 @@
       "public_name": "steven smith",
       "confidence": "confirmed",
       "source_video_id": "nPIlu4dpq-c",
-      "last_checked_at": "2026-10-31T10:19:59.981904+00:00",
+      "last_checked_at": "2026-10-31T15:47:57.363700+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -36,7 +36,7 @@
       "public_name": "La'ZenTakigawa",
       "confidence": "confirmed",
       "source_video_id": "p7zK4spKw0o",
-      "last_checked_at": "2026-10-31T10:19:59.981904+00:00",
+      "last_checked_at": "2026-10-31T15:47:57.363700+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -60,7 +60,7 @@
       "public_name": "topography",
       "confidence": "candidate",
       "source_video_id": "IFBr9NVAsC4",
-      "last_checked_at": "2026-10-31T10:19:59.981904+00:00",
+      "last_checked_at": "2026-10-31T15:47:57.363700+00:00",
       "notes": "GitHub state association; uploader independently unverified",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -72,7 +72,7 @@
       "public_name": "Soshanguve Brass Band - Patrick Khutso Maapola",
       "confidence": "candidate",
       "source_video_id": "ECVdb6uSu4Q",
-      "last_checked_at": "2026-10-31T04:04:28.853382+00:00",
+      "last_checked_at": "2026-10-31T15:47:57.363700+00:00",
       "notes": "clip content unverified",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -84,7 +84,7 @@
       "public_name": "BOX5 Media",
       "confidence": "event_candidate",
       "source_video_id": "Uya4JxvX5Os",
-      "last_checked_at": "2026-10-31T04:04:28.853382+00:00",
+      "last_checked_at": "2026-10-31T15:47:57.363700+00:00",
       "notes": "BOA event footage; no confirmed Hebron clip",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -152,7 +152,7 @@
       "public_name": "Amazing grace of God",
       "confidence": "confirmed",
       "source_video_id": "rFIiqOiIR4w",
-      "last_checked_at": "2026-10-31T10:19:59.981904+00:00",
+      "last_checked_at": "2026-10-31T15:47:57.363700+00:00",
       "notes": "User confirmed Hebron performance footage 2026-10-24 from Oct 23 football game; channel belongs in confirmed-uploader monitoring; individual future uploads require separate review.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -209,7 +209,7 @@
       "notes": "GitHub state.json discovery: uploader posting marching footage from current event: Denton Guyer; video content and Hebron uploader relationship not independently verified in this run.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
-      "last_checked_at": "2026-10-31T04:04:28.853382+00:00"
+      "last_checked_at": "2026-10-31T15:47:57.363700+00:00"
     },
     {
       "platform": "YouTube",
@@ -221,7 +221,7 @@
       "notes": "GitHub state.json discovery: uploader posting marching footage from current event: halftime; video content and Hebron uploader relationship not independently verified in this run.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
-      "last_checked_at": "2026-10-31T04:04:28.853382+00:00"
+      "last_checked_at": "2026-10-31T15:47:57.363700+00:00"
     },
     {
       "platform": "YouTube",
@@ -233,7 +233,7 @@
       "notes": "GitHub state.json discovery: explicit Hebron band evidence; explicit Hebron performance identity; video content and Hebron uploader relationship not independently verified in this run.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
-      "last_checked_at": "2026-10-31T04:04:28.853382+00:00"
+      "last_checked_at": "2026-10-31T15:47:57.363700+00:00"
     }
   ],
   "video_references": [
