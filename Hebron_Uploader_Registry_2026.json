@@ -1,7 +1,7 @@
 {
   "project": "Hebron High School Band 2026 Somewhere in Time",
   "schema_version": 1,
-  "updated_at": "2026-10-30",
+  "updated_at": "2026-10-31",
   "channel_accounts": [
     {
       "platform": "YouTube",
@@ -234,6 +234,29 @@
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
       "last_checked_at": "2026-10-31T15:47:57.363700+00:00"
+    },
+    {
+      "platform": "YouTube",
+      "channel_id": "UCvH1V_arx12wGZd7rjLI7MQ",
+      "account_url": "https://www.youtube.com/channel/UCvH1V_arx12wGZd7rjLI7MQ",
+      "public_name": "mms100 •Just Another Band Parent",
+      "confidence": "event_candidate",
+      "source_video_id": "w5LkAe4LTvI",
+      "notes": "GitHub state.json event candidate: uploader posting marching footage from current event: halftime; source video and Hebron association unverified. Preserve candidate tier; watch uploads of any band.",
+      "watch_all_public_uploads_of_any_band": true,
+      "new_upload_ids": [],
+      "last_checked_at": "2026-10-31T10:19:59.981904+00:00"
+    },
+    {
+      "platform": "YouTube",
+      "channel_id": "UCWEk0rUC0O_ydMhJ_xmhYQw",
+      "account_url": "https://www.youtube.com/channel/UCWEk0rUC0O_ydMhJ_xmhYQw",
+      "public_name": "Moments of Marching",
+      "confidence": "event_candidate",
+      "source_video_id": "VKWuWYaVdWk",
+      "notes": "GitHub state.json event candidate: uploader posting marching footage from current event: Flower Mound; source video and Hebron association unverified. Preserve candidate tier; watch uploads of any band.",
+      "watch_all_public_uploads_of_any_band": true,
+      "new_upload_ids": []
     }
   ],
   "video_references": [
