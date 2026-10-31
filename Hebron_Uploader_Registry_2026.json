@@ -275,7 +275,17 @@
         "association_confidence": "confirmed"
       },
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0e73a85bf33f16",
+        "1a0e6333d99fe953",
+        "1a0e61c9a0212bb3",
+        "1a0e607120bbd019",
+        "1a0e5eec427d6840",
+        "1a0e5bbfe2a6de8e",
+        "1a0e4f1e7ada26ca",
+        "1a0e47d45852add7"
+      ]
     },
     {
       "platform": "YouTube",
@@ -292,7 +302,13 @@
         "association_confidence": "confirmed"
       },
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0e6258a0578654",
+        "1a0e5badde963731",
+        "1a0e50fb4878404a",
+        "1a0e4f2739452441"
+      ]
     },
     {
       "platform": "YouTube",
@@ -309,7 +325,19 @@
         "association_confidence": "candidate"
       },
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0eac4cfca2c415",
+        "1a0eaba76022d5df",
+        "1a0ea98a513d29f2",
+        "1a0ea8767fb47fd2",
+        "1a0ea86eb5b3ca92",
+        "1a0ea80309a60fe7",
+        "1a0e979c442e584a",
+        "1a0e8b2eb0fc672d",
+        "1a0e8137e4df56fb",
+        "1a0e7df7292472a4"
+      ]
     },
     {
       "platform": "TikTok",
@@ -333,7 +361,10 @@
       "classification_source": "user-confirmed",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0eaf7475532ac4"
+      ]
     },
     {
       "platform": "TikTok",
@@ -345,7 +376,10 @@
       "classification_source": "user-confirmed",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0ee05c862269f9"
+      ]
     },
     {
       "platform": "TikTok",
@@ -357,7 +391,10 @@
       "classification_source": "user-confirmed",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a10899be51086a2"
+      ]
     },
     {
       "platform": "TikTok",
@@ -369,7 +406,10 @@
       "classification_source": "user-confirmed",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a10f23ae02e3756"
+      ]
     },
     {
       "platform": "TikTok",
@@ -381,7 +421,10 @@
       "classification_source": "user-confirmed",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a10f023d1069c1a"
+      ]
     },
     {
       "platform": "TikTok",
@@ -393,7 +436,10 @@
       "classification_source": "user-confirmed",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a11d5975ed6210d"
+      ]
     },
     {
       "platform": "YouTube",
@@ -410,7 +456,15 @@
         "association_confidence": "candidate"
       },
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0eac53848af045",
+        "1a0ea97caf2e715a",
+        "1a0e86949357d32f",
+        "1a0e817d486cc7fb",
+        "1a0e7e0f29a69305",
+        "1a0e6275f9b37bce"
+      ]
     },
     {
       "platform": "YouTube",
@@ -422,7 +476,10 @@
       "classification_source": "user-confirmed",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0e86fad00f4cb9"
+      ]
     },
     {
       "platform": "Instagram",
@@ -434,7 +491,10 @@
       "classification_source": "user-confirmed",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0e87390fe848f5"
+      ]
     },
     {
       "platform": "TikTok",
@@ -446,7 +506,10 @@
       "classification_source": "user-confirmed",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a130d67783e5c05"
+      ]
     },
     {
       "platform": "TikTok",
@@ -458,7 +521,10 @@
       "classification_source": "user-confirmed",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a13134f5ae43f3d"
+      ]
     },
     {
       "platform": "TikTok",
@@ -470,7 +536,10 @@
       "classification_source": "user-confirmed",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a13135740443b54"
+      ]
     },
     {
       "platform": "YouTube",
@@ -499,7 +568,33 @@
       "classification_source": "user-confirmed",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0ff7ec48351fbe",
+        "1a0fe00113e5511c",
+        "1a0fdfe564f27789",
+        "1a0fde0c90d956c1",
+        "1a0fdd9dbe4c9b06",
+        "1a0fd9e04d0851ce",
+        "1a0fd7f90499ac82",
+        "1a0fd6a285ff2acc",
+        "1a0fd466cb409e17",
+        "1a0fd33a3909235f",
+        "1a0fd24a3381af87",
+        "1a0fd10b788d95d8",
+        "1a0fcf33188ca9d4",
+        "1a0fcf0cf95fcd2f",
+        "1a0fce71b4d912fa",
+        "1a0fc91949e33470",
+        "1a0fc8ac5d05ef6b",
+        "1a0fc61bd6c4849a",
+        "1a0fc60902d07a95",
+        "1a0fc5da52e2c294",
+        "1a0fc5cef71bae9a",
+        "1a0fc4f6db2ebefd",
+        "1a0fc41f4c0fb10a",
+        "1a0fc30ee6e2dd3b"
+      ]
     },
     {
       "platform": "Instagram",
@@ -523,7 +618,10 @@
       "classification_source": "user-confirmed",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0e7e51a1cb0d40"
+      ]
     },
     {
       "platform": "TikTok",
@@ -535,7 +633,10 @@
       "classification_source": "user-confirmed",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0eaf89d4ecf372"
+      ]
     },
     {
       "platform": "Instagram",
@@ -547,7 +648,14 @@
       "classification_source": "monitor lead",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0e8db760fffc54",
+        "1a0e8742be8fa958",
+        "1a0e5f15ed0adc90",
+        "1a0e5d3c38272e01",
+        "1a0e577122ce8b62"
+      ]
     },
     {
       "platform": "TikTok",
@@ -559,7 +667,10 @@
       "classification_source": "monitor lead",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0e5a485cf0d53f"
+      ]
     },
     {
       "platform": "TikTok",
@@ -571,7 +682,10 @@
       "classification_source": "monitor lead",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0e57430cf7e7ae"
+      ]
     },
     {
       "platform": "TikTok",
@@ -583,7 +697,10 @@
       "classification_source": "monitor lead",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0e5e66c51f13a6"
+      ]
     },
     {
       "platform": "TikTok",
@@ -595,7 +712,10 @@
       "classification_source": "monitor lead",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0f47ed9a1805d5"
+      ]
     },
     {
       "platform": "TikTok",
@@ -607,7 +727,10 @@
       "classification_source": "monitor lead",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0fa2f395e4f8ee"
+      ]
     },
     {
       "platform": "YouTube",
@@ -619,7 +742,12 @@
       "classification_source": "monitor lead",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0e869ab958c2ef",
+        "1a0e7e33409becf3",
+        "1a0e626b4e310e61"
+      ]
     },
     {
       "platform": "YouTube",
@@ -648,7 +776,10 @@
       "classification_source": "user reviewed Oct 12; suppress alerts",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a13278e8f307cee"
+      ]
     },
     {
       "platform": "TikTok",
@@ -664,7 +795,10 @@
         "association_confidence": "direct public URL"
       },
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0f7dadee02f49d"
+      ]
     },
     {
       "platform": "TikTok",
@@ -680,7 +814,10 @@
         "association_confidence": "direct public URL; content unverified"
       },
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a122859f9fa1f2e"
+      ]
     },
     {
       "platform": "YouTube",
@@ -709,7 +846,10 @@
       "classification_source": "Hebron Band Website submission 2026-10-17 10:00:54 CDT; Gmail 1a14a61542af66c0; short link cannot be resolved with available public access",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a14a61542af66c0"
+      ]
     },
     {
       "platform": "TikTok",
@@ -721,7 +861,10 @@
       "classification_source": "Hebron Band Website submission received 2026-10-17T17:15:05Z; Gmail message 1a14adc32361f798. TikTok short link publicly inaccessible via current search; no uploader, content or event independently verified.",
       "public_uploader": "UNRESOLVED",
       "last_checked_at": null,
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a14adc32361f798"
+      ]
     },
     {
       "platform": "YouTube",
@@ -737,7 +880,12 @@
         "association_confidence": "official video title identifies artist; channel ID not independently retrieved"
       },
       "last_checked_at": "2026-10-19T06:52:38Z",
-      "new_upload_ids": []
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a0eb9c71ed04a7c",
+        "1a0eb9c19b9508f0",
+        "1a0eb9bb5bb65d7f"
+      ]
     },
     {
       "platform": "Instagram",
@@ -783,7 +931,11 @@
       "show_title": "Somewhere in Time",
       "submission_email_ids": [
         "1a174a327893537e",
-        "1a1740a21b478a82"
+        "1a1740a21b478a82",
+        "1a16fcd2a3155fc6",
+        "1a16fc2c4e8affb4",
+        "1a16f19e3bd190a5",
+        "1a16e36d9392dc99"
       ]
     },
     {
@@ -906,5 +1058,208 @@
       "ZTytW8bDQ"
     ]
   },
-  "source_notes": "Compiled from user-confirmed classifications and GitHub config/state on Oct 13. Unresolved short links do not identify accounts. GitHub channel candidate associations are not independent confirmation. Last checked only populated where evidenced by GitHub state. Do not treat every account as checked directly by this process. Oct 13 21:46Z: synchronized six YouTube channel last_checked_at values from latest GitHub state (21:20Z), registered two previously known TikTok handles as explicit channel_accounts without claiming direct check, and noted indexed 2025 Hebron video attribution to Package15Media. Oct 14 00:15Z: refreshed six YouTube channel last_checked_at values to 2026-10-14T00:05:31.836888Z from GitHub state; OpenOcean93 and Package15Media were not successfully checked (HTTP 404 retry pending). Gmail intake checked: no new Website Takedown messages after Oct 12. Public indexed search did not confirm new 2026 Hebron show footage. No new clip or uploader claimed. Oct 14 01:41Z: synced six GitHub state channel check timestamps at 01:20:52Z; OpenOcean93 and Package15Media remain 404/retry pending, no new independently confirmed footage or Website Takedown messages from current Gmail/web scan; no TikTok short URL identity resolved. Oct 14 02:15Z: synced six YouTube channel checks from GitHub state at 01:56:21Z; OpenOcean93 and Package15Media still in retry, no direct check claimed. Gmail website-submission search through Oct 13 evening found no new messages. Indexed cross-platform searches did not confirm any new 2026 Hebron show clip or TikTok short-link uploader. Oct 14 03:30Z: read latest Library registry and GitHub config/state, synchronized six YouTube uploader channel last_checked_at fields to GitHub state 03:24:48Z. OpenOcean93 and Package15Media remain on 404/retry and were not counted as successfully checked. Gmail search found no unprocessed Website Takedown submissions since Oct 12; broad indexed and known-uploader searches found no new credible Hebron 2026 show footage or resolved TikTok handles. Direct YouTube/TikTok channel pages inaccessible via web tool; no unsupported direct checks claimed. No alert emails sent. Oct 14 04:43Z: synchronized six YouTube channel last_checked_at values from latest GitHub state 04:38:15Z; OpenOcean93 retry postponed to Oct 15 after continued HTTP 404 and Package15Media still pending. Gmail intake after Oct 13 found no new Website Takedown submissions. Fresh public indexed searches for Oct 10 BOA Prosper, Oct 9 Wakeland and known uploaders did not verify any new Hebron 2026 performance video or TikTok uploader. No alert emails sent. Oct 14 06:41Z: refreshed six successful YouTube channel last_checked_at timestamps from GitHub state at 06:08:21Z. OpenOcean93 and Package15Media remain in retry and were not marked as checked. Gmail search found no new unprocessed Website Takedown submissions. Fresh indexed searches across Hebron BOA Prosper, Wakeland, Melissa, YouTube, TikTok and known uploaders did not establish a new 2026 Hebron performance or resolve TikTok uploader handles. No discovery alert email sent. Oct 14 07:27Z: synchronized six YouTube uploader last_checked_at timestamps from latest GitHub state; OpenOcean93 and Package15Media remain 404/retry, not marked checked. Gmail search after Oct 12 showed only already processed submissions. Fresh indexed YouTube/TikTok/Instagram and event searches did not establish a new 2026 Hebron performance or resolve TikTok uploader identities. No discovery alerts sent. Oct 14 08:30Z: reconciled six successful YouTube uploader channel last_checked_at timestamps with GitHub state last_run 08:06:06Z; OpenOcean93 and Package15Media remained on 404 retry and were not marked checked. Gmail search after Oct 12 found no unprocessed Website Takedown submissions. Fresh public indexed YouTube/TikTok/Instagram, BOA Prosper and uploader searches found no newly verifiable Hebron 2026 performance video or newly resolved uploader handle. No discovery alert emails sent. Oct 14 09:05Z: latest GitHub state showed six successful YouTube uploader playlist checks at 08:39:43Z, now synchronized; OpenOcean93 and Package15Media remain HTTP 404/retry and were not counted as checked. Gmail search after Oct 12 found only already processed submissions. Fresh indexed searches covering Oct 10 BOA Prosper, Oct 9 Wakeland, Melissa, YouTube/TikTok/Instagram, and named uploaders did not establish a new Hebron 2026 performance or resolve TikTok account identities. Direct channel/TikTok pages were inaccessible to web; no unsupported checks claimed. No alert emails sent. Oct 14 10:45Z: synced six verified GitHub uploader playlist-check timestamps from state.json (last_run 10:24:12Z); OpenOcean93 and Package15Media remain HTTP 404 and were NOT marked checked. Searched recent public indexed videos and website takedown Gmail; no new independently confirmed Hebron show videos or unprocessed Website submissions found. No alert emails. Oct 14 22:26Z: six YouTube channel check timestamps synced from current GitHub state.json; OpenOcean93 and Package15Media remained in retry/backoff, not freshly checked. GitHub registry write attempt blocked by connector safety checks; this Library version is fallback, not GitHub synced. Oct 15 06:18Z: synchronized seven YouTube channel checks from GitHub state last_run 06:05Z; OpenOcean93 and Package15Media were not successfully checked and retain prior timestamps. No new independently verified Hebron footage or new website submissions; GitHub registry update remained blocked by safety checks. Oct 15 10:39Z: synchronized seven successful channel playlist-check timestamps from GitHub state.json last_run 10:23:02Z. OpenOcean93 and Package15Media not counted as freshly checked. Gmail search through Oct 15 found only previously processed Website submissions; public indexed searches found no new independently confirmed Hebron footage. GitHub registry update blocked by safety checks; this Library version is fallback only. Oct 15 12:20Z: reconciled seven GitHub state.json channel-check timestamps (actual GitHub monitor check at 12:06Z); no new independently confirmed Hebron show video. GitHub registry update attempted but blocked by safety checks; Library remains fallback. Oct 15 14:15Z: synchronized 7 successfully checked YouTube channel timestamps from GitHub state last_run 14:09:13Z. OpenOcean93 and Package15Media remain pending retry, not checked. GitHub update_file was blocked by safety checks; GitHub primary registry still 10 accounts/32 clips, Library fallback has 11/33 including General Effect Media. No new independently verified Hebron footage. Oct 15 17:08Z: synchronized seven successful YouTube channel checks from GitHub state last_run 17:02:58Z. OpenOcean93 and Package15Media remain unavailable/pending retry and their last_checked_at was not advanced. No new independently verified Hebron show footage or website submission; GitHub registry update_file blocked by safety checks; Library fallback retains General Effect Media and qKu7A2T6T7Y event-only unverified reference. Oct 15 22:53Z: reconciled seven GitHub monitor channel check timestamps; no new independently verified Hebron footage or new website submission. GitHub update_file blocked by safety checks; Library fallback updated. Oct 16 05:06:45Z: synchronized seven evidenced YouTube channel-check timestamps from GitHub state.json last_run; no newly verified Hebron videos, uploader account changes, or direct checks of TikTok accounts. GitHub write blocked; Library fallback updated. Oct 16 08:48Z: refreshed 7 YouTube channel check times from GitHub state.json last_run 08:38:02Z; no new Hebron clip verified. GitHub registry update attempt blocked by safety checks; Library fallback remains ahead of GitHub. Oct 16 13:21Z: reconciled seven public YouTube channel check timestamps from GitHub state.json last_run 2026-10-16T12:44:59Z. Public web indexing did not reveal a new confirmed Hebron 2026 performance. Direct platform page access was unavailable in this check. GitHub registry write remained blocked; this Library copy is newer than GitHub. Oct 16 14:13Z: synchronized 7 GitHub state channel check timestamps from 14:04:51Z; OpenOcean93 and Package15Media checks still unavailable (retry pending). No new independently verified 2026 Hebron show footage or website submissions. GitHub registry update_file blocked by safety checks; Library fallback only. Oct 16 17:24Z: synchronized 7 YouTube channel check timestamps from GitHub state last_run 17:20:09Z. OpenOcean93 and Package15Media still unavailable (uploads playlist errors); no unverified check timestamps fabricated. No new independently verified Hebron video or website submission. GitHub write blocked; Library fallback only. Oct 16 19:18Z: synchronized seven successful YouTube channel checks from GitHub state at 19:02:56Z; preserved 404/unavailable channels as unchecked; public web search found no new independently verified Hebron show video. GitHub registry update attempt blocked by safety checks. Oct 16 20:59Z: synchronized 7 successful channel check timestamps from current GitHub state.json. OpenOcean93 and Package15Media had upload playlist errors, so last_checked_at not advanced. No new verified Hebron footage or website submissions in current check. GitHub registry remains unchanged because update_file was blocked. Oct 16 21:26Z: refreshed 7 successful YouTube channel check timestamps from current GitHub state. GitHub registry write blocked; this ChatGPT Library fallback remains ahead with General Effect Media. No new Hebron performance independently verified. Oct 16 19:48 CDT: synchronized seven successfully checked YouTube channel timestamps from GitHub state.json (2026-10-17T00:46:22Z); OpenOcean93 and Package15Media upload playlists still unavailable. Public search and Gmail scan found no new independently verified Hebron performance or new website submission. GitHub registry update attempt blocked; Library fallback only. Oct 16 23:29 CDT: refreshed 7 successful YouTube channel check timestamps from GitHub state last_run 2026-10-17T04:23:24Z. OpenOcean93 and Package15Media remain on retry; no new verified Hebron footage, new website submissions, or independently verified uploader relations. GitHub registry write attempt blocked; fallback only. Oct 17 09:43Z: synchronized seven channel last_checked_at values from GitHub state.json last_run 09:10Z. GitHub registry update blocked; ChatGPT Library fallback updated. No newly confirmed Hebron footage. Oct 17 10:07Z: synchronized GitHub state checked timestamps from 09:46Z for seven successful YouTube channel checks; preserved retry status for OpenOcean93 and Package15Media. Public discovery found no new verified show videos. GitHub registry write blocked by safety checks; Library fallback only.\nOct 17 13:03Z: synced seven successful channel-check timestamps from GitHub state.json (run 1804). OpenOcean93 and Package15Media were not marked checked due to upload-playlist errors. No independently verified new Hebron 2026 video. GitHub registry write again blocked by safety checks; Library fallback only.\nOct 17 13:38 CDT: Gmail website submission TikTok short ZPLSvrpSf (message 1a14adc32361f798, 12:15 CDT) processed read/labeled/archived; unverified uploader/content. Public short URL blocked and indexed search yielded no public metadata. Synced seven successful channel checks from GitHub state.json at 2026-10-17T18:18:33.781085Z; OpenOcean93 and Package15Media playlist failures remain unresolved and were NOT marked checked. GitHub and Library compared; GitHub had no conflicting or newer classifications; Library included General Effect Media and ZPLS753yY.\nOct 17 14:10 CDT: reconciled seven successful YouTube channel checks from GitHub state at 2026-10-17T18:50:14.591933Z. OpenOcean93 and Package15Media unavailable playlists were not marked freshly checked. No new website submissions or independently credible Hebron footage found in this check. GitHub registry update blocked by safety checks; Library fallback only.\nOct 17 15:25 CDT: reconciled seven successful channel checks from GitHub state.json last_run 2026-10-17T20:03:17.119074Z; OpenOcean93 and Package15Media remained unresolved (uploads playlist 404), not marked newly checked. No new public credible Hebron show video and no new website submission identified. GitHub registry update_file blocked by safety checks; Library fallback updated only.\nOct 17 18:49 CDT: reconciled seven successful channel checks from GitHub state.json last_run 2026-10-17T23:49:43.543660Z. OpenOcean93 and Package15Media remained unverified due to uploads playlist errors. Public indexed searches found no new credible Hebron performance footage; no new Website Takedown Gmail messages after 12:15 CDT.\nOct 17 20:20 CDT: synchronized seven successful uploader channel checks from GitHub state.json at 2026-10-18T01:20:00Z; OpenOcean93 and Package15Media still had uploads playlist errors and were not marked checked. Public indexed searches across UIL Region, BOA North Texas, known channels, YouTube/TikTok/Instagram/Reddit did not reveal new credible Hebron footage or verified uploader relationships. Gmail search found only already processed website submissions. GitHub update_file was blocked by OpenAI safety checks; Library remains authoritative fallback for newest 11 accounts/35 videos.\nOct 17 22:06 CDT: reconciled seven successful channel checks from GitHub state.json last_run 2026-10-18T02:56:18.051280Z; OpenOcean93 and Package15Media playlist errors remain unresolved. Public indexed searches found no new credible Hebron show footage, uploader verification, or new website submissions. GitHub registry still stale pending sync.\nOct 17 23:03 CDT: synchronized seven verified channel checks from GitHub state.json last_run 2026-10-18T03:58:09.525283Z. OpenOcean93 and Package15Media playlist errors remain unresolved and were not marked checked. No new website submissions or credible public Hebron performance footage in this run. GitHub registry update_file blocked by OpenAI safety checks; Library fallback updated.\nOct 18 00:54 CDT: reconciled seven GitHub state.json successful channel checks from 2026-10-18T05:53:28.838185Z. OpenOcean93 and Package15Media uploads playlist checks remain unresolved. Public searches found no independently credible new Hebron show footage; Gmail had no unprocessed submissions. GitHub registry update blocked by OpenAI safety checks; Library fallback synchronized.\nOct 18 02:24 CDT: synchronized seven evidenced YouTube uploader channel checks from GitHub state.json at 07:06:53Z. OpenOcean93 and Package15Media playlists remain unavailable/retry; no successful checks claimed. Gmail website intake had no new submissions after Oct 17 12:15 CDT. Indexed public searches around Oct 17 UIL Region, BOA North Texas and Lewisville football found no new independently credible Hebron show footage or verified cross-platform uploader relationships. GitHub registry update_file blocked by safety checks; Library fallback updated only.\nOct 18 03:33 CDT: Reconciled latest GitHub main registry (10 accounts, 32 videos) with newer Library registry (11 accounts, 35 videos). Seven YouTube channel last_checked_at timestamps updated from documented successful GitHub state.json checks at 2026-10-18T08:01:17.282633+00:00; OpenOcean93 and Package15Media unresolved playlist errors are NOT inactive accounts. No new independently credible Hebron show footage found in public indexed searches; no unprocessed website submission emails. GitHub update_file blocked by safety checks; Library remains authoritative fallback until GitHub sync succeeds.\nOct 18 04:16 CDT: refreshed seven evidenced GitHub channel checks from 09:01:41Z; OpenOcean93 and Package15Media remain playlist errors, not inactive. No new credible Hebron performance or website submissions. GitHub write blocked by safety checks; Library fallback updated.\nOct 18 08:41 CDT: seven YouTube channels refreshed from successful GitHub state.json channel checks 2026-10-18T13:24:08.099876Z. OpenOcean93 and Package15Media remain unresolved upload-playlist errors (not inactive). No new valid Website Takedown submissions or independently credible Hebron 2026 performance footage identified in indexed public search. GitHub registry update_file blocked by safety checks; Library fallback updated.\nOct 18 09:27 CDT: synchronized seven documented successful GitHub channel checks at 2026-10-18T14:17:16.461997Z; OpenOcean93 and Package15Media uploads playlist checks still unresolved (not inactive). Public indexed searches after Oct 17 UIL Region did not yield independently credible new Hebron performance footage; no unprocessed website submissions. GitHub registry update_file blocked by safety checks; Library fallback refreshed.\nOct 18 10:46 CDT: Seven documented GitHub channel checks at 2026-10-18T15:33:43.703086Z reconciled. OpenOcean93 and Package15Media playlist errors remain unresolved, not inactive. Gmail search had no new Website Takedown submissions; indexed public search found no independently credible new Hebron show footage. GitHub registry update_file was blocked by OpenAI safety checks; Library fallback updated. Oct 18 16:32Z: synchronized seven successful YouTube uploader checks from GitHub state at 16:26Z. OpenOcean93 and Package15Media were not checked successfully (404/unavailable). Gmail search through Oct 18 11:32 CDT found no new Website Takedown submissions. Fresh indexed public searches for Oct 17 UIL Region, Oct 16 Lewisville, Oct 10 BOA Prosper and known uploader accounts found no new credible Hebron performance. GitHub registry write blocked by safety checks; Library remains updated fallback. Oct 18 12:20 CDT: merged GitHub main registry (10 accounts, 32 clips) with latest Library (11 accounts, 35 clips); synced seven successful channel-check timestamps from GitHub state last_run 2026-10-18T17:17:47Z. OpenOcean93 and Package15Media remain playlist errors, not freshly checked. No new website submissions or independently verified footage in fresh public searches. GitHub registry update_file blocked by OpenAI safety checks; Library fallback updated only.\nOct 18 13:07 CDT: synchronized seven successful channel-check timestamps from GitHub state at 2026-10-18T18:04:10Z; OpenOcean93 and Package15Media still inaccessible, not inactive. No new credible independently discovered Hebron footage or unprocessed website emails; GitHub registry update blocked, Library fallback updated.\nOct 18 14:29 CDT: merged GitHub main (10 accounts/32 clips) with Library (11 accounts/35 clips); refreshed seven channel last_checked_at values from successful GitHub state.json checks 2026-10-18T19:29:00.869032Z. OpenOcean93 and Package15Media remained unresolved playlist failures and were not marked checked. No new unprocessed Website Takedown Gmail messages or credible new independently discovered Hebron 2026 performance in public indexed searches. GitHub registry update_file blocked by OpenAI safety checks; Library fallback updated.\nOct 18 15:40 CDT: reconciled GitHub main (10 accounts, 32 clips) and latest Library (11 accounts, 35 clips), retaining all classifications. Seven successful channel checks at 2026-10-18T20:13:59.701281Z synchronized from GitHub state.json. OpenOcean93 and Package15Media remained unresolved playlist failures, not inactive. No new Website Takedown submissions in Gmail and no new independently credible Hebron footage in current public indexed searches of UIL Region, Lewisville, BOA Prosper and uploader accounts. GitHub update_file blocked by OpenAI safety checks; Library fallback to be updated.\nOct 18 16:31 CDT: reconciled GitHub main (10 accounts/32 clips) and Library (11 accounts/35 clips). Seven documented successful uploader channel checks at 2026-10-18T21:06:38.786593Z synchronized from GitHub state.json. OpenOcean93 and Package15Media remain unresolved playlist errors, not inactive. Gmail has no new website submissions and public indexed searches found no new independently credible Hebron performance. GitHub update_file blocked by safety checks; Library fallback updated.\nOct 19 00:11 CDT: compared GitHub main registry (10 accounts/32 videos) with Library (11/35); attempted GitHub full merged update with latest blob SHA, blocked by safety checks. Seven successful channel checks from GitHub state.json at 2026-10-19T04:38:09.721427Z incorporated; OpenOcean93 and Package15Media still have unresolved uploads-playlist failures. Gmail had no new Website Takedown submissions and public indexed searches found no independently credible new Hebron 2026 show footage. All classifications retained.\nOct 19 03:47 CDT: reconciled GitHub main (10 accounts/32 videos) and Library (11 accounts/36 videos). Seven documented successful channel checks from GitHub state.json at 2026-10-19T08:10:30.023090Z synchronized. OpenOcean93 and Package15Media playlist failures remain unresolved, not inactive. No new unprocessed website submissions or independently credible Hebron footage found in public indexed searches. GitHub update_file blocked by safety checks; Library fallback updated.\nOct 19 06:09 CDT: merged GitHub main (10 accounts/32 videos) with Library (11/36). Seven successful direct YouTube uploader checks documented in GitHub state.json at 2026-10-19T10:50:50.522393Z synchronized. OpenOcean93 and Package15Media remain unresolved playlist errors. Public indexed searches found no independently credible new Hebron 2026 show footage. Gmail had no new unprocessed Website Takedown submissions. GitHub update_file blocked by OpenAI safety checks; Library fallback preserved. Oct 19 12:33Z: reconciled GitHub state seven successfully checked YouTube channels through 12:01:28Z; OpenOcean93 and Package15Media remain unresolved. GitHub registry update attempt blocked by safety checks; Library is current fallback. Oct 19 12:45Z: seven YouTube channel upload lists successfully checked per GitHub state; OpenOcean93 and Package15Media still have unresolved playlist errors. GitHub registry update attempt blocked by safety checks; Library fallback retained.\nOct 19 09:41 CDT: merged latest GitHub main (10 accounts/32 clips) with Library fallback (11 accounts/36 clips), retained all reviewed classifications. Seven successful uploader channel checks at 2026-10-19T14:14:32Z documented in GitHub state.json synchronized; OpenOcean93 and Package15Media remain unresolved playlist errors, not inactive. Public indexed searches for Oct 17 UIL Region, Oct 16 Lewisville, BOA Prosper and broad social sources found no independently credible new Hebron show footage. Gmail contained no new unprocessed website submissions. GitHub update_file blocked by OpenAI safety checks; Library fallback saved.\nOct 19 17:24 CDT: Two duplicate website Instagram submissions for Der5t8yOsoK (/reel/ vs /p/ and distinct obrf tracking) processed in Gmail; no new unique clip. Seven documented successful GitHub channel checks synchronized at 2026-10-19T21:56:53Z; OpenOcean93 and Package15Media remain unresolved upload-playlist failures. Fresh public indexed searches found no credible new Hebron 2026 performance. GitHub update_file blocked by safety checks; Library fallback saved.\nOct 19 18:51 CDT: GitHub state verified successful uploads checks for seven channels through 2026-10-19T23:22:38.635750Z; synchronized check timestamps. OpenOcean93 and Package15Media still have unresolved playlist failures. Public indexed searches found no credible new Hebron show footage. Gmail website submissions through 2026-10-19T21:36:59Z were already processed; no new unprocessed messages. GitHub registry update blocked by OpenAI safety checks; Library fallback preserved. Oct 20 17:20Z: synchronized seven successful YouTube channel checks from GitHub state; 404 playlist channels unchanged; GitHub registry write blocked by safety checks.\nOct 20 2026: seven successful YouTube channel checks synced from GitHub state at 2026-10-20T20:47:08.325177+00:00; OpenOcean93 and Package15Media remain unresolved (uploads playlist errors). GitHub registry write blocked by OpenAI safety checks; this Library fallback update is not GitHub synchronization.\nOct 24: user explicitly confirmed that YouTube rFIiqOiIR4w (Amazing grace of God, Oct 23 performance) contains genuine Hebron performance footage; marked confirmed performance, without inferring full 2026 show. Added uploader to confirmed watch list. See issue #21.\nOct 24: user confirmed rFIiqOiIR4w shows the COMPLETE 2026 Hebron 'Somewhere in Time' performance, not merely an excerpt. Classification upgraded to confirmed_hebron_show, coverage=complete.\nOct 25 2026: processed new website submissions TikTok ZPLAGguaN and ZTfQnwtrS; public short links inaccessible, identities and footage unverified; two additional Oct 25 submissions of YouTube rFIiqOiIR4w deduplicated against already confirmed complete show. Synced successful YouTube channel check times from GitHub state without treating unresolved playlist errors as inactivity.\nOct 26 2026 08:21 CDT: reconciled Library and GitHub, preserved all prior classifications and account relations, refreshed only GitHub state documented successful channel checks (last state run 2026-10-26T07:06:56Z), added unverified website TikTok ZPLAWjSNV from Gmail 1a178288d12762e6. Five Oct 25-26 website emails processed: two duplicate full-show rFIiqOiIR4w and three TikTok submissions ZPLAGguaN, ZTfQnwtrS, ZPLAWjSNV; all marked read, labeled Website Takedown, archived. TikTok short URLs not publicly resolvable; no video-content claim, no alert email.\nOct 27 2026: User confirmed YouTube 5_ABoYrQ3lc as Hebron performance footage. Two Oct 26 website submissions deduplicated, marked read, labeled Website Takedown and archived. Uploader/event unresolved.\nOct 28 2026 09:39 CDT: Ingested new Hebron Band Website TikTok submission ZPLD133C2 (Gmail 1a1827005aa7df17), unverified because short link inaccessible; no independent discovery alert. Reconciled Library v111 and GitHub, refreshed only successful YouTube channel check times from GitHub state last_run 2026-10-28T08:51:26Z. Playlist errors remain unresolved, not inactive.\nOct 30 2026 reconciliation: GitHub state.json read only, documented successful uploads-playlist checks copied when newer; unresolved OpenOcean93 and Package15Media playlist errors preserved. GitHub state-only event-candidate accounts added without claiming verified Hebron footage. Oct 29 20:24 CDT website email 1a18a68a8df61367 is a processed duplicate of user-confirmed YouTube 5_ABoYrQ3lc, marked read, labeled Website Takedown, archived. No independently verified new footage found by current public web search; TikTok direct access blocked. Library registry v111 was older than GitHub and lacked the two already confirmed clips 5_ABoYrQ3lc and ZPLD133C2.\nOct 31 2026 audit: recovered historical Sep 30 website-submitted TikTok ZP8EpGCPF from processed Gmail 1a0f44be86a1ba35; preserved as unverified (no public content/uploader evidence). Existing email was already labeled Website Takedown, read, and archived. No new alert; no successful TikTok channel check claimed."
+  "source_notes": "Compiled from user-confirmed classifications and GitHub config/state on Oct 13. Unresolved short links do not identify accounts. GitHub channel candidate associations are not independent confirmation. Last checked only populated where evidenced by GitHub state. Do not treat every account as checked directly by this process. Oct 13 21:46Z: synchronized six YouTube channel last_checked_at values from latest GitHub state (21:20Z), registered two previously known TikTok handles as explicit channel_accounts without claiming direct check, and noted indexed 2025 Hebron video attribution to Package15Media. Oct 14 00:15Z: refreshed six YouTube channel last_checked_at values to 2026-10-14T00:05:31.836888Z from GitHub state; OpenOcean93 and Package15Media were not successfully checked (HTTP 404 retry pending). Gmail intake checked: no new Website Takedown messages after Oct 12. Public indexed search did not confirm new 2026 Hebron show footage. No new clip or uploader claimed. Oct 14 01:41Z: synced six GitHub state channel check timestamps at 01:20:52Z; OpenOcean93 and Package15Media remain 404/retry pending, no new independently confirmed footage or Website Takedown messages from current Gmail/web scan; no TikTok short URL identity resolved. Oct 14 02:15Z: synced six YouTube channel checks from GitHub state at 01:56:21Z; OpenOcean93 and Package15Media still in retry, no direct check claimed. Gmail website-submission search through Oct 13 evening found no new messages. Indexed cross-platform searches did not confirm any new 2026 Hebron show clip or TikTok short-link uploader. Oct 14 03:30Z: read latest Library registry and GitHub config/state, synchronized six YouTube uploader channel last_checked_at fields to GitHub state 03:24:48Z. OpenOcean93 and Package15Media remain on 404/retry and were not counted as successfully checked. Gmail search found no unprocessed Website Takedown submissions since Oct 12; broad indexed and known-uploader searches found no new credible Hebron 2026 show footage or resolved TikTok handles. Direct YouTube/TikTok channel pages inaccessible via web tool; no unsupported direct checks claimed. No alert emails sent. Oct 14 04:43Z: synchronized six YouTube channel last_checked_at values from latest GitHub state 04:38:15Z; OpenOcean93 retry postponed to Oct 15 after continued HTTP 404 and Package15Media still pending. Gmail intake after Oct 13 found no new Website Takedown submissions. Fresh public indexed searches for Oct 10 BOA Prosper, Oct 9 Wakeland and known uploaders did not verify any new Hebron 2026 performance video or TikTok uploader. No alert emails sent. Oct 14 06:41Z: refreshed six successful YouTube channel last_checked_at timestamps from GitHub state at 06:08:21Z. OpenOcean93 and Package15Media remain in retry and were not marked as checked. Gmail search found no new unprocessed Website Takedown submissions. Fresh indexed searches across Hebron BOA Prosper, Wakeland, Melissa, YouTube, TikTok and known uploaders did not establish a new 2026 Hebron performance or resolve TikTok uploader handles. No discovery alert email sent. Oct 14 07:27Z: synchronized six YouTube uploader last_checked_at timestamps from latest GitHub state; OpenOcean93 and Package15Media remain 404/retry, not marked checked. Gmail search after Oct 12 showed only already processed submissions. Fresh indexed YouTube/TikTok/Instagram and event searches did not establish a new 2026 Hebron performance or resolve TikTok uploader identities. No discovery alerts sent. Oct 14 08:30Z: reconciled six successful YouTube uploader channel last_checked_at timestamps with GitHub state last_run 08:06:06Z; OpenOcean93 and Package15Media remained on 404 retry and were not marked checked. Gmail search after Oct 12 found no unprocessed Website Takedown submissions. Fresh public indexed YouTube/TikTok/Instagram, BOA Prosper and uploader searches found no newly verifiable Hebron 2026 performance video or newly resolved uploader handle. No discovery alert emails sent. Oct 14 09:05Z: latest GitHub state showed six successful YouTube uploader playlist checks at 08:39:43Z, now synchronized; OpenOcean93 and Package15Media remain HTTP 404/retry and were not counted as checked. Gmail search after Oct 12 found only already processed submissions. Fresh indexed searches covering Oct 10 BOA Prosper, Oct 9 Wakeland, Melissa, YouTube/TikTok/Instagram, and named uploaders did not establish a new Hebron 2026 performance or resolve TikTok account identities. Direct channel/TikTok pages were inaccessible to web; no unsupported checks claimed. No alert emails sent. Oct 14 10:45Z: synced six verified GitHub uploader playlist-check timestamps from state.json (last_run 10:24:12Z); OpenOcean93 and Package15Media remain HTTP 404 and were NOT marked checked. Searched recent public indexed videos and website takedown Gmail; no new independently confirmed Hebron show videos or unprocessed Website submissions found. No alert emails. Oct 14 22:26Z: six YouTube channel check timestamps synced from current GitHub state.json; OpenOcean93 and Package15Media remained in retry/backoff, not freshly checked. GitHub registry write attempt blocked by connector safety checks; this Library version is fallback, not GitHub synced. Oct 15 06:18Z: synchronized seven YouTube channel checks from GitHub state last_run 06:05Z; OpenOcean93 and Package15Media were not successfully checked and retain prior timestamps. No new independently verified Hebron footage or new website submissions; GitHub registry update remained blocked by safety checks. Oct 15 10:39Z: synchronized seven successful channel playlist-check timestamps from GitHub state.json last_run 10:23:02Z. OpenOcean93 and Package15Media not counted as freshly checked. Gmail search through Oct 15 found only previously processed Website submissions; public indexed searches found no new independently confirmed Hebron footage. GitHub registry update blocked by safety checks; this Library version is fallback only. Oct 15 12:20Z: reconciled seven GitHub state.json channel-check timestamps (actual GitHub monitor check at 12:06Z); no new independently confirmed Hebron show video. GitHub registry update attempted but blocked by safety checks; Library remains fallback. Oct 15 14:15Z: synchronized 7 successfully checked YouTube channel timestamps from GitHub state last_run 14:09:13Z. OpenOcean93 and Package15Media remain pending retry, not checked. GitHub update_file was blocked by safety checks; GitHub primary registry still 10 accounts/32 clips, Library fallback has 11/33 including General Effect Media. No new independently verified Hebron footage. Oct 15 17:08Z: synchronized seven successful YouTube channel checks from GitHub state last_run 17:02:58Z. OpenOcean93 and Package15Media remain unavailable/pending retry and their last_checked_at was not advanced. No new independently verified Hebron show footage or website submission; GitHub registry update_file blocked by safety checks; Library fallback retains General Effect Media and qKu7A2T6T7Y event-only unverified reference. Oct 15 22:53Z: reconciled seven GitHub monitor channel check timestamps; no new independently verified Hebron footage or new website submission. GitHub update_file blocked by safety checks; Library fallback updated. Oct 16 05:06:45Z: synchronized seven evidenced YouTube channel-check timestamps from GitHub state.json last_run; no newly verified Hebron videos, uploader account changes, or direct checks of TikTok accounts. GitHub write blocked; Library fallback updated. Oct 16 08:48Z: refreshed 7 YouTube channel check times from GitHub state.json last_run 08:38:02Z; no new Hebron clip verified. GitHub registry update attempt blocked by safety checks; Library fallback remains ahead of GitHub. Oct 16 13:21Z: reconciled seven public YouTube channel check timestamps from GitHub state.json last_run 2026-10-16T12:44:59Z. Public web indexing did not reveal a new confirmed Hebron 2026 performance. Direct platform page access was unavailable in this check. GitHub registry write remained blocked; this Library copy is newer than GitHub. Oct 16 14:13Z: synchronized 7 GitHub state channel check timestamps from 14:04:51Z; OpenOcean93 and Package15Media checks still unavailable (retry pending). No new independently verified 2026 Hebron show footage or website submissions. GitHub registry update_file blocked by safety checks; Library fallback only. Oct 16 17:24Z: synchronized 7 YouTube channel check timestamps from GitHub state last_run 17:20:09Z. OpenOcean93 and Package15Media still unavailable (uploads playlist errors); no unverified check timestamps fabricated. No new independently verified Hebron video or website submission. GitHub write blocked; Library fallback only. Oct 16 19:18Z: synchronized seven successful YouTube channel checks from GitHub state at 19:02:56Z; preserved 404/unavailable channels as unchecked; public web search found no new independently verified Hebron show video. GitHub registry update attempt blocked by safety checks. Oct 16 20:59Z: synchronized 7 successful channel check timestamps from current GitHub state.json. OpenOcean93 and Package15Media had upload playlist errors, so last_checked_at not advanced. No new verified Hebron footage or website submissions in current check. GitHub registry remains unchanged because update_file was blocked. Oct 16 21:26Z: refreshed 7 successful YouTube channel check timestamps from current GitHub state. GitHub registry write blocked; this ChatGPT Library fallback remains ahead with General Effect Media. No new Hebron performance independently verified. Oct 16 19:48 CDT: synchronized seven successfully checked YouTube channel timestamps from GitHub state.json (2026-10-17T00:46:22Z); OpenOcean93 and Package15Media upload playlists still unavailable. Public search and Gmail scan found no new independently verified Hebron performance or new website submission. GitHub registry update attempt blocked; Library fallback only. Oct 16 23:29 CDT: refreshed 7 successful YouTube channel check timestamps from GitHub state last_run 2026-10-17T04:23:24Z. OpenOcean93 and Package15Media remain on retry; no new verified Hebron footage, new website submissions, or independently verified uploader relations. GitHub registry write attempt blocked; fallback only. Oct 17 09:43Z: synchronized seven channel last_checked_at values from GitHub state.json last_run 09:10Z. GitHub registry update blocked; ChatGPT Library fallback updated. No newly confirmed Hebron footage. Oct 17 10:07Z: synchronized GitHub state checked timestamps from 09:46Z for seven successful YouTube channel checks; preserved retry status for OpenOcean93 and Package15Media. Public discovery found no new verified show videos. GitHub registry write blocked by safety checks; Library fallback only.\nOct 17 13:03Z: synced seven successful channel-check timestamps from GitHub state.json (run 1804). OpenOcean93 and Package15Media were not marked checked due to upload-playlist errors. No independently verified new Hebron 2026 video. GitHub registry write again blocked by safety checks; Library fallback only.\nOct 17 13:38 CDT: Gmail website submission TikTok short ZPLSvrpSf (message 1a14adc32361f798, 12:15 CDT) processed read/labeled/archived; unverified uploader/content. Public short URL blocked and indexed search yielded no public metadata. Synced seven successful channel checks from GitHub state.json at 2026-10-17T18:18:33.781085Z; OpenOcean93 and Package15Media playlist failures remain unresolved and were NOT marked checked. GitHub and Library compared; GitHub had no conflicting or newer classifications; Library included General Effect Media and ZPLS753yY.\nOct 17 14:10 CDT: reconciled seven successful YouTube channel checks from GitHub state at 2026-10-17T18:50:14.591933Z. OpenOcean93 and Package15Media unavailable playlists were not marked freshly checked. No new website submissions or independently credible Hebron footage found in this check. GitHub registry update blocked by safety checks; Library fallback only.\nOct 17 15:25 CDT: reconciled seven successful channel checks from GitHub state.json last_run 2026-10-17T20:03:17.119074Z; OpenOcean93 and Package15Media remained unresolved (uploads playlist 404), not marked newly checked. No new public credible Hebron show video and no new website submission identified. GitHub registry update_file blocked by safety checks; Library fallback updated only.\nOct 17 18:49 CDT: reconciled seven successful channel checks from GitHub state.json last_run 2026-10-17T23:49:43.543660Z. OpenOcean93 and Package15Media remained unverified due to uploads playlist errors. Public indexed searches found no new credible Hebron performance footage; no new Website Takedown Gmail messages after 12:15 CDT.\nOct 17 20:20 CDT: synchronized seven successful uploader channel checks from GitHub state.json at 2026-10-18T01:20:00Z; OpenOcean93 and Package15Media still had uploads playlist errors and were not marked checked. Public indexed searches across UIL Region, BOA North Texas, known channels, YouTube/TikTok/Instagram/Reddit did not reveal new credible Hebron footage or verified uploader relationships. Gmail search found only already processed website submissions. GitHub update_file was blocked by OpenAI safety checks; Library remains authoritative fallback for newest 11 accounts/35 videos.\nOct 17 22:06 CDT: reconciled seven successful channel checks from GitHub state.json last_run 2026-10-18T02:56:18.051280Z; OpenOcean93 and Package15Media playlist errors remain unresolved. Public indexed searches found no new credible Hebron show footage, uploader verification, or new website submissions. GitHub registry still stale pending sync.\nOct 17 23:03 CDT: synchronized seven verified channel checks from GitHub state.json last_run 2026-10-18T03:58:09.525283Z. OpenOcean93 and Package15Media playlist errors remain unresolved and were not marked checked. No new website submissions or credible public Hebron performance footage in this run. GitHub registry update_file blocked by OpenAI safety checks; Library fallback updated.\nOct 18 00:54 CDT: reconciled seven GitHub state.json successful channel checks from 2026-10-18T05:53:28.838185Z. OpenOcean93 and Package15Media uploads playlist checks remain unresolved. Public searches found no independently credible new Hebron show footage; Gmail had no unprocessed submissions. GitHub registry update blocked by OpenAI safety checks; Library fallback synchronized.\nOct 18 02:24 CDT: synchronized seven evidenced YouTube uploader channel checks from GitHub state.json at 07:06:53Z. OpenOcean93 and Package15Media playlists remain unavailable/retry; no successful checks claimed. Gmail website intake had no new submissions after Oct 17 12:15 CDT. Indexed public searches around Oct 17 UIL Region, BOA North Texas and Lewisville football found no new independently credible Hebron show footage or verified cross-platform uploader relationships. GitHub registry update_file blocked by safety checks; Library fallback updated only.\nOct 18 03:33 CDT: Reconciled latest GitHub main registry (10 accounts, 32 videos) with newer Library registry (11 accounts, 35 videos). Seven YouTube channel last_checked_at timestamps updated from documented successful GitHub state.json checks at 2026-10-18T08:01:17.282633+00:00; OpenOcean93 and Package15Media unresolved playlist errors are NOT inactive accounts. No new independently credible Hebron show footage found in public indexed searches; no unprocessed website submission emails. GitHub update_file blocked by safety checks; Library remains authoritative fallback until GitHub sync succeeds.\nOct 18 04:16 CDT: refreshed seven evidenced GitHub channel checks from 09:01:41Z; OpenOcean93 and Package15Media remain playlist errors, not inactive. No new credible Hebron performance or website submissions. GitHub write blocked by safety checks; Library fallback updated.\nOct 18 08:41 CDT: seven YouTube channels refreshed from successful GitHub state.json channel checks 2026-10-18T13:24:08.099876Z. OpenOcean93 and Package15Media remain unresolved upload-playlist errors (not inactive). No new valid Website Takedown submissions or independently credible Hebron 2026 performance footage identified in indexed public search. GitHub registry update_file blocked by safety checks; Library fallback updated.\nOct 18 09:27 CDT: synchronized seven documented successful GitHub channel checks at 2026-10-18T14:17:16.461997Z; OpenOcean93 and Package15Media uploads playlist checks still unresolved (not inactive). Public indexed searches after Oct 17 UIL Region did not yield independently credible new Hebron performance footage; no unprocessed website submissions. GitHub registry update_file blocked by safety checks; Library fallback refreshed.\nOct 18 10:46 CDT: Seven documented GitHub channel checks at 2026-10-18T15:33:43.703086Z reconciled. OpenOcean93 and Package15Media playlist errors remain unresolved, not inactive. Gmail search had no new Website Takedown submissions; indexed public search found no independently credible new Hebron show footage. GitHub registry update_file was blocked by OpenAI safety checks; Library fallback updated. Oct 18 16:32Z: synchronized seven successful YouTube uploader checks from GitHub state at 16:26Z. OpenOcean93 and Package15Media were not checked successfully (404/unavailable). Gmail search through Oct 18 11:32 CDT found no new Website Takedown submissions. Fresh indexed public searches for Oct 17 UIL Region, Oct 16 Lewisville, Oct 10 BOA Prosper and known uploader accounts found no new credible Hebron performance. GitHub registry write blocked by safety checks; Library remains updated fallback. Oct 18 12:20 CDT: merged GitHub main registry (10 accounts, 32 clips) with latest Library (11 accounts, 35 clips); synced seven successful channel-check timestamps from GitHub state last_run 2026-10-18T17:17:47Z. OpenOcean93 and Package15Media remain playlist errors, not freshly checked. No new website submissions or independently verified footage in fresh public searches. GitHub registry update_file blocked by OpenAI safety checks; Library fallback updated only.\nOct 18 13:07 CDT: synchronized seven successful channel-check timestamps from GitHub state at 2026-10-18T18:04:10Z; OpenOcean93 and Package15Media still inaccessible, not inactive. No new credible independently discovered Hebron footage or unprocessed website emails; GitHub registry update blocked, Library fallback updated.\nOct 18 14:29 CDT: merged GitHub main (10 accounts/32 clips) with Library (11 accounts/35 clips); refreshed seven channel last_checked_at values from successful GitHub state.json checks 2026-10-18T19:29:00.869032Z. OpenOcean93 and Package15Media remained unresolved playlist failures and were not marked checked. No new unprocessed Website Takedown Gmail messages or credible new independently discovered Hebron 2026 performance in public indexed searches. GitHub registry update_file blocked by OpenAI safety checks; Library fallback updated.\nOct 18 15:40 CDT: reconciled GitHub main (10 accounts, 32 clips) and latest Library (11 accounts, 35 clips), retaining all classifications. Seven successful channel checks at 2026-10-18T20:13:59.701281Z synchronized from GitHub state.json. OpenOcean93 and Package15Media remained unresolved playlist failures, not inactive. No new Website Takedown submissions in Gmail and no new independently credible Hebron footage in current public indexed searches of UIL Region, Lewisville, BOA Prosper and uploader accounts. GitHub update_file blocked by OpenAI safety checks; Library fallback to be updated.\nOct 18 16:31 CDT: reconciled GitHub main (10 accounts/32 clips) and Library (11 accounts/35 clips). Seven documented successful uploader channel checks at 2026-10-18T21:06:38.786593Z synchronized from GitHub state.json. OpenOcean93 and Package15Media remain unresolved playlist errors, not inactive. Gmail has no new website submissions and public indexed searches found no new independently credible Hebron performance. GitHub update_file blocked by safety checks; Library fallback updated.\nOct 19 00:11 CDT: compared GitHub main registry (10 accounts/32 videos) with Library (11/35); attempted GitHub full merged update with latest blob SHA, blocked by safety checks. Seven successful channel checks from GitHub state.json at 2026-10-19T04:38:09.721427Z incorporated; OpenOcean93 and Package15Media still have unresolved uploads-playlist failures. Gmail had no new Website Takedown submissions and public indexed searches found no independently credible new Hebron 2026 show footage. All classifications retained.\nOct 19 03:47 CDT: reconciled GitHub main (10 accounts/32 videos) and Library (11 accounts/36 videos). Seven documented successful channel checks from GitHub state.json at 2026-10-19T08:10:30.023090Z synchronized. OpenOcean93 and Package15Media playlist failures remain unresolved, not inactive. No new unprocessed website submissions or independently credible Hebron footage found in public indexed searches. GitHub update_file blocked by safety checks; Library fallback updated.\nOct 19 06:09 CDT: merged GitHub main (10 accounts/32 videos) with Library (11/36). Seven successful direct YouTube uploader checks documented in GitHub state.json at 2026-10-19T10:50:50.522393Z synchronized. OpenOcean93 and Package15Media remain unresolved playlist errors. Public indexed searches found no independently credible new Hebron 2026 show footage. Gmail had no new unprocessed Website Takedown submissions. GitHub update_file blocked by OpenAI safety checks; Library fallback preserved. Oct 19 12:33Z: reconciled GitHub state seven successfully checked YouTube channels through 12:01:28Z; OpenOcean93 and Package15Media remain unresolved. GitHub registry update attempt blocked by safety checks; Library is current fallback. Oct 19 12:45Z: seven YouTube channel upload lists successfully checked per GitHub state; OpenOcean93 and Package15Media still have unresolved playlist errors. GitHub registry update attempt blocked by safety checks; Library fallback retained.\nOct 19 09:41 CDT: merged latest GitHub main (10 accounts/32 clips) with Library fallback (11 accounts/36 clips), retained all reviewed classifications. Seven successful uploader channel checks at 2026-10-19T14:14:32Z documented in GitHub state.json synchronized; OpenOcean93 and Package15Media remain unresolved playlist errors, not inactive. Public indexed searches for Oct 17 UIL Region, Oct 16 Lewisville, BOA Prosper and broad social sources found no independently credible new Hebron show footage. Gmail contained no new unprocessed website submissions. GitHub update_file blocked by OpenAI safety checks; Library fallback saved.\nOct 19 17:24 CDT: Two duplicate website Instagram submissions for Der5t8yOsoK (/reel/ vs /p/ and distinct obrf tracking) processed in Gmail; no new unique clip. Seven documented successful GitHub channel checks synchronized at 2026-10-19T21:56:53Z; OpenOcean93 and Package15Media remain unresolved upload-playlist failures. Fresh public indexed searches found no credible new Hebron 2026 performance. GitHub update_file blocked by safety checks; Library fallback saved.\nOct 19 18:51 CDT: GitHub state verified successful uploads checks for seven channels through 2026-10-19T23:22:38.635750Z; synchronized check timestamps. OpenOcean93 and Package15Media still have unresolved playlist failures. Public indexed searches found no credible new Hebron show footage. Gmail website submissions through 2026-10-19T21:36:59Z were already processed; no new unprocessed messages. GitHub registry update blocked by OpenAI safety checks; Library fallback preserved. Oct 20 17:20Z: synchronized seven successful YouTube channel checks from GitHub state; 404 playlist channels unchanged; GitHub registry write blocked by safety checks.\nOct 20 2026: seven successful YouTube channel checks synced from GitHub state at 2026-10-20T20:47:08.325177+00:00; OpenOcean93 and Package15Media remain unresolved (uploads playlist errors). GitHub registry write blocked by OpenAI safety checks; this Library fallback update is not GitHub synchronization.\nOct 24: user explicitly confirmed that YouTube rFIiqOiIR4w (Amazing grace of God, Oct 23 performance) contains genuine Hebron performance footage; marked confirmed performance, without inferring full 2026 show. Added uploader to confirmed watch list. See issue #21.\nOct 24: user confirmed rFIiqOiIR4w shows the COMPLETE 2026 Hebron 'Somewhere in Time' performance, not merely an excerpt. Classification upgraded to confirmed_hebron_show, coverage=complete.\nOct 25 2026: processed new website submissions TikTok ZPLAGguaN and ZTfQnwtrS; public short links inaccessible, identities and footage unverified; two additional Oct 25 submissions of YouTube rFIiqOiIR4w deduplicated against already confirmed complete show. Synced successful YouTube channel check times from GitHub state without treating unresolved playlist errors as inactivity.\nOct 26 2026 08:21 CDT: reconciled Library and GitHub, preserved all prior classifications and account relations, refreshed only GitHub state documented successful channel checks (last state run 2026-10-26T07:06:56Z), added unverified website TikTok ZPLAWjSNV from Gmail 1a178288d12762e6. Five Oct 25-26 website emails processed: two duplicate full-show rFIiqOiIR4w and three TikTok submissions ZPLAGguaN, ZTfQnwtrS, ZPLAWjSNV; all marked read, labeled Website Takedown, archived. TikTok short URLs not publicly resolvable; no video-content claim, no alert email.\nOct 27 2026: User confirmed YouTube 5_ABoYrQ3lc as Hebron performance footage. Two Oct 26 website submissions deduplicated, marked read, labeled Website Takedown and archived. Uploader/event unresolved.\nOct 28 2026 09:39 CDT: Ingested new Hebron Band Website TikTok submission ZPLD133C2 (Gmail 1a1827005aa7df17), unverified because short link inaccessible; no independent discovery alert. Reconciled Library v111 and GitHub, refreshed only successful YouTube channel check times from GitHub state last_run 2026-10-28T08:51:26Z. Playlist errors remain unresolved, not inactive.\nOct 30 2026 reconciliation: GitHub state.json read only, documented successful uploads-playlist checks copied when newer; unresolved OpenOcean93 and Package15Media playlist errors preserved. GitHub state-only event-candidate accounts added without claiming verified Hebron footage. Oct 29 20:24 CDT website email 1a18a68a8df61367 is a processed duplicate of user-confirmed YouTube 5_ABoYrQ3lc, marked read, labeled Website Takedown, archived. No independently verified new footage found by current public web search; TikTok direct access blocked. Library registry v111 was older than GitHub and lacked the two already confirmed clips 5_ABoYrQ3lc and ZPLD133C2.\nOct 31 2026 audit: recovered historical Sep 30 website-submitted TikTok ZP8EpGCPF from processed Gmail 1a0f44be86a1ba35; preserved as unverified (no public content/uploader evidence). Existing email was already labeled Website Takedown, read, and archived. No new alert; no successful TikTok channel check claimed.\nOct 31 2026 historical Gmail dedupe audit: all 115 read, labeled, archived website submissions matched; 103 valid-looking video URLs map to existing 39 canonical video references and 12 blank/test URLs were separately recorded. Recovered missing per-video processed Gmail IDs without changing footage classifications, uploader identities or documented channel check times. This is a historical audit, not newly discovered performance footage.",
+  "processed_gmail_message_ids": [
+    "1a0e47d45852add7",
+    "1a0e4f1e7ada26ca",
+    "1a0e4f2739452441",
+    "1a0e50fb4878404a",
+    "1a0e57430cf7e7ae",
+    "1a0e577122ce8b62",
+    "1a0e5a485cf0d53f",
+    "1a0e5badde963731",
+    "1a0e5bbfe2a6de8e",
+    "1a0e5d3c38272e01",
+    "1a0e5e66c51f13a6",
+    "1a0e5eec427d6840",
+    "1a0e5f15ed0adc90",
+    "1a0e607120bbd019",
+    "1a0e61c9a0212bb3",
+    "1a0e6258a0578654",
+    "1a0e626b4e310e61",
+    "1a0e6275f9b37bce",
+    "1a0e6333d99fe953",
+    "1a0e73a85bf33f16",
+    "1a0e7df7292472a4",
+    "1a0e7e0f29a69305",
+    "1a0e7e33409becf3",
+    "1a0e7e51a1cb0d40",
+    "1a0e8137e4df56fb",
+    "1a0e817d486cc7fb",
+    "1a0e86949357d32f",
+    "1a0e869ab958c2ef",
+    "1a0e86fad00f4cb9",
+    "1a0e87390fe848f5",
+    "1a0e8742be8fa958",
+    "1a0e8b2eb0fc672d",
+    "1a0e8db760fffc54",
+    "1a0e979c442e584a",
+    "1a0ea80309a60fe7",
+    "1a0ea86eb5b3ca92",
+    "1a0ea8767fb47fd2",
+    "1a0ea8c4be76dd2e",
+    "1a0ea8cba6ae897c",
+    "1a0ea94dfc43ebc1",
+    "1a0ea97caf2e715a",
+    "1a0ea98a513d29f2",
+    "1a0eaba76022d5df",
+    "1a0eac4cfca2c415",
+    "1a0eac53848af045",
+    "1a0eadb652f0d54a",
+    "1a0eae2246696bc7",
+    "1a0eae2d2f036188",
+    "1a0eae436227b0ae",
+    "1a0eae972d50c0a6",
+    "1a0eaece3be3ee45",
+    "1a0eaf7475532ac4",
+    "1a0eaf89d4ecf372",
+    "1a0eb9b06db60761",
+    "1a0eb9bb5bb65d7f",
+    "1a0eb9c19b9508f0",
+    "1a0eb9c71ed04a7c",
+    "1a0ee05c862269f9",
+    "1a0f44be86a1ba35",
+    "1a0f47ed9a1805d5",
+    "1a0f7dadee02f49d",
+    "1a0fa2f395e4f8ee",
+    "1a0fc30ee6e2dd3b",
+    "1a0fc41f4c0fb10a",
+    "1a0fc4f6db2ebefd",
+    "1a0fc5cef71bae9a",
+    "1a0fc5da52e2c294",
+    "1a0fc60902d07a95",
+    "1a0fc61bd6c4849a",
+    "1a0fc8ac5d05ef6b",
+    "1a0fc91949e33470",
+    "1a0fcdeaddae9810",
+    "1a0fce71b4d912fa",
+    "1a0fcf0cf95fcd2f",
+    "1a0fcf33188ca9d4",
+    "1a0fd10b788d95d8",
+    "1a0fd24a3381af87",
+    "1a0fd33a3909235f",
+    "1a0fd466cb409e17",
+    "1a0fd6a285ff2acc",
+    "1a0fd7f90499ac82",
+    "1a0fd9e04d0851ce",
+    "1a0fdd9dbe4c9b06",
+    "1a0fde0c90d956c1",
+    "1a0fdfe564f27789",
+    "1a0fe00113e5511c",
+    "1a0ff7ec48351fbe",
+    "1a1088532adc40fe",
+    "1a10899be51086a2",
+    "1a10f023d1069c1a",
+    "1a10f23ae02e3756",
+    "1a11d5975ed6210d",
+    "1a122859f9fa1f2e",
+    "1a130d67783e5c05",
+    "1a13134f5ae43f3d",
+    "1a13135740443b54",
+    "1a13278e8f307cee",
+    "1a14a61542af66c0",
+    "1a14adc32361f798",
+    "1a155d20b2cc8ae9",
+    "1a1560bbdd6bb216",
+    "1a15618ae3a0f8d2",
+    "1a16e36d9392dc99",
+    "1a16f19e3bd190a5",
+    "1a16fc2c4e8affb4",
+    "1a16fcd2a3155fc6",
+    "1a1740a21b478a82",
+    "1a174a327893537e",
+    "1a1752bb89cda6b5",
+    "1a1753e8cb0cb79d",
+    "1a178288d12762e6",
+    "1a179a9ec3a85a14",
+    "1a17a36453175e9e",
+    "1a1827005aa7df17",
+    "1a18a68a8df61367"
+  ],
+  "processed_gmail_invalid_test": [
+    {
+      "message_id": "1a1088532adc40fe",
+      "received_at": "2026-10-04T20:05:08+00:00",
+      "submitted_url": null,
+      "classification": "invalid_or_test",
+      "processed": true
+    },
+    {
+      "message_id": "1a0fcdeaddae9810",
+      "received_at": "2026-10-02T13:47:26+00:00",
+      "submitted_url": null,
+      "classification": "invalid_or_test",
+      "processed": true
+    },
+    {
+      "message_id": "1a0eb9b06db60761",
+      "received_at": "2026-09-29T05:20:00+00:00",
+      "submitted_url": "https://www.youtube.com/test6",
+      "classification": "invalid_or_test",
+      "processed": true
+    },
+    {
+      "message_id": "1a0eaece3be3ee45",
+      "received_at": "2026-09-29T02:09:47+00:00",
+      "submitted_url": "https://youtube.com/test5",
+      "classification": "invalid_or_test",
+      "processed": true
+    },
+    {
+      "message_id": "1a0eae972d50c0a6",
+      "received_at": "2026-09-29T02:06:02+00:00",
+      "submitted_url": "https://www.youtube.com//test3",
+      "classification": "invalid_or_test",
+      "processed": true
+    },
+    {
+      "message_id": "1a0eae436227b0ae",
+      "received_at": "2026-09-29T02:00:19+00:00",
+      "submitted_url": "https://www.youtube.com/test3&utm_source=ig",
+      "classification": "invalid_or_test",
+      "processed": true
+    },
+    {
+      "message_id": "1a0eae2d2f036188",
+      "received_at": "2026-09-29T01:58:48+00:00",
+      "submitted_url": "https://www.youtube.com/test3&utm_source=facebook&utm_medium=cpc",
+      "classification": "invalid_or_test",
+      "processed": true
+    },
+    {
+      "message_id": "1a0eae2246696bc7",
+      "received_at": "2026-09-29T01:58:03+00:00",
+      "submitted_url": "https://www.youtube.com/test3?utm_source=ig",
+      "classification": "invalid_or_test",
+      "processed": true
+    },
+    {
+      "message_id": "1a0eadb652f0d54a",
+      "received_at": "2026-09-29T01:50:41+00:00",
+      "submitted_url": "https://www.youtube.com/test4",
+      "classification": "invalid_or_test",
+      "processed": true
+    },
+    {
+      "message_id": "1a0ea94dfc43ebc1",
+      "received_at": "2026-09-29T00:33:39+00:00",
+      "submitted_url": "https://www.youtube.com/test3",
+      "classification": "invalid_or_test",
+      "processed": true
+    },
+    {
+      "message_id": "1a0ea8cba6ae897c",
+      "received_at": "2026-09-29T00:24:46+00:00",
+      "submitted_url": "https://www.youtube.com/test2",
+      "classification": "invalid_or_test",
+      "processed": true
+    },
+    {
+      "message_id": "1a0ea8c4be76dd2e",
+      "received_at": "2026-09-29T00:24:17+00:00",
+      "submitted_url": "https://youtube.com/test",
+      "classification": "invalid_or_test",
+      "processed": true
+    }
+  ]
 }
