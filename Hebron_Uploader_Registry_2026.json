@@ -258,6 +258,18 @@
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
       "last_checked_at": "2026-11-01T01:31:40.524856+00:00"
+    },
+    {
+      "platform": "YouTube",
+      "channel_id": "UC4yvN_3gk4xSzV4vW-9xy4A",
+      "account_url": "https://www.youtube.com/channel/UC4yvN_3gk4xSzV4vW-9xy4A",
+      "public_name": "Michael Naydeck",
+      "confidence": "event_candidate",
+      "source_video_id": "UGtE4_DXQwI",
+      "notes": "GitHub state.json discovery: uploader posting marching footage from current event: UIL Area. Source video and Hebron relationship not independently verified; no successful channel inventory check documented.",
+      "watch_all_public_uploads_of_any_band": true,
+      "new_upload_ids": [],
+      "last_checked_at": null
     }
   ],
   "video_references": [
