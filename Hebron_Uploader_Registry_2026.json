@@ -1,7 +1,7 @@
 {
   "project": "Hebron High School Band 2026 Somewhere in Time",
   "schema_version": 1,
-  "updated_at": "2026-11-01",
+  "updated_at": "2026-11-02",
   "channel_accounts": [
     {
       "platform": "YouTube",
@@ -1011,7 +1011,8 @@
         "1a179a9ec3a85a14",
         "1a17a36453175e9e",
         "1a18a68a8df61367",
-        "1a195d75d2ad3c9f"
+        "1a195d75d2ad3c9f",
+        "1a199e11ff4fb8e1"
       ]
     },
     {
@@ -1189,7 +1190,8 @@
     "1a17a36453175e9e",
     "1a1827005aa7df17",
     "1a18a68a8df61367",
-    "1a195d75d2ad3c9f"
+    "1a195d75d2ad3c9f",
+    "1a199e11ff4fb8e1"
   ],
   "processed_gmail_invalid_test": [
     {
