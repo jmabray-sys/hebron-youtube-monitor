@@ -1014,7 +1014,8 @@
         "1a195d75d2ad3c9f",
         "1a199e11ff4fb8e1",
         "1a19cd7eaccfd564",
-        "1a19cc7a7972e864"
+        "1a19cc7a7972e864",
+        "1a19e118c288cb3c"
       ]
     },
     {
@@ -1060,7 +1061,23 @@
       "new_upload_ids": [],
       "submission_email_ids": [
         "1a19cd6d330c960e",
-        "1a19cc7eb0ba1b9b"
+        "1a19cc7eb0ba1b9b",
+        "1a19e0e87ace5865"
+      ]
+    },
+    {
+      "platform": "YouTube",
+      "id": "cxlsqqh4cbQ",
+      "canonical_or_short_url": "https://www.youtube.com/shorts/cxlsqqh4cbQ",
+      "classification": "unverified_website_submission",
+      "event": "UNVERIFIED",
+      "round": "UNVERIFIED",
+      "classification_source": "Hebron Band Website submission received 2026-11-02T21:00:32Z; Gmail message 1a19e1054ef8ecd5. Public search and direct YouTube access did not independently verify footage, uploader, or event. Website submission alone is not proof of performance.",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a19e1054ef8ecd5"
       ]
     }
   ],
@@ -1213,7 +1230,10 @@
     "1a19cd7eaccfd564",
     "1a19cd6d330c960e",
     "1a19cc7eb0ba1b9b",
-    "1a19cc7a7972e864"
+    "1a19cc7a7972e864",
+    "1a19e0e87ace5865",
+    "1a19e1054ef8ecd5",
+    "1a19e118c288cb3c"
   ],
   "processed_gmail_invalid_test": [
     {
