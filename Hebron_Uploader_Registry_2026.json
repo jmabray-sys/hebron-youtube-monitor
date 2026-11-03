@@ -270,6 +270,18 @@
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
       "last_checked_at": "2026-11-02T09:46:40.342951+00:00"
+    },
+    {
+      "platform": "YouTube",
+      "channel_id": "UCS2mWaQGEEdkPSMQ72FK4bQ",
+      "account_url": "https://www.youtube.com/channel/UCS2mWaQGEEdkPSMQ72FK4bQ",
+      "public_name": "Nayo H.",
+      "confidence": "event_candidate",
+      "source_video_id": "iBWaxiEcQ-Y",
+      "last_checked_at": "2026-11-02T19:50:12.932876+00:00",
+      "notes": "Added from GitHub state.json channel record (2026-11-02). Source was described as UIL Area marching footage; no independently verified Hebron show content or uploader relationship. TXBands publicly attributes 2024 John Paul Stevens UIL Area H footage to Nayo H. Account ID association comes from GitHub state; direct channel inventory inaccessible.",
+      "watch_all_public_uploads_of_any_band": true,
+      "new_upload_ids": []
     }
   ],
   "video_references": [
