@@ -8,7 +8,7 @@ class AuditTests(unittest.TestCase):
         self.registry = {"channel_accounts": [{"channel_id": "A", "last_checked_at": None,
             "last_channel_error": "Uploads playlist HTTP 404"}],
             "video_references": [{"video_id": "known"}],
-            "uploader_relationships": [], "processed_gmail_message_ids": ["mail1"]}
+            "public_account_relationships": [], "processed_gmail_message_ids": ["mail1"]}
         self.state = {"known_channels": [{"channel_id": "A", "last_checked_at": None}]}
 
     def test_unresolved_channel_is_not_failure_or_success(self):
