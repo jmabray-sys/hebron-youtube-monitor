@@ -14,7 +14,7 @@
       "notes": "Uploads playlist HTTP 404; GitHub state retry after 2026-10-18T05:19:28.866730+00:00. No successful channel check recorded.; Uploads playlist returned HTTP 404; next retry 2026-10-18T05:19:28Z",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
-      "next_retry_at": "2026-11-05T17:36:40.669279+00:00",
+      "next_retry_at": "2026-11-06T18:21:05.136759+00:00",
       "last_channel_error": "Uploads playlist returned HTTP 404"
     },
     {
@@ -24,7 +24,7 @@
       "public_name": "steven smith",
       "confidence": "confirmed",
       "source_video_id": "nPIlu4dpq-c",
-      "last_checked_at": "2026-11-05T10:49:31.557455+00:00",
+      "last_checked_at": "2026-11-05T18:21:05.136759+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -36,7 +36,7 @@
       "public_name": "La'ZenTakigawa",
       "confidence": "confirmed",
       "source_video_id": "p7zK4spKw0o",
-      "last_checked_at": "2026-11-05T10:49:31.557455+00:00",
+      "last_checked_at": "2026-11-05T18:21:05.136759+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -48,7 +48,7 @@
       "public_name": "Rodrigo Figueredo",
       "confidence": "candidate",
       "source_video_id": "PfoJ1D6VoQg",
-      "last_checked_at": "2026-11-04T22:51:51.830992+00:00",
+      "last_checked_at": "2026-11-05T18:21:05.136759+00:00",
       "notes": "GitHub state association; uploader independently unverified",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -60,7 +60,7 @@
       "public_name": "topography",
       "confidence": "candidate",
       "source_video_id": "IFBr9NVAsC4",
-      "last_checked_at": "2026-11-04T22:51:51.830992+00:00",
+      "last_checked_at": "2026-11-05T18:21:05.136759+00:00",
       "notes": "GitHub state association; uploader independently unverified",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -84,7 +84,7 @@
       "public_name": "BOX5 Media",
       "confidence": "event_candidate",
       "source_video_id": "Uya4JxvX5Os",
-      "last_checked_at": "2026-11-04T22:51:51.830992+00:00",
+      "last_checked_at": "2026-11-05T18:21:05.136759+00:00",
       "notes": "BOA event footage; no confirmed Hebron clip",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -152,7 +152,7 @@
       "public_name": "Amazing grace of God",
       "confidence": "confirmed",
       "source_video_id": "rFIiqOiIR4w",
-      "last_checked_at": "2026-11-05T10:49:31.557455+00:00",
+      "last_checked_at": "2026-11-05T18:21:05.136759+00:00",
       "notes": "User confirmed Hebron performance footage 2026-10-24 from Oct 23 football game; channel belongs in confirmed-uploader monitoring; individual future uploads require separate review.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -196,7 +196,7 @@
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
       "last_checked_at": "2026-10-30T23:52:52.418290+00:00",
-      "next_retry_at": "2026-11-05T17:36:40.669279+00:00",
+      "next_retry_at": "2026-11-06T18:21:05.136759+00:00",
       "last_channel_error": "Uploads playlist unavailable"
     },
     {
@@ -278,7 +278,7 @@
       "public_name": "Nayo H.",
       "confidence": "event_candidate",
       "source_video_id": "iBWaxiEcQ-Y",
-      "last_checked_at": "2026-11-05T03:08:46.172135+00:00",
+      "last_checked_at": "2026-11-05T18:21:05.136759+00:00",
       "notes": "Added from GitHub state.json channel record (2026-11-02). Source was described as UIL Area marching footage; no independently verified Hebron show content or uploader relationship. TXBands publicly attributes 2024 John Paul Stevens UIL Area H footage to Nayo H. Account ID association comes from GitHub state; direct channel inventory inaccessible.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
