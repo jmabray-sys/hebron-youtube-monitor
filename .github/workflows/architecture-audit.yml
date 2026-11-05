@@ -1,0 +1,35 @@
+name: Hebron Architecture Audit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hebron-architecture-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: python -m unittest -v test_run_audit.py
+      - name: Read-only repository audit
+        run: python run_audit.py
+      - name: Upload audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hebron-architecture-audit
+          path: audit-results.json
+          if-no-files-found: warn
+          retention-days: 30
