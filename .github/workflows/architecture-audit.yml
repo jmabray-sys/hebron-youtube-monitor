@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Unit tests
-        run: python -m unittest -v test_run_audit.py
+        run: python -m unittest -v test_run_audit.py test_monitor_decisions.py
       - name: Read-only repository audit
         run: python run_audit.py
       - name: Upload audit evidence
