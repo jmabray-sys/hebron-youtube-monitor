@@ -1028,7 +1028,8 @@
         "1a19cd7eaccfd564",
         "1a19cc7a7972e864",
         "1a19e118c288cb3c",
-        "1a19f3df7c21c262"
+        "1a19f3df7c21c262",
+        "1a1a986de5e5824b"
       ]
     },
     {
@@ -1076,7 +1077,8 @@
         "1a19cd6d330c960e",
         "1a19cc7eb0ba1b9b",
         "1a19e0e87ace5865",
-        "1a19f3ceb10f1545"
+        "1a19f3ceb10f1545",
+        "1a1a9887707eaee7"
       ]
     },
     {
@@ -1122,7 +1124,9 @@
       "submission_email_ids": [
         "1a1a71562927f4b3",
         "1a1a85a8714d8ab3",
-        "1a1a95b141b69fa5"
+        "1a1a95b141b69fa5",
+        "1a1a98d93e5daaa9",
+        "1a1a96608ea82821"
       ],
       "last_checked_at": null,
       "new_upload_ids": []
@@ -1140,6 +1144,158 @@
       "new_upload_ids": [],
       "submission_email_ids": [
         "1a1a8b3389614fcc"
+      ]
+    },
+    {
+      "platform": "Facebook",
+      "id": "1GANx3nY3B",
+      "canonical_or_short_url": "https://www.facebook.com/share/r/1GANx3nY3B/",
+      "classification": "unverified_website_submission",
+      "classification_source": "website_submission_only",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1a9aaf03e63bda"
+      ]
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZPLxC2uDo",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZPLxC2uDo/",
+      "classification": "unverified_website_submission",
+      "classification_source": "website_submission_only",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1a99abc496e0c2"
+      ]
+    },
+    {
+      "platform": "Instagram",
+      "id": "DfVxJu7OcKb",
+      "canonical_or_short_url": "https://www.instagram.com/reel/DfVxJu7OcKb/",
+      "classification": "unverified_website_submission",
+      "classification_source": "website_submission_only",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1a996b58c8e75b",
+        "1a1a983f57facc67",
+        "1a1a97fec00b3309"
+      ]
+    },
+    {
+      "platform": "YouTube",
+      "id": "2_meHLhWr3A",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=2_meHLhWr3A",
+      "classification": "unverified_website_submission",
+      "classification_source": "website_submission_only",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1a98f4747890b1",
+        "1a1a98737f162141",
+        "1a1a965334afe7be"
+      ]
+    },
+    {
+      "platform": "YouTube",
+      "id": "1I9qF3FJ0kA",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=1I9qF3FJ0kA",
+      "classification": "unverified_website_submission",
+      "classification_source": "website_submission_only",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1a98e0ab7eb932",
+        "1a1a987a37169322",
+        "1a1a96571cea6e49"
+      ]
+    },
+    {
+      "platform": "Facebook",
+      "id": "1aWQJhrVvU",
+      "canonical_or_short_url": "https://www.facebook.com/share/r/1aWQJhrVvU/",
+      "classification": "unverified_website_submission",
+      "classification_source": "website_submission_only",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1a98b34843a760"
+      ]
+    },
+    {
+      "platform": "YouTube",
+      "id": "v49yr0oK4FA",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=v49yr0oK4FA",
+      "classification": "unverified_website_submission",
+      "classification_source": "website_submission_only",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1a98ad927ecd5f",
+        "1a1a9865a98844f9",
+        "1a1a964e268ad968"
+      ]
+    },
+    {
+      "platform": "YouTube",
+      "id": "osxted1A1fE",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=osxted1A1fE",
+      "classification": "unverified_website_submission",
+      "classification_source": "website_submission_only",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1a987fb8da6689",
+        "1a1a965b405ca71e"
+      ]
+    },
+    {
+      "platform": "Facebook",
+      "id": "1K2MoBAoS1",
+      "canonical_or_short_url": "https://www.facebook.com/share/r/1K2MoBAoS1/",
+      "classification": "unverified_website_submission",
+      "classification_source": "website_submission_only",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1a9806aa7312f2"
+      ]
+    },
+    {
+      "platform": "Facebook",
+      "id": "1C4okFxr4i",
+      "canonical_or_short_url": "https://www.facebook.com/share/r/1C4okFxr4i/",
+      "classification": "unverified_website_submission",
+      "classification_source": "website_submission_only",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1a9684e5d689d8"
+      ]
+    },
+    {
+      "platform": "YouTube",
+      "id": "channel:@dewdropinnnn",
+      "canonical_or_short_url": "https://www.youtube.com/@dewdropinnnn",
+      "classification": "unresolved_account_submission",
+      "classification_source": "website_submission_only",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1a95d6d343679e"
       ]
     }
   ],
@@ -1162,6 +1318,15 @@
       ],
       "confidence": "USER_CONFIRMED",
       "public_account_ids": "UNRESOLVED"
+    },
+    {
+      "kind": "same_tiktok_uploader",
+      "clip_ids": [
+        "ZPLNBjBwU",
+        "ZPLNM5NNg"
+      ],
+      "confidence": "USER_CONFIRMED",
+      "handle": "UNRESOLVED"
     }
   ],
   "watch_policy": {
@@ -1305,7 +1470,31 @@
     "1a1a71562927f4b3",
     "1a1a85a8714d8ab3",
     "1a1a8b3389614fcc",
-    "1a1a95b141b69fa5"
+    "1a1a95b141b69fa5",
+    "1a1a9aaf03e63bda",
+    "1a1a99abc496e0c2",
+    "1a1a996b58c8e75b",
+    "1a1a98f4747890b1",
+    "1a1a98e0ab7eb932",
+    "1a1a98d93e5daaa9",
+    "1a1a98b34843a760",
+    "1a1a98ad927ecd5f",
+    "1a1a9887707eaee7",
+    "1a1a987fb8da6689",
+    "1a1a987a37169322",
+    "1a1a98737f162141",
+    "1a1a986de5e5824b",
+    "1a1a9865a98844f9",
+    "1a1a983f57facc67",
+    "1a1a9806aa7312f2",
+    "1a1a97fec00b3309",
+    "1a1a9684e5d689d8",
+    "1a1a96608ea82821",
+    "1a1a965b405ca71e",
+    "1a1a96571cea6e49",
+    "1a1a965334afe7be",
+    "1a1a964e268ad968",
+    "1a1a95d6d343679e"
   ],
   "processed_gmail_invalid_test": [
     {
