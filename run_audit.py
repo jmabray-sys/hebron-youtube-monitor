@@ -25,11 +25,11 @@ def parse_time(value):
 def audit(registry, state, now):
     accounts = registry.get("channel_accounts", [])
     videos = registry.get("video_references", [])
-    relationships = registry.get("uploader_relationships", [])
+    relationships = registry.get("public_account_relationships", [])
     processed = registry.get("processed_gmail_message_ids", [])
     issues = []
     for key, records in (("channel_accounts", accounts), ("video_references", videos),
-                         ("uploader_relationships", relationships)):
+                         ("public_account_relationships", relationships)):
         if not isinstance(records, list):
             issues.append(f"{key} must be an array")
     for account in accounts if isinstance(accounts, list) else []:
