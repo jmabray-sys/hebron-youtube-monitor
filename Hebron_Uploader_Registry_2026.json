@@ -1355,6 +1355,19 @@
       "submission_email_ids": [
         "1a1afe5d49aed3ad"
       ]
+    },
+    {
+      "platform": "Facebook",
+      "id": "share/v/19i6bBxFFo",
+      "canonical_or_short_url": "https://www.facebook.com/share/v/19i6bBxFFo/",
+      "classification": "unverified_website_submission",
+      "event": "UNVERIFIED",
+      "round": "UNSPECIFIED",
+      "classification_source": "website submission 2026-11-06; content not independently verified",
+      "public_uploader": "UNRESOLVED",
+      "submission_email_ids": [
+        "1a1b0ca1898690c5"
+      ]
     }
   ],
   "public_account_relationships": [
@@ -1562,7 +1575,8 @@
     "1a1afb4a437d9551",
     "1a1afa42af88b283",
     "1a1afa35bc4f625a",
-    "1a1afe5d49aed3ad"
+    "1a1afe5d49aed3ad",
+    "1a1b0ca1898690c5"
   ],
   "processed_gmail_invalid_test": [
     {
