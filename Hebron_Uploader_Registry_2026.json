@@ -1301,6 +1301,19 @@
         "1a1ad66904787c88",
         "1a1adbcc6ca9431a"
       ]
+    },
+    {
+      "platform": "TikTok",
+      "id": "ZPLQK7ux1",
+      "canonical_or_short_url": "https://www.tiktok.com/t/ZPLQK7ux1/",
+      "classification": "unverified_website_submission",
+      "classification_source": "website_submission_only",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1ae099f212e08d"
+      ]
     }
   ],
   "public_account_relationships": [
@@ -1502,7 +1515,8 @@
     "1a1a9e969686dc11",
     "1a1a9e80d485414c",
     "1a1ad66904787c88",
-    "1a1adbcc6ca9431a"
+    "1a1adbcc6ca9431a",
+    "1a1ae099f212e08d"
   ],
   "processed_gmail_invalid_test": [
     {
