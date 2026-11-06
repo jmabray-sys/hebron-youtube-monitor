@@ -1029,7 +1029,8 @@
         "1a19cc7a7972e864",
         "1a19e118c288cb3c",
         "1a19f3df7c21c262",
-        "1a1a986de5e5824b"
+        "1a1a986de5e5824b",
+        "1a1afa35bc4f625a"
       ]
     },
     {
@@ -1079,7 +1080,8 @@
         "1a19e0e87ace5865",
         "1a19f3ceb10f1545",
         "1a1a9887707eaee7",
-        "1a1a9e969686dc11"
+        "1a1a9e969686dc11",
+        "1a1afa42af88b283"
       ]
     },
     {
@@ -1327,6 +1329,19 @@
       "submission_email_ids": [
         "1a1af30f24e60672"
       ]
+    },
+    {
+      "platform": "Facebook",
+      "id": "2887528601622080",
+      "canonical_or_short_url": "https://www.facebook.com/reel/2887528601622080/",
+      "classification": "unverified_website_submission",
+      "event": "UNVERIFIED",
+      "round": "UNSPECIFIED",
+      "classification_source": "website submission 2026-11-06; content inaccessible",
+      "public_uploader": "UNRESOLVED",
+      "submission_email_ids": [
+        "1a1afb4a437d9551"
+      ]
     }
   ],
   "public_account_relationships": [
@@ -1530,7 +1545,10 @@
     "1a1ad66904787c88",
     "1a1adbcc6ca9431a",
     "1a1ae099f212e08d",
-    "1a1af30f24e60672"
+    "1a1af30f24e60672",
+    "1a1afb4a437d9551",
+    "1a1afa42af88b283",
+    "1a1afa35bc4f625a"
   ],
   "processed_gmail_invalid_test": [
     {
