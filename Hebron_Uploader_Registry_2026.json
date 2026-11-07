@@ -1382,6 +1382,32 @@
       "submission_email_ids": [
         "1a1b1105c9163404"
       ]
+    },
+    {
+      "platform": "Facebook",
+      "id": "share/v/19p7qVWhM6",
+      "canonical_or_short_url": "https://www.facebook.com/share/v/19p7qVWhM6/",
+      "classification": "unverified_website_submission",
+      "event": "UNVERIFIED",
+      "round": "UNSPECIFIED",
+      "classification_source": "website submission 2026-11-07; content not independently verified",
+      "public_uploader": "UNRESOLVED",
+      "submission_email_ids": [
+        "1a1b8636076e71c4"
+      ]
+    },
+    {
+      "platform": "Facebook",
+      "id": "share/v/1CE3wZExwN",
+      "canonical_or_short_url": "https://www.facebook.com/share/v/1CE3wZExwN/",
+      "classification": "unverified_website_submission",
+      "event": "UNVERIFIED",
+      "round": "UNSPECIFIED",
+      "classification_source": "website submission 2026-11-07; content not independently verified",
+      "public_uploader": "UNRESOLVED",
+      "submission_email_ids": [
+        "1a1b862de953ab04"
+      ]
     }
   ],
   "public_account_relationships": [
@@ -1592,7 +1618,9 @@
     "1a1afe5d49aed3ad",
     "1a1b0ca1898690c5",
     "1a1b1105c9163404",
-    "1a1b3b98f097a070"
+    "1a1b3b98f097a070",
+    "1a1b8636076e71c4",
+    "1a1b862de953ab04"
   ],
   "processed_gmail_invalid_test": [
     {
