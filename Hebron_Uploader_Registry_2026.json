@@ -1031,7 +1031,8 @@
         "1a19f3df7c21c262",
         "1a1a986de5e5824b",
         "1a1afa35bc4f625a",
-        "1a1b3b98f097a070"
+        "1a1b3b98f097a070",
+        "1a1bd8545a2ea451"
       ]
     },
     {
@@ -1464,6 +1465,66 @@
       "submission_email_ids": [
         "1a1bbd7273252d49"
       ]
+    },
+    {
+      "platform": "YouTube",
+      "id": "kU6TilbJEW0",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=kU6TilbJEW0",
+      "classification": "unverified_website_submission",
+      "event": "UNVERIFIED",
+      "round": "UNSPECIFIED",
+      "classification_source": "Website submission 2026-11-08; footage and uploader not independently verified",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1bd86beace43a3"
+      ]
+    },
+    {
+      "platform": "YouTube",
+      "id": "bfpY2lfRBIk",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=bfpY2lfRBIk",
+      "classification": "unverified_website_submission",
+      "event": "UNVERIFIED",
+      "round": "UNSPECIFIED",
+      "classification_source": "Website submission 2026-11-08; footage and uploader not independently verified",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1bd83ff32b5aea"
+      ]
+    },
+    {
+      "platform": "YouTube",
+      "id": "TL2naM3zLlI",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=TL2naM3zLlI",
+      "classification": "unverified_website_submission",
+      "event": "UNVERIFIED",
+      "round": "UNSPECIFIED",
+      "classification_source": "Website submission 2026-11-08; footage and uploader not independently verified",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1bd8105ad9451b"
+      ]
+    },
+    {
+      "platform": "YouTube",
+      "id": "PtEUFZ_uFUI",
+      "canonical_or_short_url": "https://www.youtube.com/watch?v=PtEUFZ_uFUI",
+      "classification": "unverified_website_submission",
+      "event": "UNVERIFIED",
+      "round": "UNSPECIFIED",
+      "classification_source": "Website submission 2026-11-08; footage and uploader not independently verified",
+      "public_uploader": "UNRESOLVED",
+      "last_checked_at": null,
+      "new_upload_ids": [],
+      "submission_email_ids": [
+        "1a1bd808bd77d6f9"
+      ]
     }
   ],
   "public_account_relationships": [
@@ -1680,7 +1741,12 @@
     "1a1b96c2458babdd",
     "1a1b9a0308782f3c",
     "1a1ba2aaa1c8b518",
-    "1a1bbd7273252d49"
+    "1a1bbd7273252d49",
+    "1a1bd86beace43a3",
+    "1a1bd8545a2ea451",
+    "1a1bd83ff32b5aea",
+    "1a1bd8105ad9451b",
+    "1a1bd808bd77d6f9"
   ],
   "processed_gmail_invalid_test": [
     {
