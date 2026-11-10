@@ -24,7 +24,7 @@
       "public_name": "steven smith",
       "confidence": "confirmed",
       "source_video_id": "nPIlu4dpq-c",
-      "last_checked_at": "2026-11-10T07:08:43.990186+00:00",
+      "last_checked_at": "2026-11-10T15:33:47.972320+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -36,7 +36,7 @@
       "public_name": "La'ZenTakigawa",
       "confidence": "confirmed",
       "source_video_id": "p7zK4spKw0o",
-      "last_checked_at": "2026-11-10T07:08:43.990186+00:00",
+      "last_checked_at": "2026-11-10T15:33:47.972320+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -84,7 +84,7 @@
       "public_name": "BOX5 Media",
       "confidence": "event_candidate",
       "source_video_id": "Uya4JxvX5Os",
-      "last_checked_at": "2026-11-09T05:59:15.469355+00:00",
+      "last_checked_at": "2026-11-10T15:33:47.972320+00:00",
       "notes": "BOA event footage; no confirmed Hebron clip",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -152,7 +152,7 @@
       "public_name": "Amazing grace of God",
       "confidence": "confirmed",
       "source_video_id": "rFIiqOiIR4w",
-      "last_checked_at": "2026-11-10T07:08:43.990186+00:00",
+      "last_checked_at": "2026-11-10T15:33:47.972320+00:00",
       "notes": "User confirmed Hebron performance footage 2026-10-24 from Oct 23 football game; channel belongs in confirmed-uploader monitoring; individual future uploads require separate review.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -233,7 +233,9 @@
       "notes": "GitHub state.json discovery: explicit Hebron band evidence; explicit Hebron performance identity; video content and Hebron uploader relationship not independently verified in this run.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
-      "last_checked_at": "2026-11-09T05:59:15.469355+00:00"
+      "last_checked_at": "2026-11-09T05:59:15.469355+00:00",
+      "next_retry_at": "2026-11-11T15:33:47.972320+00:00",
+      "last_channel_error": "Uploads playlist returned HTTP 404"
     },
     {
       "platform": "YouTube",
@@ -245,7 +247,7 @@
       "notes": "GitHub state.json event candidate: uploader posting marching footage from current event: halftime; source video and Hebron association unverified. Preserve candidate tier; watch uploads of any band.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
-      "last_checked_at": "2026-11-09T05:59:15.469355+00:00"
+      "last_checked_at": "2026-11-10T15:33:47.972320+00:00"
     },
     {
       "platform": "YouTube",
@@ -269,7 +271,7 @@
       "notes": "GitHub state.json discovery: uploader posting marching footage from current event: UIL Area. Source video and Hebron relationship not independently verified; no successful channel inventory check documented.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
-      "last_checked_at": "2026-11-09T15:58:24.955456+00:00"
+      "last_checked_at": "2026-11-10T15:33:47.972320+00:00"
     },
     {
       "platform": "YouTube",
