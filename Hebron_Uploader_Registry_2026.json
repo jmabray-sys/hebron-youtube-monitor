@@ -24,7 +24,7 @@
       "public_name": "steven smith",
       "confidence": "confirmed",
       "source_video_id": "nPIlu4dpq-c",
-      "last_checked_at": "2026-11-12T11:39:13.052306+00:00",
+      "last_checked_at": "2026-11-12T19:08:13.860508+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -36,7 +36,7 @@
       "public_name": "La'ZenTakigawa",
       "confidence": "confirmed",
       "source_video_id": "p7zK4spKw0o",
-      "last_checked_at": "2026-11-12T11:39:13.052306+00:00",
+      "last_checked_at": "2026-11-12T19:08:13.860508+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -152,7 +152,7 @@
       "public_name": "Amazing grace of God",
       "confidence": "confirmed",
       "source_video_id": "rFIiqOiIR4w",
-      "last_checked_at": "2026-11-12T11:39:13.052306+00:00",
+      "last_checked_at": "2026-11-12T19:08:13.860508+00:00",
       "notes": "User confirmed Hebron performance footage 2026-10-24 from Oct 23 football game; channel belongs in confirmed-uploader monitoring; individual future uploads require separate review.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -247,7 +247,7 @@
       "notes": "GitHub state.json event candidate: uploader posting marching footage from current event: halftime; source video and Hebron association unverified. Preserve candidate tier; watch uploads of any band.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
-      "last_checked_at": "2026-11-10T15:33:47.972320+00:00"
+      "last_checked_at": "2026-11-12T19:08:13.860508+00:00"
     },
     {
       "platform": "YouTube",
@@ -259,7 +259,7 @@
       "notes": "GitHub state.json event candidate: uploader posting marching footage from current event: Flower Mound; source video and Hebron association unverified. Preserve candidate tier; watch uploads of any band.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
-      "last_checked_at": "2026-11-10T21:24:43.191394+00:00"
+      "last_checked_at": "2026-11-12T19:08:13.860508+00:00"
     },
     {
       "platform": "YouTube",
