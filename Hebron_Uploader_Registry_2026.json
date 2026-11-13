@@ -24,7 +24,7 @@
       "public_name": "steven smith",
       "confidence": "confirmed",
       "source_video_id": "nPIlu4dpq-c",
-      "last_checked_at": "2026-11-13T06:56:34.258207+00:00",
+      "last_checked_at": "2026-11-13T15:10:19.885750+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -36,7 +36,7 @@
       "public_name": "La'ZenTakigawa",
       "confidence": "confirmed",
       "source_video_id": "p7zK4spKw0o",
-      "last_checked_at": "2026-11-13T06:56:34.258207+00:00",
+      "last_checked_at": "2026-11-13T15:10:19.885750+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -60,7 +60,7 @@
       "public_name": "topography",
       "confidence": "candidate",
       "source_video_id": "IFBr9NVAsC4",
-      "last_checked_at": "2026-11-10T21:24:43.191394+00:00",
+      "last_checked_at": "2026-11-13T15:10:19.885750+00:00",
       "notes": "GitHub state association; uploader independently unverified",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -152,7 +152,7 @@
       "public_name": "Amazing grace of God",
       "confidence": "confirmed",
       "source_video_id": "rFIiqOiIR4w",
-      "last_checked_at": "2026-11-13T06:56:34.258207+00:00",
+      "last_checked_at": "2026-11-13T15:10:19.885750+00:00",
       "notes": "User confirmed Hebron performance footage 2026-10-24 from Oct 23 football game; channel belongs in confirmed-uploader monitoring; individual future uploads require separate review.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -169,7 +169,7 @@
       "new_upload_ids": [],
       "last_checked_at": "2026-10-25T16:41:35.016456+00:00",
       "last_channel_error": "Uploads playlist unavailable",
-      "next_retry_at": "2026-11-12T22:39:18.295082+00:00"
+      "next_retry_at": "2026-11-14T15:10:19.885750+00:00"
     },
     {
       "platform": "YouTube",
@@ -182,7 +182,7 @@
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
       "last_checked_at": "2026-10-30T08:59:59.073981+00:00",
-      "next_retry_at": "2026-11-13T03:21:51.200979+00:00",
+      "next_retry_at": "2026-11-14T15:10:19.885750+00:00",
       "last_channel_error": "Uploads playlist unavailable"
     },
     {
@@ -196,7 +196,7 @@
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
       "last_checked_at": "2026-10-30T23:52:52.418290+00:00",
-      "next_retry_at": "2026-11-13T03:21:51.200979+00:00",
+      "next_retry_at": "2026-11-14T15:10:19.885750+00:00",
       "last_channel_error": "Uploads playlist unavailable"
     },
     {
@@ -234,7 +234,7 @@
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
       "last_checked_at": "2026-11-09T05:59:15.469355+00:00",
-      "next_retry_at": "2026-11-13T03:21:51.200979+00:00",
+      "next_retry_at": "2026-11-14T15:10:19.885750+00:00",
       "last_channel_error": "Uploads playlist unavailable"
     },
     {
