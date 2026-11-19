@@ -24,7 +24,7 @@
       "public_name": "steven smith",
       "confidence": "confirmed",
       "source_video_id": "nPIlu4dpq-c",
-      "last_checked_at": "2026-11-19T17:07:43.916872+00:00",
+      "last_checked_at": "2026-11-19T23:33:33.661543+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -36,7 +36,7 @@
       "public_name": "La'ZenTakigawa",
       "confidence": "confirmed",
       "source_video_id": "p7zK4spKw0o",
-      "last_checked_at": "2026-11-19T17:07:43.916872+00:00",
+      "last_checked_at": "2026-11-19T23:33:33.661543+00:00",
       "notes": null,
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -60,7 +60,7 @@
       "public_name": "topography",
       "confidence": "candidate",
       "source_video_id": "IFBr9NVAsC4",
-      "last_checked_at": "2026-11-16T01:44:48.507668+00:00",
+      "last_checked_at": "2026-11-19T23:33:33.661543+00:00",
       "notes": "GitHub state association; uploader independently unverified",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -152,7 +152,7 @@
       "public_name": "Amazing grace of God",
       "confidence": "confirmed",
       "source_video_id": "rFIiqOiIR4w",
-      "last_checked_at": "2026-11-19T17:07:43.916872+00:00",
+      "last_checked_at": "2026-11-19T23:33:33.661543+00:00",
       "notes": "User confirmed Hebron performance footage 2026-10-24 from Oct 23 football game; channel belongs in confirmed-uploader monitoring; individual future uploads require separate review.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": []
@@ -221,7 +221,7 @@
       "notes": "GitHub state.json discovery: uploader posting marching footage from current event: halftime; video content and Hebron uploader relationship not independently verified in this run.",
       "watch_all_public_uploads_of_any_band": true,
       "new_upload_ids": [],
-      "last_checked_at": "2026-11-16T01:44:48.507668+00:00"
+      "last_checked_at": "2026-11-19T23:33:33.661543+00:00"
     },
     {
       "platform": "YouTube",
